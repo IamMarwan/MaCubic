@@ -1,0 +1,46 @@
+[
+  {
+    "document_code": "DOC-001",
+    "title": "Foundation Drawing",
+    "category": "Drawing",
+    "project_name": "Tower A",
+    "discipline": "Structural",
+    "author": "Ahmed Ali",
+    "status": "Approved",
+    "description": "Foundation layout drawing",
+    "content": "Detailed reinforced concrete foundation drawing for Tower A."
+  },
+  {
+    "document_code": "DOC-002",
+    "title": "Structural Design Report",
+    "category": "Report",
+    "project_name": "Tower A",
+    "discipline": "Structural",
+    "author": "Sara Hassan",
+    "status": "Approved",
+    "description": "Structural analysis report",
+    "content": "Complete structural calculations and design methodology."
+  },
+  {
+    "document_code": "DOC-003",
+    "title": "Architectural Specification",
+    "category": "Specification",
+    "project_name": "Tower B",
+    "discipline": "Architectural",
+    "author": "Mohammed Khan",
+    "status": "Draft",
+    "description": "Architectural materials specification",
+    "content": "Specifications for walls, floors, finishes, and doors."
+  },
+  {
+    "document_code": "DOC-004",
+    "title": "Electrical Layout",
+    "category": "Drawing",
+    "project_name": "Tower B",
+    "discipline": "MEP",
+    "author": "Fatima Noor",
+    "status": "Approved",
+    "description": "Electrical distribution layout",
+    "content": "Electrical panel locations and cable routing."
+  }
+]
