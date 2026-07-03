@@ -1,4 +1,0 @@
-Title: Main Building Cable Layout Drawing
-Document Number: CUB-ELE-DRG-014
-Revision: B
-This drawing shows cable routing, panel locations, earthing details, switchgear room layout, and lighting distribution for the main building.

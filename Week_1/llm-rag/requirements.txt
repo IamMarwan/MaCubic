@@ -1,6 +1,0 @@
-openai
-tiktoken
-python-dotenv
-jupyter
-black
-ruff

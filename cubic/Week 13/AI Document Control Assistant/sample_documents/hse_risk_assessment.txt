@@ -1,4 +1,0 @@
-Title: High Risk Activity Risk Assessment
-Document Number: CUB-HSE-RA-004
-Revision: A
-This risk assessment covers hazard identification, safety controls, permit to work, incident response, and urgent escalation for critical work activities.

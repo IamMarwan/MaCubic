@@ -1,6 +1,0 @@
-# Python virtual environments
-Week_5/venv/
-
-# Python cache
-__pycache__/
-*.pyc
