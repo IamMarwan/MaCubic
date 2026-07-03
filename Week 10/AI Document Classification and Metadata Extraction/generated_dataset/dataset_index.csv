@@ -1,0 +1,51 @@
+filename,expected_type,title,discipline
+DOC-001_Drawing.docx,Drawing,Structural Drawing Package 001,Structural
+DOC-002_Specification.docx,Specification,Mechanical Specification Package 002,Mechanical
+DOC-003_Method_Statement.docx,Method Statement,Electrical Method Statement Package 003,Electrical
+DOC-004_Material_Submittal.docx,Material Submittal,Civil Material Submittal Package 004,Civil
+DOC-005_Shop_Drawing.docx,Shop Drawing,Architectural Shop Drawing Package 005,Architectural
+DOC-006_Inspection_Report.docx,Inspection Report,Structural Inspection Report Package 006,Structural
+DOC-007_Contract.docx,Contract,Mechanical Contract Package 007,Mechanical
+DOC-008_Meeting_Minutes.docx,Meeting Minutes,Electrical Meeting Minutes Package 008,Electrical
+DOC-009_RFI.docx,RFI,Civil RFI Package 009,Civil
+DOC-010_Drawing.docx,Drawing,Architectural Drawing Package 010,Architectural
+DOC-011_Specification.docx,Specification,Structural Specification Package 011,Structural
+DOC-012_Method_Statement.docx,Method Statement,Mechanical Method Statement Package 012,Mechanical
+DOC-013_Material_Submittal.docx,Material Submittal,Electrical Material Submittal Package 013,Electrical
+DOC-014_Shop_Drawing.docx,Shop Drawing,Civil Shop Drawing Package 014,Civil
+DOC-015_Inspection_Report.docx,Inspection Report,Architectural Inspection Report Package 015,Architectural
+DOC-016_Contract.docx,Contract,Structural Contract Package 016,Structural
+DOC-017_Meeting_Minutes.docx,Meeting Minutes,Mechanical Meeting Minutes Package 017,Mechanical
+DOC-018_RFI.docx,RFI,Electrical RFI Package 018,Electrical
+DOC-019_Drawing.docx,Drawing,Civil Drawing Package 019,Civil
+DOC-020_Specification.docx,Specification,Architectural Specification Package 020,Architectural
+DOC-021_Method_Statement.docx,Method Statement,Structural Method Statement Package 021,Structural
+DOC-022_Material_Submittal.docx,Material Submittal,Mechanical Material Submittal Package 022,Mechanical
+DOC-023_Shop_Drawing.docx,Shop Drawing,Electrical Shop Drawing Package 023,Electrical
+DOC-024_Inspection_Report.docx,Inspection Report,Civil Inspection Report Package 024,Civil
+DOC-025_Contract.docx,Contract,Architectural Contract Package 025,Architectural
+DOC-026_Meeting_Minutes.docx,Meeting Minutes,Structural Meeting Minutes Package 026,Structural
+DOC-027_RFI.docx,RFI,Mechanical RFI Package 027,Mechanical
+DOC-028_Drawing.docx,Drawing,Electrical Drawing Package 028,Electrical
+DOC-029_Specification.docx,Specification,Civil Specification Package 029,Civil
+DOC-030_Method_Statement.docx,Method Statement,Architectural Method Statement Package 030,Architectural
+DOC-031_Material_Submittal.docx,Material Submittal,Structural Material Submittal Package 031,Structural
+DOC-032_Shop_Drawing.docx,Shop Drawing,Mechanical Shop Drawing Package 032,Mechanical
+DOC-033_Inspection_Report.docx,Inspection Report,Electrical Inspection Report Package 033,Electrical
+DOC-034_Contract.docx,Contract,Civil Contract Package 034,Civil
+DOC-035_Meeting_Minutes.docx,Meeting Minutes,Architectural Meeting Minutes Package 035,Architectural
+DOC-036_RFI.docx,RFI,Structural RFI Package 036,Structural
+DOC-037_Drawing.docx,Drawing,Mechanical Drawing Package 037,Mechanical
+DOC-038_Specification.docx,Specification,Electrical Specification Package 038,Electrical
+DOC-039_Method_Statement.docx,Method Statement,Civil Method Statement Package 039,Civil
+DOC-040_Material_Submittal.docx,Material Submittal,Architectural Material Submittal Package 040,Architectural
+DOC-041_Shop_Drawing.docx,Shop Drawing,Structural Shop Drawing Package 041,Structural
+DOC-042_Inspection_Report.docx,Inspection Report,Mechanical Inspection Report Package 042,Mechanical
+DOC-043_Contract.docx,Contract,Electrical Contract Package 043,Electrical
+DOC-044_Meeting_Minutes.docx,Meeting Minutes,Civil Meeting Minutes Package 044,Civil
+DOC-045_RFI.docx,RFI,Architectural RFI Package 045,Architectural
+DOC-046_Drawing.docx,Drawing,Structural Drawing Package 046,Structural
+DOC-047_Specification.docx,Specification,Mechanical Specification Package 047,Mechanical
+DOC-048_Method_Statement.docx,Method Statement,Electrical Method Statement Package 048,Electrical
+DOC-049_Material_Submittal.docx,Material Submittal,Civil Material Submittal Package 049,Civil
+DOC-050_Shop_Drawing.docx,Shop Drawing,Architectural Shop Drawing Package 050,Architectural

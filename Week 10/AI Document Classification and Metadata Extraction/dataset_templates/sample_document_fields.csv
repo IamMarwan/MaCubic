@@ -1,0 +1,10 @@
+filename,expected_type,discipline
+DOC-001_Drawing.docx,Drawing,Structural
+DOC-002_Specification.docx,Specification,Mechanical
+DOC-003_Method_Statement.docx,Method Statement,Electrical
+DOC-004_Material_Submittal.docx,Material Submittal,Civil
+DOC-005_Shop_Drawing.docx,Shop Drawing,Architectural
+DOC-006_Inspection_Report.docx,Inspection Report,Structural
+DOC-007_Contract.docx,Contract,Mechanical
+DOC-008_Meeting_Minutes.docx,Meeting Minutes,Electrical
+DOC-009_RFI.docx,RFI,Civil
