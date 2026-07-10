@@ -1,0 +1,84 @@
+document_types:
+  drawing:
+    keywords:
+      - drawing
+      - architectural drawing
+      - structural drawing
+      - shop drawing
+    required_metadata:
+      - document_number
+      - revision
+      - date
+      - approval_status
+      - discipline
+      - project_name
+    mandatory_sections:
+      - Title Block
+      - Revision History
+      - Approval
+      - Notes
+    required_signatures:
+      - Prepared By
+      - Checked By
+      - Approved By
+    required_terms:
+      - scale
+      - drawing number
+      - revision
+
+  method_statement:
+    keywords:
+      - method statement
+      - work procedure
+      - construction methodology
+    required_metadata:
+      - document_number
+      - revision
+      - date
+      - approval_status
+      - prepared_by
+      - checked_by
+      - approved_by
+      - project_name
+    mandatory_sections:
+      - Scope
+      - Responsibilities
+      - Procedure
+      - Safety
+      - Quality Control
+      - Approval
+      - Revision History
+    required_signatures:
+      - Prepared By
+      - Checked By
+      - Approved By
+    required_terms:
+      - risk assessment
+      - inspection
+      - approval
+
+  material_submittal:
+    keywords:
+      - material submittal
+      - product data
+      - manufacturer
+    required_metadata:
+      - document_number
+      - revision
+      - date
+      - approval_status
+      - project_name
+    mandatory_sections:
+      - Material Description
+      - Manufacturer
+      - Technical Data
+      - Compliance Statement
+      - Approval
+      - Revision History
+    required_signatures:
+      - Prepared By
+      - Approved By
+    required_terms:
+      - specification
+      - datasheet
+      - approval
