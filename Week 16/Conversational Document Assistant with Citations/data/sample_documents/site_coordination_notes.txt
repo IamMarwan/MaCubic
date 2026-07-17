@@ -1,0 +1,9 @@
+Cubic Engineering Consultancy Site Coordination Notes
+
+During project coordination, engineers often ask follow-up questions about previous answers. The assistant should maintain conversation history so that follow-up questions can be understood in context.
+
+A realistic scenario is an engineer asking about required approval documents, then asking which team is responsible for the next step.
+
+The system should improve retrieval quality by cleaning text, splitting documents into meaningful chunks, and ranking the most relevant chunks before answering.
+
+The assistant must avoid unsupported conclusions. When the answer cannot be found in the documents, it should respond with an insufficient information message.

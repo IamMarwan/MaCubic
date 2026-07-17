@@ -1,0 +1,11 @@
+Cubic Engineering Consultancy Project Requirements
+
+The document platform must allow engineers to upload project files, search documents, and receive answers with clear source citations.
+
+The system should support multiple uploaded documents at the same time. Users may ask questions that require information from more than one project document.
+
+Every answer must include the source document name and the chunk number used to support the answer.
+
+If the uploaded documents do not contain enough information, the assistant must clearly say that the information is not available instead of guessing.
+
+The platform should be designed for engineering project scenarios, including compliance reviews, document control, technical approvals, and project coordination.
