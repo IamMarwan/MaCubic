@@ -1,0 +1,117 @@
+# ============================================================
+# Python
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Testing and coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+junit.xml
+
+# ============================================================
+# Node and frontend
+# ============================================================
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+frontend/dist/
+frontend/.vite/
+
+# ============================================================
+# Environment and secrets
+# ============================================================
+
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+
+# ============================================================
+# Databases
+# ============================================================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================================================
+# Runtime data
+# ============================================================
+
+data/documents/*
+!data/documents/.gitkeep
+
+data/exports/*
+!data/exports/.gitkeep
+
+data/backups/*
+!data/backups/.gitkeep
+
+data/reports/*
+!data/reports/.gitkeep
+
+# ============================================================
+# Generated reports
+# ============================================================
+
+reports/coverage/*
+!reports/coverage/.gitkeep
+reports/test-results/*.xml
+reports/security/*.json
+reports/performance/*.json
+
+# ============================================================
+# IDE and operating system
+# ============================================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# Docker
+# ============================================================
+
+docker-data/

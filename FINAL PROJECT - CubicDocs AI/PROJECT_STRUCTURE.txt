@@ -1,0 +1,574 @@
+Folder PATH listing
+Volume serial number is 00000212 3894:88BD
+C:\USERS\DELL\DESKTOP\MACUBIC\WEEK 17\CUBICDOCS AI - FINAL PRODUCT
+|   .dockerignore
+|   .editorconfig
+|   .env.example
+|   .gitignore
+|   CHANGELOG.md
+|   compose.dev.yaml
+|   compose.prod.yaml
+|   compose.yaml
+|   LICENSE
+|   Makefile
+|   PROJECT_STRUCTURE.txt
+|   README.md
+|   RELEASE_CHECKLIST.md
+|   THIRD_PARTY_NOTICES.md
+|   
++---backend
+|   |   alembic.ini
+|   |   Dockerfile
+|   |   pyproject.toml
+|   |   pytest.ini
+|   |   requirements-dev.txt
+|   |   requirements.txt
+|   |   
+|   +---alembic
+|   |   |   env.py
+|   |   |   README
+|   |   |   script.py.mako
+|   |   |   
+|   |   \---versions
+|   +---app
+|   |   |   main.py
+|   |   |   worker.py
+|   |   |   __init__.py
+|   |   |   
+|   |   +---api
+|   |   |   |   dependencies.py
+|   |   |   |   __init__.py
+|   |   |   |   
+|   |   |   \---v1
+|   |   |           analytics.py
+|   |   |           assistant.py
+|   |   |           audit.py
+|   |   |           auth.py
+|   |   |           compliance.py
+|   |   |           documents.py
+|   |   |           health.py
+|   |   |           notifications.py
+|   |   |           projects.py
+|   |   |           relationships.py
+|   |   |           router.py
+|   |   |           users.py
+|   |   |           workflows.py
+|   |   |           __init__.py
+|   |   |           
+|   |   +---core
+|   |   |       config.py
+|   |   |       database.py
+|   |   |       exceptions.py
+|   |   |       logging.py
+|   |   |       middleware.py
+|   |   |       permissions.py
+|   |   |       security.py
+|   |   |       telemetry.py
+|   |   |       __init__.py
+|   |   |       
+|   |   +---infrastructure
+|   |   |   |   __init__.py
+|   |   |   |   
+|   |   |   +---llm
+|   |   |   |       base.py
+|   |   |   |       local.py
+|   |   |   |       provider.py
+|   |   |   |       __init__.py
+|   |   |   |       
+|   |   |   +---repositories
+|   |   |   |       base.py
+|   |   |   |       __init__.py
+|   |   |   |       
+|   |   |   +---search
+|   |   |   |       hybrid_search.py
+|   |   |   |       keyword_search.py
+|   |   |   |       semantic_search.py
+|   |   |   |       __init__.py
+|   |   |   |       
+|   |   |   \---storage
+|   |   |           base.py
+|   |   |           local.py
+|   |   |           __init__.py
+|   |   |           
+|   |   +---modules
+|   |   |   +---analytics
+|   |   |   |       repository.py
+|   |   |   |       schemas.py
+|   |   |   |       service.py
+|   |   |   |       __init__.py
+|   |   |   |       
+|   |   |   +---assistant
+|   |   |   |       answering.py
+|   |   |   |       citations.py
+|   |   |   |       models.py
+|   |   |   |       ranking.py
+|   |   |   |       repository.py
+|   |   |   |       retrieval.py
+|   |   |   |       schemas.py
+|   |   |   |       service.py
+|   |   |   |       __init__.py
+|   |   |   |       
+|   |   |   +---audit
+|   |   |   |       models.py
+|   |   |   |       repository.py
+|   |   |   |       schemas.py
+|   |   |   |       service.py
+|   |   |   |       __init__.py
+|   |   |   |       
+|   |   |   +---auth
+|   |   |   |       models.py
+|   |   |   |       repository.py
+|   |   |   |       schemas.py
+|   |   |   |       service.py
+|   |   |   |       __init__.py
+|   |   |   |       
+|   |   |   +---compliance
+|   |   |   |       engine.py
+|   |   |   |       models.py
+|   |   |   |       reporting.py
+|   |   |   |       repository.py
+|   |   |   |       rules.yaml
+|   |   |   |       schemas.py
+|   |   |   |       service.py
+|   |   |   |       __init__.py
+|   |   |   |       
+|   |   |   +---documents
+|   |   |   |       models.py
+|   |   |   |       repository.py
+|   |   |   |       schemas.py
+|   |   |   |       service.py
+|   |   |   |       validation.py
+|   |   |   |       __init__.py
+|   |   |   |       
+|   |   |   +---notifications
+|   |   |   |       models.py
+|   |   |   |       repository.py
+|   |   |   |       schemas.py
+|   |   |   |       service.py
+|   |   |   |       __init__.py
+|   |   |   |       
+|   |   |   +---projects
+|   |   |   |       models.py
+|   |   |   |       repository.py
+|   |   |   |       schemas.py
+|   |   |   |       service.py
+|   |   |   |       __init__.py
+|   |   |   |       
+|   |   |   +---relationships
+|   |   |   |       engine.py
+|   |   |   |       models.py
+|   |   |   |       repository.py
+|   |   |   |       schemas.py
+|   |   |   |       service.py
+|   |   |   |       __init__.py
+|   |   |   |       
+|   |   |   +---users
+|   |   |   |       models.py
+|   |   |   |       repository.py
+|   |   |   |       schemas.py
+|   |   |   |       service.py
+|   |   |   |       __init__.py
+|   |   |   |       
+|   |   |   \---workflows
+|   |   |           models.py
+|   |   |           repository.py
+|   |   |           rules.py
+|   |   |           schemas.py
+|   |   |           service.py
+|   |   |           __init__.py
+|   |   |           
+|   |   +---processing
+|   |   |       chunking.py
+|   |   |       classification.py
+|   |   |       embeddings.py
+|   |   |       extraction.py
+|   |   |       metadata.py
+|   |   |       pipeline.py
+|   |   |       tasks.py
+|   |   |       __init__.py
+|   |   |       
+|   |   \---seeds
+|   |           demo_data.py
+|   |           __init__.py
+|   |           
+|   \---tests
+|       |   conftest.py
+|       |   __init__.py
+|       |   
+|       +---integration
+|       |       test_analytics_api.py
+|       |       test_assistant_api.py
+|       |       test_audit_api.py
+|       |       test_auth_api.py
+|       |       test_compliance_api.py
+|       |       test_documents_api.py
+|       |       test_health_api.py
+|       |       test_projects_api.py
+|       |       test_relationships_api.py
+|       |       test_users_api.py
+|       |       test_workflow_api.py
+|       |       __init__.py
+|       |       
+|       +---performance
+|       |       test_document_processing.py
+|       |       test_retrieval_performance.py
+|       |       __init__.py
+|       |       
+|       +---security
+|       |       test_authentication_failures.py
+|       |       test_authorization.py
+|       |       test_project_isolation.py
+|       |       test_upload_validation.py
+|       |       __init__.py
+|       |       
+|       \---unit
+|               test_compliance_engine.py
+|               test_document_validation.py
+|               test_relationship_engine.py
+|               test_retrieval.py
+|               test_security.py
+|               test_workflow_rules.py
+|               __init__.py
+|               
++---data
+|   +---backups
+|   |       .gitkeep
+|   |       
+|   +---documents
+|   |       .gitkeep
+|   |       
+|   +---exports
+|   |       .gitkeep
+|   |       
+|   \---reports
+|           .gitkeep
+|           
++---demo
+|   |   DEMO_CHECKLIST.md
+|   |   DEMO_CREDENTIALS.example.md
+|   |   DEMO_SCRIPT.md
+|   |   RECORDING_STORYBOARD.md
+|   |   
+|   +---sample_documents
+|   |       README.md
+|   |       
+|   +---screenshots
+|   |       .gitkeep
+|   |       
+|   \---seed_data
+|           demo_project.json
+|           
++---docs
+|   |   AI_TRANSPARENCY.md
+|   |   API_REFERENCE.md
+|   |   ARCHITECTURE.md
+|   |   BACKUP_AND_RESTORE.md
+|   |   DATA_MODEL.md
+|   |   DEPLOYMENT_GUIDE.md
+|   |   DEVELOPER_GUIDE.md
+|   |   OPERATIONS_RUNBOOK.md
+|   |   PRODUCTION_READINESS.md
+|   |   REQUIREMENTS_TRACEABILITY.md
+|   |   SECURITY.md
+|   |   TESTING_STRATEGY.md
+|   |   THREAT_MODEL.md
+|   |   TROUBLESHOOTING.md
+|   |   USER_GUIDE.md
+|   |   
+|   +---adr
+|   |       0001-modular-monolith.md
+|   |       0002-postgresql-persistence.md
+|   |       0003-hybrid-document-retrieval.md
+|   |       0004-background-processing.md
+|   |       0005-role-based-access-control.md
+|   |       0006-react-frontend.md
+|   |       
+|   +---diagrams
+|   |       assistant-sequence.mmd
+|   |       authentication-sequence.mmd
+|   |       container-architecture.mmd
+|   |       data-model.mmd
+|   |       deployment.mmd
+|   |       document-processing-sequence.mmd
+|   |       system-context.mmd
+|   |       
+|   \---images
+|           .gitkeep
+|           
++---frontend
+|   |   Dockerfile
+|   |   eslint.config.js
+|   |   index.html
+|   |   package.json
+|   |   tsconfig.json
+|   |   tsconfig.node.json
+|   |   vite.config.ts
+|   |   
+|   +---public
+|   |       favicon.svg
+|   |       
+|   +---src
+|   |   |   main.tsx
+|   |   |   vite-env.d.ts
+|   |   |   
+|   |   +---app
+|   |   |       App.tsx
+|   |   |       providers.tsx
+|   |   |       
+|   |   +---assets
+|   |   |       logo-mark.svg
+|   |   |       logo.svg
+|   |   |       
+|   |   +---components
+|   |   |   +---charts
+|   |   |   |       ActivityChart.tsx
+|   |   |   |       ComplianceChart.tsx
+|   |   |   |       RiskChart.tsx
+|   |   |   |       WorkflowChart.tsx
+|   |   |   |       
+|   |   |   +---data-display
+|   |   |   |       Avatar.tsx
+|   |   |   |       DataTable.tsx
+|   |   |   |       EmptyState.tsx
+|   |   |   |       KpiCard.tsx
+|   |   |   |       ProgressBar.tsx
+|   |   |   |       StatusBadge.tsx
+|   |   |   |       
+|   |   |   +---feedback
+|   |   |   |       Alert.tsx
+|   |   |   |       ConfirmationDialog.tsx
+|   |   |   |       ErrorState.tsx
+|   |   |   |       LoadingSkeleton.tsx
+|   |   |   |       Toast.tsx
+|   |   |   |       
+|   |   |   +---forms
+|   |   |   |       Button.tsx
+|   |   |   |       Checkbox.tsx
+|   |   |   |       FileDropzone.tsx
+|   |   |   |       Input.tsx
+|   |   |   |       Select.tsx
+|   |   |   |       TextArea.tsx
+|   |   |   |       
+|   |   |   +---layout
+|   |   |   |       AppLayout.tsx
+|   |   |   |       AuthLayout.tsx
+|   |   |   |       PageHeader.tsx
+|   |   |   |       Sidebar.tsx
+|   |   |   |       Topbar.tsx
+|   |   |   |       
+|   |   |   \---navigation
+|   |   |           Breadcrumbs.tsx
+|   |   |           CommandPalette.tsx
+|   |   |           ProtectedRoute.tsx
+|   |   |           Tabs.tsx
+|   |   |           
+|   |   +---features
+|   |   |   +---administration
+|   |   |   |       AuditLog.tsx
+|   |   |   |       NotificationCenter.tsx
+|   |   |   |       SystemHealth.tsx
+|   |   |   |       
+|   |   |   +---assistant
+|   |   |   |       AssistantWorkspace.tsx
+|   |   |   |       CitationDrawer.tsx
+|   |   |   |       ConversationList.tsx
+|   |   |   |       MessageBubble.tsx
+|   |   |   |       QuestionComposer.tsx
+|   |   |   |       SourceCard.tsx
+|   |   |   |       
+|   |   |   +---authentication
+|   |   |   |       authApi.ts
+|   |   |   |       authStore.ts
+|   |   |   |       LoginForm.tsx
+|   |   |   |       
+|   |   |   +---compliance
+|   |   |   |       ComplianceCockpit.tsx
+|   |   |   |       ComplianceFilters.tsx
+|   |   |   |       ComplianceFinding.tsx
+|   |   |   |       ComplianceSummary.tsx
+|   |   |   |       
+|   |   |   +---dashboard
+|   |   |   |       AttentionRequired.tsx
+|   |   |   |       DashboardOverview.tsx
+|   |   |   |       RecentActivity.tsx
+|   |   |   |       
+|   |   |   +---documents
+|   |   |   |       DocumentMetadata.tsx
+|   |   |   |       DocumentProcessingStatus.tsx
+|   |   |   |       DocumentRegister.tsx
+|   |   |   |       documentsApi.ts
+|   |   |   |       DocumentUpload.tsx
+|   |   |   |       DocumentWorkspace.tsx
+|   |   |   |       VersionComparison.tsx
+|   |   |   |       VersionHistory.tsx
+|   |   |   |       
+|   |   |   +---projects
+|   |   |   |       ProjectCard.tsx
+|   |   |   |       ProjectForm.tsx
+|   |   |   |       ProjectMembers.tsx
+|   |   |   |       projectsApi.ts
+|   |   |   |       
+|   |   |   +---relationships
+|   |   |   |       GraphControls.tsx
+|   |   |   |       KnowledgeGraph.tsx
+|   |   |   |       RelationshipPanel.tsx
+|   |   |   |       
+|   |   |   +---reports
+|   |   |   |       ReportExport.tsx
+|   |   |   |       ReportsDashboard.tsx
+|   |   |   |       
+|   |   |   +---users
+|   |   |   |       UserDetails.tsx
+|   |   |   |       UserForm.tsx
+|   |   |   |       UserTable.tsx
+|   |   |   |       
+|   |   |   \---workflows
+|   |   |           ReviewPanel.tsx
+|   |   |           ReviewQueue.tsx
+|   |   |           WorkflowTimeline.tsx
+|   |   |           WorkflowTransitionForm.tsx
+|   |   |           
+|   |   +---hooks
+|   |   |       useAuth.ts
+|   |   |       useDebounce.ts
+|   |   |       usePermissions.ts
+|   |   |       useTheme.ts
+|   |   |       useToast.ts
+|   |   |       
+|   |   +---lib
+|   |   |       apiClient.ts
+|   |   |       constants.ts
+|   |   |       formatters.ts
+|   |   |       permissions.ts
+|   |   |       storage.ts
+|   |   |       validation.ts
+|   |   |       
+|   |   +---pages
+|   |   |       AssistantPage.tsx
+|   |   |       AuditPage.tsx
+|   |   |       CompliancePage.tsx
+|   |   |       DashboardPage.tsx
+|   |   |       DocumentDetailPage.tsx
+|   |   |       DocumentsPage.tsx
+|   |   |       LoginPage.tsx
+|   |   |       NotFoundPage.tsx
+|   |   |       ProfilePage.tsx
+|   |   |       ProjectDetailPage.tsx
+|   |   |       ProjectsPage.tsx
+|   |   |       RelationshipsPage.tsx
+|   |   |       ReportsPage.tsx
+|   |   |       ReviewQueuePage.tsx
+|   |   |       SystemHealthPage.tsx
+|   |   |       UsersPage.tsx
+|   |   |       
+|   |   +---routes
+|   |   |       router.tsx
+|   |   |       
+|   |   +---services
+|   |   |       analyticsService.ts
+|   |   |       assistantService.ts
+|   |   |       auditService.ts
+|   |   |       complianceService.ts
+|   |   |       documentService.ts
+|   |   |       projectService.ts
+|   |   |       relationshipService.ts
+|   |   |       userService.ts
+|   |   |       workflowService.ts
+|   |   |       
+|   |   +---styles
+|   |   |       animations.css
+|   |   |       components.css
+|   |   |       global.css
+|   |   |       layout.css
+|   |   |       themes.css
+|   |   |       tokens.css
+|   |   |       utilities.css
+|   |   |       
+|   |   \---types
+|   |           analytics.ts
+|   |           assistant.ts
+|   |           audit.ts
+|   |           auth.ts
+|   |           compliance.ts
+|   |           documents.ts
+|   |           projects.ts
+|   |           relationships.ts
+|   |           users.ts
+|   |           workflows.ts
+|   |           
+|   \---tests
+|           assistant-citations.spec.ts
+|           compliance-review.spec.ts
+|           document-workflow.spec.ts
+|           login.spec.ts
+|           project-access.spec.ts
+|           
++---infrastructure
+|   +---grafana
+|   |   +---dashboards
+|   |   |       cubicdocs-overview.json
+|   |   |       
+|   |   \---provisioning
+|   |       +---dashboards
+|   |       |       dashboards.yml
+|   |       |       
+|   |       \---datasources
+|   |               datasource.yml
+|   |               
+|   +---healthchecks
+|   |       api-healthcheck.py
+|   |       worker-healthcheck.py
+|   |       
+|   +---nginx
+|   |       nginx.conf
+|   |       security-headers.conf
+|   |       
+|   +---postgres
+|   |       init.sql
+|   |       
+|   +---prometheus
+|   |       prometheus.yml
+|   |       
+|   \---redis
+|           redis.conf
+|           
++---presentation
+|   |   PRESENTATION_OUTLINE.md
+|   |   README.md
+|   |   SPEAKER_NOTES.md
+|   |   
+|   +---assets
+|   |       .gitkeep
+|   |       
+|   \---screenshots
+|           .gitkeep
+|           
++---reports
+|   |   FINAL_VERIFICATION_REPORT.md
+|   |   
+|   +---coverage
+|   |       .gitkeep
+|   |       README.md
+|   |       
+|   +---performance
+|   |       README.md
+|   |       
+|   +---security
+|   |       README.md
+|   |       
+|   \---test-results
+|           README.md
+|           
+\---scripts
+        backup.py
+        bootstrap.ps1
+        bootstrap.sh
+        create_admin.py
+        doctor.py
+        generate_demo_documents.py
+        reset_demo.py
+        restore.py
+        run_quality_gate.py
+        seed_demo.py
+        verify_release.py
+        
