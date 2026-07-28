@@ -1,0 +1,70 @@
+﻿{% extends "base.html" %}
+
+{% block title %}User Management{% endblock %}
+
+{% block content %}
+<section class="dashboard-heading">
+    <div>
+        <span class="eyebrow">ADMINISTRATION</span>
+        <h1>User management</h1>
+        <p>Review registered accounts and activate or deactivate access.</p>
+    </div>
+</section>
+
+<div class="table-wrapper">
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Role</th>
+                <th>Status</th>
+                <th>Registered</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            {% for account in users %}
+                <tr>
+                    <td>{{ account.full_name }}</td>
+                    <td>{{ account.email }}</td>
+                    <td>{{ account.role|title }}</td>
+
+                    <td>
+                        {% if account.is_active %}
+                            <span class="status">Active</span>
+                        {% else %}
+                            <span class="status status-inactive">Inactive</span>
+                        {% endif %}
+                    </td>
+
+                    <td>{{ account.created_at.strftime("%Y-%m-%d") }}</td>
+
+                    <td>
+                        {% if account.id == user.id %}
+                            <span>Current account</span>
+                        {% else %}
+                            <form
+                                method="post"
+                                action="/admin/users/{{ account.id }}/toggle"
+                            >
+                                <button
+                                    class="button button-small button-secondary"
+                                    type="submit"
+                                >
+                                    {% if account.is_active %}
+                                        Deactivate
+                                    {% else %}
+                                        Activate
+                                    {% endif %}
+                                </button>
+                            </form>
+                        {% endif %}
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

@@ -1,0 +1,49 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}AI Document Control Assistant{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', path='/style.css') }}">
+</head>
+<body>
+<header class="main-header">
+    <div class="container navigation">
+        <a class="brand" href="/">Cubic Document Control</a>
+
+        <nav>
+            {% if user %}
+                <a href="/dashboard">Dashboard</a>
+
+                {% if user.role == "admin" %}
+                    <a href="/admin/users">Users</a>
+                {% endif %}
+
+                <a class="button button-small button-secondary" href="/logout">
+                    Log out
+                </a>
+            {% else %}
+                <a href="/login">Login</a>
+                <a class="button button-small" href="/register">Register</a>
+            {% endif %}
+        </nav>
+    </div>
+</header>
+
+<main class="container page-content">
+    {% if request.query_params.get('message') %}
+        <div class="alert">
+            {{ request.query_params.get('message') }}
+        </div>
+    {% endif %}
+
+    {% block content %}{% endblock %}
+</main>
+
+<footer class="footer">
+    <div class="container">
+        Final AI Document Control Assistant · Week 17
+    </div>
+</footer>
+</body>
+</html>

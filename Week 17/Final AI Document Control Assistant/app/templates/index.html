@@ -1,0 +1,53 @@
+﻿{% extends "base.html" %}
+
+{% block title %}AI Document Control Assistant{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <div>
+        <span class="eyebrow">PRODUCTION-READY FINAL PRODUCT</span>
+
+        <h1>Manage, analyze, and control documents securely.</h1>
+
+        <p>
+            A standalone document control application with authentication,
+            document processing, metadata extraction, search, user management,
+            and Docker deployment.
+        </p>
+
+        <div class="hero-actions">
+            <a class="button" href="/register">Create account</a>
+            <a class="button button-secondary" href="/login">Sign in</a>
+        </div>
+    </div>
+
+    <div class="hero-card">
+        <h3>Complete workflow</h3>
+        <ul>
+            <li>Secure registration and login</li>
+            <li>Upload PDF, DOCX, TXT, CSV, and Markdown files</li>
+            <li>Automatic summary and keyword extraction</li>
+            <li>Search and document tracking</li>
+            <li>Administrator user management</li>
+            <li>Docker-ready deployment</li>
+        </ul>
+    </div>
+</section>
+
+<section class="feature-grid">
+    <article class="card">
+        <h3>Secure</h3>
+        <p>Passwords use PBKDF2 hashing and sessions use signed cookies.</p>
+    </article>
+
+    <article class="card">
+        <h3>Organized</h3>
+        <p>Documents, users, metadata, status, and ownership are stored centrally.</p>
+    </article>
+
+    <article class="card">
+        <h3>Deployable</h3>
+        <p>The complete application can run locally or through Docker Compose.</p>
+    </article>
+</section>
+{% endblock %}

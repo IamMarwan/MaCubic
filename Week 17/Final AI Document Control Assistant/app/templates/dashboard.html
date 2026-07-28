@@ -1,0 +1,154 @@
+﻿{% extends "base.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<section class="dashboard-heading">
+    <div>
+        <span class="eyebrow">{{ user.role|upper }} ACCOUNT</span>
+        <h1>Hello, {{ user.full_name }}</h1>
+        <p>Upload, search, review, download, and control your documents.</p>
+    </div>
+</section>
+
+<section class="stats-grid">
+    <article class="stat-card">
+        <span>Documents</span>
+        <strong>{{ total_documents }}</strong>
+    </article>
+
+    <article class="stat-card">
+        <span>Account role</span>
+        <strong>{{ user.role|title }}</strong>
+    </article>
+
+    {% if user.role == "admin" %}
+        <article class="stat-card">
+            <span>Registered users</span>
+            <strong>{{ total_users }}</strong>
+        </article>
+    {% endif %}
+</section>
+
+<section class="dashboard-grid">
+    <article class="card">
+        <h2>Upload document</h2>
+
+        <p>
+            Supported formats: PDF, DOCX, TXT, CSV, and Markdown.
+            Maximum file size: 10 MB.
+        </p>
+
+        <form method="post" action="/documents/upload" enctype="multipart/form-data">
+            <label for="document">Choose a document</label>
+            <input
+                id="document"
+                name="document"
+                type="file"
+                accept=".pdf,.docx,.txt,.csv,.md"
+                required
+            >
+
+            <button class="button full-width" type="submit">
+                Upload and analyze
+            </button>
+        </form>
+    </article>
+
+    <article class="card">
+        <h2>Search documents</h2>
+
+        <form class="search-form" method="get" action="/dashboard">
+            <input
+                type="search"
+                name="search"
+                value="{{ search }}"
+                placeholder="Search file name, summary, or keywords"
+            >
+
+            <button class="button" type="submit">Search</button>
+
+            {% if search %}
+                <a class="button button-secondary" href="/dashboard">Clear</a>
+            {% endif %}
+        </form>
+    </article>
+</section>
+
+<section class="documents-section">
+    <div class="section-heading">
+        <h2>Document register</h2>
+        <span>{{ documents|length }} result(s)</span>
+    </div>
+
+    {% if documents %}
+        <div class="document-grid">
+            {% for document in documents %}
+                <article class="document-card">
+                    <div class="document-top">
+                        <div>
+                            <span class="file-type">{{ document.file_type }}</span>
+                            <h3>{{ document.original_name }}</h3>
+                        </div>
+
+                        <span class="status">{{ document.status }}</span>
+                    </div>
+
+                    <p class="summary">{{ document.summary }}</p>
+
+                    <div class="metadata">
+                        <div>
+                            <strong>Keywords</strong>
+                            <span>{{ document.keywords }}</span>
+                        </div>
+
+                        <div>
+                            <strong>Size</strong>
+                            <span>{{ document.file_size|filesize }}</span>
+                        </div>
+
+                        <div>
+                            <strong>Uploaded</strong>
+                            <span>{{ document.uploaded_at.strftime("%Y-%m-%d %H:%M") }}</span>
+                        </div>
+
+                        {% if user.role == "admin" %}
+                            <div>
+                                <strong>Owner</strong>
+                                <span>{{ document.owner.email }}</span>
+                            </div>
+                        {% endif %}
+                    </div>
+
+                    <div class="document-actions">
+                        <a
+                            class="button button-small"
+                            href="/documents/{{ document.id }}/download"
+                        >
+                            Download
+                        </a>
+
+                        <form
+                            method="post"
+                            action="/documents/{{ document.id }}/delete"
+                            onsubmit="return confirm('Delete this document?');"
+                        >
+                            <button
+                                class="button button-small button-danger"
+                                type="submit"
+                            >
+                                Delete
+                            </button>
+                        </form>
+                    </div>
+                </article>
+            {% endfor %}
+        </div>
+    {% else %}
+        <div class="empty-state">
+            <h3>No documents found</h3>
+            <p>Upload your first document or change the search phrase.</p>
+        </div>
+    {% endif %}
+</section>
+{% endblock %}
