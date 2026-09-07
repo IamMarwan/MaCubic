@@ -1,0 +1,603 @@
+{
+  "evaluation_set": {
+    "document_count": 20,
+    "page_count": 20,
+    "dataset_type": "synthetic construction documents",
+    "vision_provider": "mock"
+  },
+  "aggregate": {
+    "text_only": {
+      "true_positives": 100,
+      "false_positives": 80,
+      "false_negatives": 41,
+      "precision": 0.5556,
+      "recall": 0.7092,
+      "f1_score": 0.6231
+    },
+    "multimodal": {
+      "true_positives": 116,
+      "false_positives": 80,
+      "false_negatives": 25,
+      "precision": 0.5918,
+      "recall": 0.8227,
+      "f1_score": 0.6884
+    },
+    "visual_recovery": {
+      "true_positives": 16,
+      "false_positives": 0,
+      "false_negatives": 5,
+      "precision": 1.0,
+      "recall": 0.7619,
+      "f1_score": 0.8649
+    }
+  },
+  "documents": [
+    {
+      "document": "construction_test_01.pdf",
+      "text_only": {
+        "true_positives": 5,
+        "false_positives": 4,
+        "false_negatives": 1,
+        "precision": 0.5556,
+        "recall": 0.8333,
+        "f1_score": 0.6667
+      },
+      "multimodal": {
+        "true_positives": 5,
+        "false_positives": 4,
+        "false_negatives": 1,
+        "precision": 0.5556,
+        "recall": 0.8333,
+        "f1_score": 0.6667
+      },
+      "visual_recovery": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "visually_recovered_count": 0
+    },
+    {
+      "document": "construction_test_02.pdf",
+      "text_only": {
+        "true_positives": 5,
+        "false_positives": 4,
+        "false_negatives": 2,
+        "precision": 0.5556,
+        "recall": 0.7143,
+        "f1_score": 0.625
+      },
+      "multimodal": {
+        "true_positives": 6,
+        "false_positives": 4,
+        "false_negatives": 1,
+        "precision": 0.6,
+        "recall": 0.8571,
+        "f1_score": 0.7059
+      },
+      "visual_recovery": {
+        "true_positives": 1,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "visually_recovered_count": 1
+    },
+    {
+      "document": "construction_test_03.pdf",
+      "text_only": {
+        "true_positives": 5,
+        "false_positives": 4,
+        "false_negatives": 2,
+        "precision": 0.5556,
+        "recall": 0.7143,
+        "f1_score": 0.625
+      },
+      "multimodal": {
+        "true_positives": 6,
+        "false_positives": 4,
+        "false_negatives": 1,
+        "precision": 0.6,
+        "recall": 0.8571,
+        "f1_score": 0.7059
+      },
+      "visual_recovery": {
+        "true_positives": 1,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "visually_recovered_count": 1
+    },
+    {
+      "document": "construction_test_04.pdf",
+      "text_only": {
+        "true_positives": 5,
+        "false_positives": 4,
+        "false_negatives": 3,
+        "precision": 0.5556,
+        "recall": 0.625,
+        "f1_score": 0.5882
+      },
+      "multimodal": {
+        "true_positives": 6,
+        "false_positives": 4,
+        "false_negatives": 2,
+        "precision": 0.6,
+        "recall": 0.75,
+        "f1_score": 0.6667
+      },
+      "visual_recovery": {
+        "true_positives": 1,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1_score": 0.6667
+      },
+      "visually_recovered_count": 1
+    },
+    {
+      "document": "construction_test_05.pdf",
+      "text_only": {
+        "true_positives": 5,
+        "false_positives": 4,
+        "false_negatives": 1,
+        "precision": 0.5556,
+        "recall": 0.8333,
+        "f1_score": 0.6667
+      },
+      "multimodal": {
+        "true_positives": 5,
+        "false_positives": 4,
+        "false_negatives": 1,
+        "precision": 0.5556,
+        "recall": 0.8333,
+        "f1_score": 0.6667
+      },
+      "visual_recovery": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "visually_recovered_count": 0
+    },
+    {
+      "document": "construction_test_06.pdf",
+      "text_only": {
+        "true_positives": 5,
+        "false_positives": 4,
+        "false_negatives": 3,
+        "precision": 0.5556,
+        "recall": 0.625,
+        "f1_score": 0.5882
+      },
+      "multimodal": {
+        "true_positives": 7,
+        "false_positives": 4,
+        "false_negatives": 1,
+        "precision": 0.6364,
+        "recall": 0.875,
+        "f1_score": 0.7368
+      },
+      "visual_recovery": {
+        "true_positives": 2,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "visually_recovered_count": 2
+    },
+    {
+      "document": "construction_test_07.pdf",
+      "text_only": {
+        "true_positives": 5,
+        "false_positives": 4,
+        "false_negatives": 1,
+        "precision": 0.5556,
+        "recall": 0.8333,
+        "f1_score": 0.6667
+      },
+      "multimodal": {
+        "true_positives": 5,
+        "false_positives": 4,
+        "false_negatives": 1,
+        "precision": 0.5556,
+        "recall": 0.8333,
+        "f1_score": 0.6667
+      },
+      "visual_recovery": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "visually_recovered_count": 0
+    },
+    {
+      "document": "construction_test_08.pdf",
+      "text_only": {
+        "true_positives": 5,
+        "false_positives": 4,
+        "false_negatives": 3,
+        "precision": 0.5556,
+        "recall": 0.625,
+        "f1_score": 0.5882
+      },
+      "multimodal": {
+        "true_positives": 6,
+        "false_positives": 4,
+        "false_negatives": 2,
+        "precision": 0.6,
+        "recall": 0.75,
+        "f1_score": 0.6667
+      },
+      "visual_recovery": {
+        "true_positives": 1,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1_score": 0.6667
+      },
+      "visually_recovered_count": 1
+    },
+    {
+      "document": "construction_test_09.pdf",
+      "text_only": {
+        "true_positives": 5,
+        "false_positives": 4,
+        "false_negatives": 2,
+        "precision": 0.5556,
+        "recall": 0.7143,
+        "f1_score": 0.625
+      },
+      "multimodal": {
+        "true_positives": 6,
+        "false_positives": 4,
+        "false_negatives": 1,
+        "precision": 0.6,
+        "recall": 0.8571,
+        "f1_score": 0.7059
+      },
+      "visual_recovery": {
+        "true_positives": 1,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "visually_recovered_count": 1
+    },
+    {
+      "document": "construction_test_10.pdf",
+      "text_only": {
+        "true_positives": 5,
+        "false_positives": 4,
+        "false_negatives": 2,
+        "precision": 0.5556,
+        "recall": 0.7143,
+        "f1_score": 0.625
+      },
+      "multimodal": {
+        "true_positives": 6,
+        "false_positives": 4,
+        "false_negatives": 1,
+        "precision": 0.6,
+        "recall": 0.8571,
+        "f1_score": 0.7059
+      },
+      "visual_recovery": {
+        "true_positives": 1,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "visually_recovered_count": 1
+    },
+    {
+      "document": "construction_test_11.pdf",
+      "text_only": {
+        "true_positives": 5,
+        "false_positives": 4,
+        "false_negatives": 1,
+        "precision": 0.5556,
+        "recall": 0.8333,
+        "f1_score": 0.6667
+      },
+      "multimodal": {
+        "true_positives": 5,
+        "false_positives": 4,
+        "false_negatives": 1,
+        "precision": 0.5556,
+        "recall": 0.8333,
+        "f1_score": 0.6667
+      },
+      "visual_recovery": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "visually_recovered_count": 0
+    },
+    {
+      "document": "construction_test_12.pdf",
+      "text_only": {
+        "true_positives": 5,
+        "false_positives": 4,
+        "false_negatives": 4,
+        "precision": 0.5556,
+        "recall": 0.5556,
+        "f1_score": 0.5556
+      },
+      "multimodal": {
+        "true_positives": 7,
+        "false_positives": 4,
+        "false_negatives": 2,
+        "precision": 0.6364,
+        "recall": 0.7778,
+        "f1_score": 0.7
+      },
+      "visual_recovery": {
+        "true_positives": 2,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "precision": 1.0,
+        "recall": 0.6667,
+        "f1_score": 0.8
+      },
+      "visually_recovered_count": 2
+    },
+    {
+      "document": "construction_test_13.pdf",
+      "text_only": {
+        "true_positives": 5,
+        "false_positives": 4,
+        "false_negatives": 1,
+        "precision": 0.5556,
+        "recall": 0.8333,
+        "f1_score": 0.6667
+      },
+      "multimodal": {
+        "true_positives": 5,
+        "false_positives": 4,
+        "false_negatives": 1,
+        "precision": 0.5556,
+        "recall": 0.8333,
+        "f1_score": 0.6667
+      },
+      "visual_recovery": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "visually_recovered_count": 0
+    },
+    {
+      "document": "construction_test_14.pdf",
+      "text_only": {
+        "true_positives": 5,
+        "false_positives": 4,
+        "false_negatives": 2,
+        "precision": 0.5556,
+        "recall": 0.7143,
+        "f1_score": 0.625
+      },
+      "multimodal": {
+        "true_positives": 6,
+        "false_positives": 4,
+        "false_negatives": 1,
+        "precision": 0.6,
+        "recall": 0.8571,
+        "f1_score": 0.7059
+      },
+      "visual_recovery": {
+        "true_positives": 1,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "visually_recovered_count": 1
+    },
+    {
+      "document": "construction_test_15.pdf",
+      "text_only": {
+        "true_positives": 5,
+        "false_positives": 4,
+        "false_negatives": 2,
+        "precision": 0.5556,
+        "recall": 0.7143,
+        "f1_score": 0.625
+      },
+      "multimodal": {
+        "true_positives": 6,
+        "false_positives": 4,
+        "false_negatives": 1,
+        "precision": 0.6,
+        "recall": 0.8571,
+        "f1_score": 0.7059
+      },
+      "visual_recovery": {
+        "true_positives": 1,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "visually_recovered_count": 1
+    },
+    {
+      "document": "construction_test_16.pdf",
+      "text_only": {
+        "true_positives": 5,
+        "false_positives": 4,
+        "false_negatives": 3,
+        "precision": 0.5556,
+        "recall": 0.625,
+        "f1_score": 0.5882
+      },
+      "multimodal": {
+        "true_positives": 6,
+        "false_positives": 4,
+        "false_negatives": 2,
+        "precision": 0.6,
+        "recall": 0.75,
+        "f1_score": 0.6667
+      },
+      "visual_recovery": {
+        "true_positives": 1,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1_score": 0.6667
+      },
+      "visually_recovered_count": 1
+    },
+    {
+      "document": "construction_test_17.pdf",
+      "text_only": {
+        "true_positives": 5,
+        "false_positives": 4,
+        "false_negatives": 1,
+        "precision": 0.5556,
+        "recall": 0.8333,
+        "f1_score": 0.6667
+      },
+      "multimodal": {
+        "true_positives": 5,
+        "false_positives": 4,
+        "false_negatives": 1,
+        "precision": 0.5556,
+        "recall": 0.8333,
+        "f1_score": 0.6667
+      },
+      "visual_recovery": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "visually_recovered_count": 0
+    },
+    {
+      "document": "construction_test_18.pdf",
+      "text_only": {
+        "true_positives": 5,
+        "false_positives": 4,
+        "false_negatives": 3,
+        "precision": 0.5556,
+        "recall": 0.625,
+        "f1_score": 0.5882
+      },
+      "multimodal": {
+        "true_positives": 7,
+        "false_positives": 4,
+        "false_negatives": 1,
+        "precision": 0.6364,
+        "recall": 0.875,
+        "f1_score": 0.7368
+      },
+      "visual_recovery": {
+        "true_positives": 2,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1_score": 1.0
+      },
+      "visually_recovered_count": 2
+    },
+    {
+      "document": "construction_test_19.pdf",
+      "text_only": {
+        "true_positives": 5,
+        "false_positives": 4,
+        "false_negatives": 1,
+        "precision": 0.5556,
+        "recall": 0.8333,
+        "f1_score": 0.6667
+      },
+      "multimodal": {
+        "true_positives": 5,
+        "false_positives": 4,
+        "false_negatives": 1,
+        "precision": 0.5556,
+        "recall": 0.8333,
+        "f1_score": 0.6667
+      },
+      "visual_recovery": {
+        "true_positives": 0,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "visually_recovered_count": 0
+    },
+    {
+      "document": "construction_test_20.pdf",
+      "text_only": {
+        "true_positives": 5,
+        "false_positives": 4,
+        "false_negatives": 3,
+        "precision": 0.5556,
+        "recall": 0.625,
+        "f1_score": 0.5882
+      },
+      "multimodal": {
+        "true_positives": 6,
+        "false_positives": 4,
+        "false_negatives": 2,
+        "precision": 0.6,
+        "recall": 0.75,
+        "f1_score": 0.6667
+      },
+      "visual_recovery": {
+        "true_positives": 1,
+        "false_positives": 0,
+        "false_negatives": 1,
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1_score": 0.6667
+      },
+      "visually_recovered_count": 1
+    }
+  ],
+  "limitations": [
+    "The evaluation dataset is synthetic and does not represent the full visual variability of real construction documents.",
+    "The mock provider uses deterministic color-region analysis; it is not a substitute for evaluation of a real vision model.",
+    "Field-level matching evaluates category and field name, not semantic similarity between complex values.",
+    "Raster quality, handwriting, overlapping stamps, unusual symbols, and low-resolution scans require additional testing.",
+    "Real-model accuracy and cost vary with model selection, prompting, page resolution, and document complexity."
+  ]
+}

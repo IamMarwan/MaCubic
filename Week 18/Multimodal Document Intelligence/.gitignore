@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.local
+*.key
+*.pem
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Runtime files
+*.log
+temp/
+tmp/
+
+# Generated document-processing outputs
+outputs/extractions/*
+outputs/comparisons/*
+outputs/reports/*
+
+# Preserve output directories and final evaluation reports
+!outputs/extractions/.gitkeep
+!outputs/comparisons/.gitkeep
+!outputs/reports/.gitkeep
+!outputs/reports/accuracy_report.md
+!outputs/reports/accuracy_results.json
+
+# Rendered PDF page images
+data/sample_pages/*
+!data/sample_pages/.gitkeep
+
+# User-uploaded documents
+data/input/
+data/uploads/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3

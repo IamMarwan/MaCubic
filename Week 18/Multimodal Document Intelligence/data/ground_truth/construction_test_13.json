@@ -1,0 +1,42 @@
+{
+  "document": "construction_test_13.pdf",
+  "page_count": 1,
+  "expected_items": [
+    {
+      "category": "title_block",
+      "field_name": "project_name",
+      "value": "Multimodal Test Project 13",
+      "visual_only": false
+    },
+    {
+      "category": "title_block",
+      "field_name": "drawing_title",
+      "value": "General Arrangement Sheet 13",
+      "visual_only": false
+    },
+    {
+      "category": "title_block",
+      "field_name": "drawing_number",
+      "value": "MDI-013",
+      "visual_only": false
+    },
+    {
+      "category": "revision",
+      "field_name": "revision",
+      "value": "C",
+      "visual_only": false
+    },
+    {
+      "category": "drawing_note",
+      "field_name": "note_1",
+      "value": "Verify all dimensions on site before construction.",
+      "visual_only": false
+    },
+    {
+      "category": "table",
+      "field_name": "revision_table",
+      "value": "Revision table",
+      "visual_only": false
+    }
+  ]
+}

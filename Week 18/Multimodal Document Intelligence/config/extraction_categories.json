@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "categories": {
+    "title_block": {
+      "description": "Project and drawing identification fields.",
+      "example_fields": [
+        "project_name",
+        "drawing_title",
+        "drawing_number",
+        "discipline",
+        "scale",
+        "sheet_number"
+      ]
+    },
+    "table": {
+      "description": "Structured rows and columns visible on the page.",
+      "example_fields": [
+        "revision_table",
+        "drawing_schedule",
+        "material_schedule",
+        "document_register"
+      ]
+    },
+    "drawing_note": {
+      "description": "Numbered, general, or discipline-specific drawing notes.",
+      "example_fields": [
+        "general_note",
+        "construction_note",
+        "safety_note"
+      ]
+    },
+    "stamp": {
+      "description": "Approval, review, issue, or company stamps and seals.",
+      "example_fields": [
+        "approval_status",
+        "review_status",
+        "stamp_date",
+        "stamp_signatory"
+      ]
+    },
+    "revision": {
+      "description": "Revision identifiers, dates, descriptions, and authors.",
+      "example_fields": [
+        "revision",
+        "revision_date",
+        "revision_description",
+        "revised_by"
+      ]
+    },
+    "symbol": {
+      "description": "Construction and engineering symbols.",
+      "example_fields": [
+        "section_marker",
+        "level_marker",
+        "north_arrow",
+        "door_symbol",
+        "electrical_symbol"
+      ]
+    },
+    "visual_annotation": {
+      "description": "Clouds, arrows, highlights, handwriting, and colored markup.",
+      "example_fields": [
+        "revision_cloud",
+        "review_markup",
+        "handwritten_note",
+        "highlighted_region"
+      ]
+    },
+    "general_text": {
+      "description": "Relevant visible text that does not fit another category.",
+      "example_fields": [
+        "document_reference",
+        "organization",
+        "location"
+      ]
+    }
+  }
+}
