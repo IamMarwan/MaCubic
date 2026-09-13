@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Document Workflow Agent</title><link rel="stylesheet" href="/style.css"><script defer src="/app.js"></script></head>
+<body>
+<header><div><span class="eyebrow">CUBIC · WEEK 19</span><h1>Document Workflow Agent</h1><p>Upload a document. Watch the agent select tools and build a review.</p></div><span id="provider" class="badge">Connecting…</span></header>
+<main>
+<section class="panel input"><h2>Start a task</h2><form id="form">
+<label for="file">Document <span>TXT, Markdown or text-based PDF · up to 10 MB</span></label><input id="file" type="file" accept=".txt,.md,.pdf">
+<label for="sample">Or choose a training sample</label><select id="sample"><option value="">Select a sample…</option></select>
+<label for="task">Task goal</label><select id="task"><option value="workflow">Full document workflow</option><option value="review">Document review</option><option value="summarize">Summary only</option><option value="classify">Classification only</option><option value="revisions">Revision check only</option></select>
+<label for="instruction">Additional focus <span>Used by the model planner; task scope still applies</span></label><textarea id="instruction" maxlength="2000" rows="3" placeholder="For example: focus on revision changes and missing review information."></textarea>
+<button id="submit" type="submit">Run agent →</button><p id="message" role="status" aria-live="polite"></p></form>
+<div class="note">Samples and reference requirements are fictional training data. Index previous revisions with the demo client before comparing them.</div>
+<a href="/docs">API documentation ↗</a>
+</section>
+<section class="panel result"><div class="section-head"><h2>Run results</h2><span id="status" class="badge">Ready</span></div>
+<div id="empty"><div class="symbol">↳</div><h3>A workflow you can inspect</h3><p>Each run shows the chosen tools, findings, and the next recommended action.</p></div>
+<div id="result" hidden><div class="metrics"><div><span>Tools executed</span><strong id="count"></strong></div><div><span>Elapsed</span><strong id="elapsed"></strong></div><div><span>Task</span><strong id="goal"></strong></div></div>
+<article class="action"><span class="eyebrow">RECOMMENDED NEXT ACTION</span><h3 id="action"></h3><p id="reason"></p></article>
+<h3>Tools used</h3><div id="tools" class="chips"></div><h3>Findings</h3><div id="findings"></div>
+<h3>Execution decisions</h3><ol id="decisions"></ol><details><summary>Complete execution history and JSON</summary><pre id="json"></pre></details></div>
+</section>
+<section class="panel history"><div class="section-head"><h2>Execution history</h2><button id="refresh" class="secondary" type="button">Refresh</button></div><div id="history"></div></section>
+</main><footer>Standalone orchestration service · eight tools · persistent execution history</footer>
+</body></html>

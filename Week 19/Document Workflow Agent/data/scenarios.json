@@ -1,0 +1,113 @@
+[
+  {
+    "id": "01_complete_new_revision",
+    "description": "Complete slab drawing with an older registered revision",
+    "task": "workflow",
+    "action": "route_for_review",
+    "revision": "new_revision"
+  },
+  {
+    "id": "02_missing_checker",
+    "description": "Shop drawing lacks the checked-by field",
+    "task": "workflow",
+    "action": "return_for_completion"
+  },
+  {
+    "id": "03_outdated_upload",
+    "description": "Revision 00 is uploaded when revision 01 is registered",
+    "task": "workflow",
+    "action": "request_latest_revision",
+    "revision": "superseded"
+  },
+  {
+    "id": "04_exact_duplicate",
+    "description": "Exact copy of the registered file",
+    "task": "workflow",
+    "action": "record_duplicate",
+    "revision": "duplicate"
+  },
+  {
+    "id": "05_revision_label_conflict",
+    "description": "Changed content uses the same registered revision label",
+    "task": "workflow",
+    "action": "resolve_revision_conflict",
+    "revision": "revision_conflict"
+  },
+  {
+    "id": "06_material_missing_datasheet",
+    "description": "Waterproofing submittal lacks a declared datasheet",
+    "task": "review",
+    "action": "return_for_completion"
+  },
+  {
+    "id": "07_rfi_first_issue",
+    "description": "Complete first-issue RFI needs consultant review",
+    "task": "workflow",
+    "action": "route_for_review",
+    "revision": "first_issue"
+  },
+  {
+    "id": "08_method_missing_risk_assessment",
+    "description": "Concrete pour method has a pending risk assessment",
+    "task": "review",
+    "action": "return_for_completion"
+  },
+  {
+    "id": "09_minutes_summary_only",
+    "description": "Meeting minutes requested only as a summary",
+    "task": "summarize",
+    "tool_count": 1
+  },
+  {
+    "id": "10_invoice_classification_only",
+    "description": "Invoice requested only for classification",
+    "task": "classify",
+    "tool_count": 1,
+    "type": "invoice"
+  },
+  {
+    "id": "11_unknown_document",
+    "description": "Unlabelled site note requires manual triage",
+    "task": "workflow",
+    "action": "manual_triage"
+  },
+  {
+    "id": "12_revision_lookup_only",
+    "description": "Compare revisions without a full review",
+    "task": "revisions",
+    "tool_count": 2,
+    "revision": "new_revision"
+  },
+  {
+    "id": "13_conflicting_project_fields",
+    "description": "Two project labels disagree; do not guess project identity",
+    "task": "workflow",
+    "action": "return_for_completion"
+  },
+  {
+    "id": "14_invalid_issue_date",
+    "description": "Drawing contains an impossible calendar date",
+    "task": "workflow",
+    "action": "return_for_completion"
+  },
+  {
+    "id": "15_incomparable_revision_scheme",
+    "description": "Letter revision cannot be ordered against numeric revisions",
+    "task": "workflow",
+    "action": "resolve_revision_conflict",
+    "revision": "unorderable"
+  },
+  {
+    "id": "16_separate_project_register",
+    "description": "Same document number belongs to a different project",
+    "task": "workflow",
+    "action": "route_for_review",
+    "revision": "first_issue"
+  },
+  {
+    "id": "17_embedded_instruction",
+    "description": "Document body contains an instruction to skip checks",
+    "task": "workflow",
+    "action": "route_for_review"
+  }
+]

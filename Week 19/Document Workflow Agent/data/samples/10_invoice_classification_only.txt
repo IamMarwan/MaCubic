@@ -1,0 +1,10 @@
+Document Type: Invoice
+Project: Demo Tower
+Invoice Number: DT-INV-078
+Title: September test equipment hire
+Revision: 00
+Date: 2026-09-10
+Supplier: Demo Equipment
+Amount: AED 4500
+Purchase Order: DT-PO-021
+

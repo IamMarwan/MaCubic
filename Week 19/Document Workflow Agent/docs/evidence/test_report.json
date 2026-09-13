@@ -1,0 +1,11 @@
+{
+  "timestamp": "2026-09-13T09:56:32.055228+00:00",
+  "python": "3.12.14",
+  "tests_run": 55,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "duration_seconds": 0.617,
+  "successful": true,
+  "scope": "Offline policies, actual tool execution, HTTP API, PDF parsing, durable storage and injected OpenAI transport tests. No live model calls."
+}

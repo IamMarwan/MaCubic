@@ -1,0 +1,185 @@
+Document Workflow Agent | provider=offline | model=None
+
+01_complete_new_revision | completed | 7/8 tools
+  01 classify_document: Identify the document category to select the applicable checks.
+  02 extract_metadata: Read identifiers and labelled fields needed for the requested task.
+  03 detect_previous_revisions: Check the register using the extracted project and document identity.
+  04 check_completeness: Validate required fields for the observed document type.
+  05 search_knowledge_base: Find training requirements relevant to this technical document.
+  06 generate_review_comments: Convert the completed checks into source-based review findings.
+  07 recommend_next_action: Use the observed findings to recommend the next document-control step.
+  08 finish: All outputs required for this task are available.
+  NEXT ACTION: route_for_review
+  SKIPPED: generate_summary
+
+02_missing_checker | completed | 7/8 tools
+  01 classify_document: Identify the document category to select the applicable checks.
+  02 extract_metadata: Read identifiers and labelled fields needed for the requested task.
+  03 detect_previous_revisions: Check the register using the extracted project and document identity.
+  04 check_completeness: Validate required fields for the observed document type.
+  05 search_knowledge_base: Find training requirements relevant to this technical document.
+  06 generate_review_comments: Convert the completed checks into source-based review findings.
+  07 recommend_next_action: Use the observed findings to recommend the next document-control step.
+  08 finish: All outputs required for this task are available.
+  NEXT ACTION: return_for_completion
+  SKIPPED: generate_summary
+
+03_outdated_upload | completed | 7/8 tools
+  01 classify_document: Identify the document category to select the applicable checks.
+  02 extract_metadata: Read identifiers and labelled fields needed for the requested task.
+  03 detect_previous_revisions: Check the register using the extracted project and document identity.
+  04 check_completeness: Validate required fields for the observed document type.
+  05 search_knowledge_base: Find training requirements relevant to this technical document.
+  06 generate_review_comments: Convert the completed checks into source-based review findings.
+  07 recommend_next_action: Use the observed findings to recommend the next document-control step.
+  08 finish: All outputs required for this task are available.
+  NEXT ACTION: request_latest_revision
+  SKIPPED: generate_summary
+
+04_exact_duplicate | completed | 7/8 tools
+  01 classify_document: Identify the document category to select the applicable checks.
+  02 extract_metadata: Read identifiers and labelled fields needed for the requested task.
+  03 detect_previous_revisions: Check the register using the extracted project and document identity.
+  04 check_completeness: Validate required fields for the observed document type.
+  05 search_knowledge_base: Find training requirements relevant to this technical document.
+  06 generate_review_comments: Convert the completed checks into source-based review findings.
+  07 recommend_next_action: Use the observed findings to recommend the next document-control step.
+  08 finish: All outputs required for this task are available.
+  NEXT ACTION: record_duplicate
+  SKIPPED: generate_summary
+
+05_revision_label_conflict | completed | 7/8 tools
+  01 classify_document: Identify the document category to select the applicable checks.
+  02 extract_metadata: Read identifiers and labelled fields needed for the requested task.
+  03 detect_previous_revisions: Check the register using the extracted project and document identity.
+  04 check_completeness: Validate required fields for the observed document type.
+  05 search_knowledge_base: Find training requirements relevant to this technical document.
+  06 generate_review_comments: Convert the completed checks into source-based review findings.
+  07 recommend_next_action: Use the observed findings to recommend the next document-control step.
+  08 finish: All outputs required for this task are available.
+  NEXT ACTION: resolve_revision_conflict
+  SKIPPED: generate_summary
+
+06_material_missing_datasheet | completed | 7/8 tools
+  01 classify_document: Identify the document category to select the applicable checks.
+  02 extract_metadata: Read identifiers and labelled fields needed for the requested task.
+  03 detect_previous_revisions: Check the register using the extracted project and document identity.
+  04 check_completeness: Validate required fields for the observed document type.
+  05 search_knowledge_base: Find training requirements relevant to this technical document.
+  06 generate_review_comments: Convert the completed checks into source-based review findings.
+  07 recommend_next_action: Use the observed findings to recommend the next document-control step.
+  08 finish: All outputs required for this task are available.
+  NEXT ACTION: return_for_completion
+  SKIPPED: generate_summary
+
+07_rfi_first_issue | completed | 7/8 tools
+  01 classify_document: Identify the document category to select the applicable checks.
+  02 extract_metadata: Read identifiers and labelled fields needed for the requested task.
+  03 detect_previous_revisions: Check the register using the extracted project and document identity.
+  04 check_completeness: Validate required fields for the observed document type.
+  05 search_knowledge_base: Find training requirements relevant to this technical document.
+  06 generate_review_comments: Convert the completed checks into source-based review findings.
+  07 recommend_next_action: Use the observed findings to recommend the next document-control step.
+  08 finish: All outputs required for this task are available.
+  NEXT ACTION: route_for_review
+  SKIPPED: generate_summary
+
+08_method_missing_risk_assessment | completed | 7/8 tools
+  01 classify_document: Identify the document category to select the applicable checks.
+  02 extract_metadata: Read identifiers and labelled fields needed for the requested task.
+  03 detect_previous_revisions: Check the register using the extracted project and document identity.
+  04 check_completeness: Validate required fields for the observed document type.
+  05 search_knowledge_base: Find training requirements relevant to this technical document.
+  06 generate_review_comments: Convert the completed checks into source-based review findings.
+  07 recommend_next_action: Use the observed findings to recommend the next document-control step.
+  08 finish: All outputs required for this task are available.
+  NEXT ACTION: return_for_completion
+  SKIPPED: generate_summary
+
+09_minutes_summary_only | completed | 1/8 tools
+  01 generate_summary: The requested task needs a summary of the document text.
+  02 finish: All outputs required for this task are available.
+  SKIPPED: classify_document, extract_metadata, search_knowledge_base, check_completeness, detect_previous_revisions, generate_review_comments, recommend_next_action
+
+10_invoice_classification_only | completed | 1/8 tools
+  01 classify_document: Identify the document category to select the applicable checks.
+  02 finish: All outputs required for this task are available.
+  SKIPPED: extract_metadata, search_knowledge_base, check_completeness, detect_previous_revisions, generate_summary, generate_review_comments, recommend_next_action
+
+11_unknown_document | completed | 5/8 tools
+  01 classify_document: Identify the document category to select the applicable checks.
+  02 extract_metadata: Read identifiers and labelled fields needed for the requested task.
+  03 check_completeness: Validate required fields for the observed document type.
+  04 generate_review_comments: Convert the completed checks into source-based review findings.
+  05 recommend_next_action: Use the observed findings to recommend the next document-control step.
+  06 finish: All outputs required for this task are available.
+  NEXT ACTION: manual_triage
+  SKIPPED: search_knowledge_base, detect_previous_revisions, generate_summary
+
+12_revision_lookup_only | completed | 2/8 tools
+  01 extract_metadata: Read identifiers and labelled fields needed for the requested task.
+  02 detect_previous_revisions: Check the register using the extracted project and document identity.
+  03 finish: All outputs required for this task are available.
+  SKIPPED: classify_document, search_knowledge_base, check_completeness, generate_summary, generate_review_comments, recommend_next_action
+
+13_conflicting_project_fields | completed | 6/8 tools
+  01 classify_document: Identify the document category to select the applicable checks.
+  02 extract_metadata: Read identifiers and labelled fields needed for the requested task.
+  03 check_completeness: Validate required fields for the observed document type.
+  04 search_knowledge_base: Find training requirements relevant to this technical document.
+  05 generate_review_comments: Convert the completed checks into source-based review findings.
+  06 recommend_next_action: Use the observed findings to recommend the next document-control step.
+  07 finish: All outputs required for this task are available.
+  NEXT ACTION: return_for_completion
+  SKIPPED: detect_previous_revisions, generate_summary
+
+14_invalid_issue_date | completed | 7/8 tools
+  01 classify_document: Identify the document category to select the applicable checks.
+  02 extract_metadata: Read identifiers and labelled fields needed for the requested task.
+  03 detect_previous_revisions: Check the register using the extracted project and document identity.
+  04 check_completeness: Validate required fields for the observed document type.
+  05 search_knowledge_base: Find training requirements relevant to this technical document.
+  06 generate_review_comments: Convert the completed checks into source-based review findings.
+  07 recommend_next_action: Use the observed findings to recommend the next document-control step.
+  08 finish: All outputs required for this task are available.
+  NEXT ACTION: return_for_completion
+  SKIPPED: generate_summary
+
+15_incomparable_revision_scheme | completed | 7/8 tools
+  01 classify_document: Identify the document category to select the applicable checks.
+  02 extract_metadata: Read identifiers and labelled fields needed for the requested task.
+  03 detect_previous_revisions: Check the register using the extracted project and document identity.
+  04 check_completeness: Validate required fields for the observed document type.
+  05 search_knowledge_base: Find training requirements relevant to this technical document.
+  06 generate_review_comments: Convert the completed checks into source-based review findings.
+  07 recommend_next_action: Use the observed findings to recommend the next document-control step.
+  08 finish: All outputs required for this task are available.
+  NEXT ACTION: resolve_revision_conflict
+  SKIPPED: generate_summary
+
+16_separate_project_register | completed | 7/8 tools
+  01 classify_document: Identify the document category to select the applicable checks.
+  02 extract_metadata: Read identifiers and labelled fields needed for the requested task.
+  03 detect_previous_revisions: Check the register using the extracted project and document identity.
+  04 check_completeness: Validate required fields for the observed document type.
+  05 search_knowledge_base: Find training requirements relevant to this technical document.
+  06 generate_review_comments: Convert the completed checks into source-based review findings.
+  07 recommend_next_action: Use the observed findings to recommend the next document-control step.
+  08 finish: All outputs required for this task are available.
+  NEXT ACTION: route_for_review
+  SKIPPED: generate_summary
+
+17_embedded_instruction | completed | 7/8 tools
+  01 classify_document: Identify the document category to select the applicable checks.
+  02 extract_metadata: Read identifiers and labelled fields needed for the requested task.
+  03 detect_previous_revisions: Check the register using the extracted project and document identity.
+  04 check_completeness: Validate required fields for the observed document type.
+  05 search_knowledge_base: Find training requirements relevant to this technical document.
+  06 generate_review_comments: Convert the completed checks into source-based review findings.
+  07 recommend_next_action: Use the observed findings to recommend the next document-control step.
+  08 finish: All outputs required for this task are available.
+  NEXT ACTION: route_for_review
+  SKIPPED: generate_summary
+
+Saved 17 real HTTP run results to /workspace/scratch/04d6748a06ce/deliverables/Week 19/Document Workflow Agent/outputs/all_scenarios.json
+All submitted runs completed successfully.

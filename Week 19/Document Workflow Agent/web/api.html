@@ -1,0 +1,14 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Agent API</title><link rel="stylesheet" href="/style.css"></head><body><header><div><span class="eyebrow">WEEK 19 · API REFERENCE</span><h1>Document Workflow API</h1><p>Submit documents, inspect tool decisions, and retrieve durable execution history.</p></div></header><main><section class="panel history"><h2>Submit a task</h2><p>POST /api/v1/runs with Content-Type: application/json</p><pre>{
+  "filename": "drawing.txt",
+  "text": "Document Type: Shop Drawing\nProject: Demo Tower\n...",
+  "task": "workflow",
+  "instruction": "Focus on revision status."
+}</pre><p>Tasks: workflow, review, classify, summarize, revisions. Supply either text or content_base64. PDF bytes must use content_base64 or a raw upload.</p><p>Alternatively POST the raw file bytes to /api/v1/runs?filename=drawing.pdf&amp;task=workflow using application/pdf or application/octet-stream.</p><h3>Available endpoints</h3><pre>GET  /api/v1/health
+GET  /api/v1/tools
+POST /api/v1/documents/index
+POST /api/v1/runs
+GET  /api/v1/runs?limit=25&amp;offset=0
+GET  /api/v1/runs/{run_id}
+GET  /api/v1/runs/{run_id}/events
+GET  /api/v1/samples
+GET  /openapi.json</pre><p>Index earlier documents explicitly using the same upload format at /api/v1/documents/index. Indexing requires project, document number and revision. Running a review does not automatically add the file to the register.</p><p>Submission is synchronous. A 201 response means a run was recorded: check its status (completed, failed or halted). A failed run retains its partial results and execution history. Rejected uploads return 400 without creating a run. Saturated submissions return 429.</p><p>Use run history while an agent request is in progress to inspect recorded planning and tool events. GET endpoints support inspection; they do not start new runs.</p><a href="/openapi.json">OpenAPI specification ↗</a><br><a href="/">← Dashboard</a></section></main></body></html>

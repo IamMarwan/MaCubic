@@ -1,0 +1,9 @@
+Document Type: Request for Information
+Project: Demo Tower
+Document Number: DT-RFI-014
+Title: Clarify beam opening at grid B4
+Revision: A
+Date: 2026-09-10
+Question: Confirm opening elevation relative to structural beam soffit.
+Response Due: 2026-09-17
+Site team will hold the affected opening work pending the consultant response.

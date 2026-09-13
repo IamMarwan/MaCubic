@@ -1,0 +1,10 @@
+Document Type: Material Submittal
+Project: Demo Tower
+Document Number: DT-MAT-031
+Title: Roof waterproofing membrane
+Revision: 00
+Date: 2026-09-10
+Supplier: Demo Materials Ltd
+Product: Training membrane X
+Datasheet: Not attached
+Material package submitted for technical review.

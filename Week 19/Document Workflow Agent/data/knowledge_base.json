@@ -1,0 +1,93 @@
+[
+  {
+    "id": "DEMO-DWG-001",
+    "title": "Training drawing metadata checklist",
+    "document_types": [
+      "drawing"
+    ],
+    "keywords": [
+      "shop drawing",
+      "slab",
+      "structural",
+      "coordination"
+    ],
+    "text": "For this fictional training workflow, drawings declare discipline, prepared by and checked by fields.",
+    "required_fields": [
+      "discipline",
+      "prepared_by",
+      "checked_by"
+    ]
+  },
+  {
+    "id": "DEMO-MAT-001",
+    "title": "Training material submittal checklist",
+    "document_types": [
+      "material_submittal"
+    ],
+    "keywords": [
+      "material",
+      "waterproofing",
+      "membrane"
+    ],
+    "text": "Training material submittals declare the supplier, product and datasheet reference.",
+    "required_fields": [
+      "supplier",
+      "product",
+      "datasheet"
+    ]
+  },
+  {
+    "id": "DEMO-RFI-001",
+    "title": "Training RFI routing checklist",
+    "document_types": [
+      "rfi"
+    ],
+    "keywords": [
+      "rfi",
+      "beam",
+      "opening",
+      "clarification"
+    ],
+    "text": "A training request for information includes a clear question and response due date.",
+    "required_fields": [
+      "question",
+      "response_due"
+    ]
+  },
+  {
+    "id": "DEMO-MS-001",
+    "title": "Training method statement checklist",
+    "document_types": [
+      "method_statement"
+    ],
+    "keywords": [
+      "method statement",
+      "concrete",
+      "pour",
+      "risk"
+    ],
+    "text": "A training method statement declares scope, procedure and risk assessment reference.",
+    "required_fields": [
+      "scope",
+      "procedure",
+      "risk_assessment"
+    ]
+  },
+  {
+    "id": "DEMO-IR-001",
+    "title": "Training inspection request checklist",
+    "document_types": [
+      "inspection_request"
+    ],
+    "keywords": [
+      "inspection",
+      "site",
+      "location"
+    ],
+    "text": "A training inspection request declares location and inspection date.",
+    "required_fields": [
+      "location",
+      "inspection_date"
+    ]
+  }
+]

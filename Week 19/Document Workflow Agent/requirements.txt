@@ -1,0 +1,2 @@
+# Only PDF ingestion needs an external dependency; all other functions use stdlib.
+pypdf==6.10.0

@@ -1,0 +1,9 @@
+Document Type: Meeting Minutes
+Project: Demo Tower
+Document Number: DT-MOM-019
+Title: Weekly coordination meeting
+Revision: 00
+Date: 2026-09-10
+Attendees: Demo contractor, consultant and MEP coordinator
+Actions: MEP coordinator to issue clash report by 2026-09-15.
+The team reviewed the slab opening changes. The contractor will update the drawing after coordination.
