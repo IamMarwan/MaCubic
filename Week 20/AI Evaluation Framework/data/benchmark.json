@@ -1,0 +1,2867 @@
+[
+  {
+    "id": "P1-DRW-02-status",
+    "task": "qa",
+    "split": "dev",
+    "input": {
+      "question": "For Cedar Office, DRW-104 revision 02, what is the review status?",
+      "fields": [
+        "status"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P1-DRW-02",
+          "field": "status",
+          "value": "Approved with comments"
+        }
+      ],
+      "relevant_ids": [
+        "P1-DRW-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "project_collision",
+      "revision_specific"
+    ]
+  },
+  {
+    "id": "P1-DRW-02-detail",
+    "task": "qa",
+    "split": "dev",
+    "input": {
+      "question": "Who checked Cedar Office DRW-104 revision 02?",
+      "fields": [
+        "reviewer"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P1-DRW-02",
+          "field": "reviewer",
+          "value": "Nadia Saleh"
+        }
+      ],
+      "relevant_ids": [
+        "P1-DRW-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "field_alias"
+    ]
+  },
+  {
+    "id": "P1-DRW-02-metadata",
+    "task": "metadata",
+    "split": "dev",
+    "input": {
+      "document_id": "P1-DRW-02",
+      "fields": [
+        "project",
+        "document_no",
+        "revision",
+        "issue_date",
+        "status",
+        "reviewer",
+        "due_date"
+      ]
+    },
+    "expected": {
+      "metadata": {
+        "project": "Cedar Office",
+        "document_no": "DRW-104",
+        "revision": "02",
+        "issue_date": "2026-08-10",
+        "status": "Approved with comments",
+        "reviewer": "Nadia Saleh",
+        "due_date": "2026-09-11"
+      }
+    },
+    "tags": [
+      "standard_labels"
+    ]
+  },
+  {
+    "id": "P1-DRW-02-class",
+    "task": "classification",
+    "split": "dev",
+    "input": {
+      "document_id": "P1-DRW-02",
+      "omit_title": true,
+      "labels": [
+        "drawing",
+        "rfi",
+        "material_submittal",
+        "method_statement",
+        "inspection_request",
+        "meeting_minutes",
+        "invoice",
+        "transmittal"
+      ]
+    },
+    "expected": {
+      "label": "drawing"
+    },
+    "tags": [
+      "body_classification"
+    ]
+  },
+  {
+    "id": "P1-RFI-02-status",
+    "task": "qa",
+    "split": "dev",
+    "input": {
+      "question": "For Cedar Office, RFI-104 revision 02, what is the review status?",
+      "fields": [
+        "status"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P1-RFI-02",
+          "field": "status",
+          "value": "Revise and resubmit"
+        }
+      ],
+      "relevant_ids": [
+        "P1-RFI-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "project_collision",
+      "revision_specific"
+    ]
+  },
+  {
+    "id": "P1-RFI-02-detail",
+    "task": "qa",
+    "split": "dev",
+    "input": {
+      "question": "What is the response deadline for Cedar Office RFI-104 revision 02?",
+      "fields": [
+        "due_date"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P1-RFI-02",
+          "field": "due_date",
+          "value": "2026-09-12"
+        }
+      ],
+      "relevant_ids": [
+        "P1-RFI-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "field_alias"
+    ]
+  },
+  {
+    "id": "P1-RFI-02-metadata",
+    "task": "metadata",
+    "split": "dev",
+    "input": {
+      "document_id": "P1-RFI-02",
+      "fields": [
+        "project",
+        "document_no",
+        "revision",
+        "issue_date",
+        "status",
+        "reviewer",
+        "due_date"
+      ]
+    },
+    "expected": {
+      "metadata": {
+        "project": "Cedar Office",
+        "document_no": "RFI-104",
+        "revision": "02",
+        "issue_date": "2026-08-11",
+        "status": "Revise and resubmit",
+        "reviewer": "Nadia Saleh",
+        "due_date": "2026-09-12"
+      }
+    },
+    "tags": [
+      "variant_labels"
+    ]
+  },
+  {
+    "id": "P1-RFI-02-class",
+    "task": "classification",
+    "split": "dev",
+    "input": {
+      "document_id": "P1-RFI-02",
+      "omit_title": true,
+      "labels": [
+        "drawing",
+        "rfi",
+        "material_submittal",
+        "method_statement",
+        "inspection_request",
+        "meeting_minutes",
+        "invoice",
+        "transmittal"
+      ]
+    },
+    "expected": {
+      "label": "rfi"
+    },
+    "tags": [
+      "body_classification"
+    ]
+  },
+  {
+    "id": "P1-MAT-02-status",
+    "task": "qa",
+    "split": "dev",
+    "input": {
+      "question": "For Cedar Office, MAT-104 revision 02, what is the review status?",
+      "fields": [
+        "status"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P1-MAT-02",
+          "field": "status",
+          "value": "Under review"
+        }
+      ],
+      "relevant_ids": [
+        "P1-MAT-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "project_collision",
+      "revision_specific"
+    ]
+  },
+  {
+    "id": "P1-MAT-02-detail",
+    "task": "qa",
+    "split": "dev",
+    "input": {
+      "question": "Who checked Cedar Office MAT-104 revision 02?",
+      "fields": [
+        "reviewer"
+      ]
+    },
+    "expected": {
+      "claims": [],
+      "relevant_ids": [
+        "P1-MAT-02"
+      ],
+      "abstain": true
+    },
+    "tags": [
+      "missing_field"
+    ]
+  },
+  {
+    "id": "P1-MAT-02-metadata",
+    "task": "metadata",
+    "split": "dev",
+    "input": {
+      "document_id": "P1-MAT-02",
+      "fields": [
+        "project",
+        "document_no",
+        "revision",
+        "issue_date",
+        "status",
+        "reviewer",
+        "due_date"
+      ]
+    },
+    "expected": {
+      "metadata": {
+        "project": "Cedar Office",
+        "document_no": "MAT-104",
+        "revision": "02",
+        "issue_date": "2026-08-12",
+        "status": "Under review",
+        "reviewer": null,
+        "due_date": "2026-09-13"
+      }
+    },
+    "tags": [
+      "standard_labels"
+    ]
+  },
+  {
+    "id": "P1-MAT-02-class",
+    "task": "classification",
+    "split": "dev",
+    "input": {
+      "document_id": "P1-MAT-02",
+      "omit_title": true,
+      "labels": [
+        "drawing",
+        "rfi",
+        "material_submittal",
+        "method_statement",
+        "inspection_request",
+        "meeting_minutes",
+        "invoice",
+        "transmittal"
+      ]
+    },
+    "expected": {
+      "label": "material_submittal"
+    },
+    "tags": [
+      "body_classification"
+    ]
+  },
+  {
+    "id": "P1-MST-02-status",
+    "task": "qa",
+    "split": "dev",
+    "input": {
+      "question": "For Cedar Office, MST-104 revision 02, what is the review status?",
+      "fields": [
+        "status"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P1-MST-02",
+          "field": "status",
+          "value": "Approved with comments"
+        }
+      ],
+      "relevant_ids": [
+        "P1-MST-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "project_collision",
+      "revision_specific"
+    ]
+  },
+  {
+    "id": "P1-MST-02-detail",
+    "task": "qa",
+    "split": "dev",
+    "input": {
+      "question": "What is the response deadline for Cedar Office MST-104 revision 02?",
+      "fields": [
+        "due_date"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P1-MST-02",
+          "field": "due_date",
+          "value": "2026-09-14"
+        }
+      ],
+      "relevant_ids": [
+        "P1-MST-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "field_alias"
+    ]
+  },
+  {
+    "id": "P1-MST-02-metadata",
+    "task": "metadata",
+    "split": "dev",
+    "input": {
+      "document_id": "P1-MST-02",
+      "fields": [
+        "project",
+        "document_no",
+        "revision",
+        "issue_date",
+        "status",
+        "reviewer",
+        "due_date"
+      ]
+    },
+    "expected": {
+      "metadata": {
+        "project": "Cedar Office",
+        "document_no": "MST-104",
+        "revision": "02",
+        "issue_date": "2026-08-13",
+        "status": "Approved with comments",
+        "reviewer": "Nadia Saleh",
+        "due_date": "2026-09-14"
+      }
+    },
+    "tags": [
+      "variant_labels"
+    ]
+  },
+  {
+    "id": "P1-MST-02-class",
+    "task": "classification",
+    "split": "dev",
+    "input": {
+      "document_id": "P1-MST-02",
+      "omit_title": true,
+      "labels": [
+        "drawing",
+        "rfi",
+        "material_submittal",
+        "method_statement",
+        "inspection_request",
+        "meeting_minutes",
+        "invoice",
+        "transmittal"
+      ]
+    },
+    "expected": {
+      "label": "method_statement"
+    },
+    "tags": [
+      "body_classification"
+    ]
+  },
+  {
+    "id": "P1-IR-02-status",
+    "task": "qa",
+    "split": "dev",
+    "input": {
+      "question": "For Cedar Office, IR-104 revision 02, what is the review status?",
+      "fields": [
+        "status"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P1-IR-02",
+          "field": "status",
+          "value": "Revise and resubmit"
+        }
+      ],
+      "relevant_ids": [
+        "P1-IR-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "project_collision",
+      "revision_specific"
+    ]
+  },
+  {
+    "id": "P1-IR-02-detail",
+    "task": "qa",
+    "split": "dev",
+    "input": {
+      "question": "Who checked Cedar Office IR-104 revision 02?",
+      "fields": [
+        "reviewer"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P1-IR-02",
+          "field": "reviewer",
+          "value": "Nadia Saleh"
+        }
+      ],
+      "relevant_ids": [
+        "P1-IR-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "field_alias"
+    ]
+  },
+  {
+    "id": "P1-IR-02-metadata",
+    "task": "metadata",
+    "split": "dev",
+    "input": {
+      "document_id": "P1-IR-02",
+      "fields": [
+        "project",
+        "document_no",
+        "revision",
+        "issue_date",
+        "status",
+        "reviewer",
+        "due_date"
+      ]
+    },
+    "expected": {
+      "metadata": {
+        "project": "Cedar Office",
+        "document_no": "IR-104",
+        "revision": "02",
+        "issue_date": "2026-08-14",
+        "status": "Revise and resubmit",
+        "reviewer": "Nadia Saleh",
+        "due_date": "2026-09-15"
+      }
+    },
+    "tags": [
+      "standard_labels"
+    ]
+  },
+  {
+    "id": "P1-IR-02-class",
+    "task": "classification",
+    "split": "dev",
+    "input": {
+      "document_id": "P1-IR-02",
+      "omit_title": true,
+      "labels": [
+        "drawing",
+        "rfi",
+        "material_submittal",
+        "method_statement",
+        "inspection_request",
+        "meeting_minutes",
+        "invoice",
+        "transmittal"
+      ]
+    },
+    "expected": {
+      "label": "inspection_request"
+    },
+    "tags": [
+      "body_classification"
+    ]
+  },
+  {
+    "id": "P1-MOM-02-status",
+    "task": "qa",
+    "split": "dev",
+    "input": {
+      "question": "For Cedar Office, MOM-104 revision 02, what is the review status?",
+      "fields": [
+        "status"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P1-MOM-02",
+          "field": "status",
+          "value": "Under review"
+        }
+      ],
+      "relevant_ids": [
+        "P1-MOM-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "project_collision",
+      "revision_specific"
+    ]
+  },
+  {
+    "id": "P1-MOM-02-detail",
+    "task": "qa",
+    "split": "dev",
+    "input": {
+      "question": "What is the response deadline for Cedar Office MOM-104 revision 02?",
+      "fields": [
+        "due_date"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P1-MOM-02",
+          "field": "due_date",
+          "value": "2026-09-16"
+        }
+      ],
+      "relevant_ids": [
+        "P1-MOM-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "field_alias"
+    ]
+  },
+  {
+    "id": "P1-MOM-02-metadata",
+    "task": "metadata",
+    "split": "dev",
+    "input": {
+      "document_id": "P1-MOM-02",
+      "fields": [
+        "project",
+        "document_no",
+        "revision",
+        "issue_date",
+        "status",
+        "reviewer",
+        "due_date"
+      ]
+    },
+    "expected": {
+      "metadata": {
+        "project": "Cedar Office",
+        "document_no": "MOM-104",
+        "revision": "02",
+        "issue_date": "2026-08-15",
+        "status": "Under review",
+        "reviewer": null,
+        "due_date": "2026-09-16"
+      }
+    },
+    "tags": [
+      "variant_labels"
+    ]
+  },
+  {
+    "id": "P1-MOM-02-class",
+    "task": "classification",
+    "split": "dev",
+    "input": {
+      "document_id": "P1-MOM-02",
+      "omit_title": true,
+      "labels": [
+        "drawing",
+        "rfi",
+        "material_submittal",
+        "method_statement",
+        "inspection_request",
+        "meeting_minutes",
+        "invoice",
+        "transmittal"
+      ]
+    },
+    "expected": {
+      "label": "meeting_minutes"
+    },
+    "tags": [
+      "body_classification"
+    ]
+  },
+  {
+    "id": "P1-INV-02-status",
+    "task": "qa",
+    "split": "dev",
+    "input": {
+      "question": "For Cedar Office, INV-104 revision 02, what is the review status?",
+      "fields": [
+        "status"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P1-INV-02",
+          "field": "status",
+          "value": "Approved with comments"
+        }
+      ],
+      "relevant_ids": [
+        "P1-INV-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "project_collision",
+      "revision_specific"
+    ]
+  },
+  {
+    "id": "P1-INV-02-detail",
+    "task": "qa",
+    "split": "dev",
+    "input": {
+      "question": "Who checked Cedar Office INV-104 revision 02?",
+      "fields": [
+        "reviewer"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P1-INV-02",
+          "field": "reviewer",
+          "value": "Nadia Saleh"
+        }
+      ],
+      "relevant_ids": [
+        "P1-INV-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "field_alias"
+    ]
+  },
+  {
+    "id": "P1-INV-02-metadata",
+    "task": "metadata",
+    "split": "dev",
+    "input": {
+      "document_id": "P1-INV-02",
+      "fields": [
+        "project",
+        "document_no",
+        "revision",
+        "issue_date",
+        "status",
+        "reviewer",
+        "due_date"
+      ]
+    },
+    "expected": {
+      "metadata": {
+        "project": "Cedar Office",
+        "document_no": "INV-104",
+        "revision": "02",
+        "issue_date": "2026-08-16",
+        "status": "Approved with comments",
+        "reviewer": "Nadia Saleh",
+        "due_date": null
+      }
+    },
+    "tags": [
+      "standard_labels"
+    ]
+  },
+  {
+    "id": "P1-INV-02-class",
+    "task": "classification",
+    "split": "dev",
+    "input": {
+      "document_id": "P1-INV-02",
+      "omit_title": true,
+      "labels": [
+        "drawing",
+        "rfi",
+        "material_submittal",
+        "method_statement",
+        "inspection_request",
+        "meeting_minutes",
+        "invoice",
+        "transmittal"
+      ]
+    },
+    "expected": {
+      "label": "invoice"
+    },
+    "tags": [
+      "body_classification"
+    ]
+  },
+  {
+    "id": "P1-TRN-02-status",
+    "task": "qa",
+    "split": "dev",
+    "input": {
+      "question": "For Cedar Office, TRN-104 revision 02, what is the review status?",
+      "fields": [
+        "status"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P1-TRN-02",
+          "field": "status",
+          "value": "Revise and resubmit"
+        }
+      ],
+      "relevant_ids": [
+        "P1-TRN-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "project_collision",
+      "revision_specific"
+    ]
+  },
+  {
+    "id": "P1-TRN-02-detail",
+    "task": "qa",
+    "split": "dev",
+    "input": {
+      "question": "What is the response deadline for Cedar Office TRN-104 revision 02?",
+      "fields": [
+        "due_date"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P1-TRN-02",
+          "field": "due_date",
+          "value": "2026-09-18"
+        }
+      ],
+      "relevant_ids": [
+        "P1-TRN-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "field_alias"
+    ]
+  },
+  {
+    "id": "P1-TRN-02-metadata",
+    "task": "metadata",
+    "split": "dev",
+    "input": {
+      "document_id": "P1-TRN-02",
+      "fields": [
+        "project",
+        "document_no",
+        "revision",
+        "issue_date",
+        "status",
+        "reviewer",
+        "due_date"
+      ]
+    },
+    "expected": {
+      "metadata": {
+        "project": "Cedar Office",
+        "document_no": "TRN-104",
+        "revision": "02",
+        "issue_date": "2026-08-17",
+        "status": "Revise and resubmit",
+        "reviewer": "Nadia Saleh",
+        "due_date": "2026-09-18"
+      }
+    },
+    "tags": [
+      "variant_labels"
+    ]
+  },
+  {
+    "id": "P1-TRN-02-class",
+    "task": "classification",
+    "split": "dev",
+    "input": {
+      "document_id": "P1-TRN-02",
+      "omit_title": true,
+      "labels": [
+        "drawing",
+        "rfi",
+        "material_submittal",
+        "method_statement",
+        "inspection_request",
+        "meeting_minutes",
+        "invoice",
+        "transmittal"
+      ]
+    },
+    "expected": {
+      "label": "transmittal"
+    },
+    "tags": [
+      "body_classification"
+    ]
+  },
+  {
+    "id": "P1-unknown-warranty_period",
+    "task": "qa",
+    "split": "dev",
+    "input": {
+      "question": "What warranty period applies to Cedar Office MAT-104 revision 02?",
+      "fields": [
+        "warranty_period"
+      ]
+    },
+    "expected": {
+      "claims": [],
+      "relevant_ids": [
+        "P1-MAT-02"
+      ],
+      "abstain": true
+    },
+    "tags": [
+      "unanswerable"
+    ]
+  },
+  {
+    "id": "P1-unknown-status",
+    "task": "qa",
+    "split": "dev",
+    "input": {
+      "question": "What is the status of Cedar Office RFI-999 revision 02?",
+      "fields": [
+        "status"
+      ]
+    },
+    "expected": {
+      "claims": [],
+      "relevant_ids": [],
+      "abstain": true
+    },
+    "tags": [
+      "unanswerable"
+    ]
+  },
+  {
+    "id": "P1-multi",
+    "task": "qa",
+    "split": "dev",
+    "input": {
+      "question": "Compare the status of Cedar Office DRW-104 revision 01 and revision 02.",
+      "fields": [
+        "status"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P1-DRW-01",
+          "field": "status",
+          "value": "Superseded"
+        },
+        {
+          "doc_id": "P1-DRW-02",
+          "field": "status",
+          "value": "Approved with comments"
+        }
+      ],
+      "relevant_ids": [
+        "P1-DRW-01",
+        "P1-DRW-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "multi_document"
+    ]
+  },
+  {
+    "id": "P2-DRW-02-status",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "For Marina Clinic, DRW-104 revision 02, what is the review status?",
+      "fields": [
+        "status"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P2-DRW-02",
+          "field": "status",
+          "value": "Revise and resubmit"
+        }
+      ],
+      "relevant_ids": [
+        "P2-DRW-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "project_collision",
+      "revision_specific"
+    ]
+  },
+  {
+    "id": "P2-DRW-02-detail",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "Who checked Marina Clinic DRW-104 revision 02?",
+      "fields": [
+        "reviewer"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P2-DRW-02",
+          "field": "reviewer",
+          "value": "Omar Hassan"
+        }
+      ],
+      "relevant_ids": [
+        "P2-DRW-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "field_alias"
+    ]
+  },
+  {
+    "id": "P2-DRW-02-metadata",
+    "task": "metadata",
+    "split": "test",
+    "input": {
+      "document_id": "P2-DRW-02",
+      "fields": [
+        "project",
+        "document_no",
+        "revision",
+        "issue_date",
+        "status",
+        "reviewer",
+        "due_date"
+      ]
+    },
+    "expected": {
+      "metadata": {
+        "project": "Marina Clinic",
+        "document_no": "DRW-104",
+        "revision": "02",
+        "issue_date": "2026-08-10",
+        "status": "Revise and resubmit",
+        "reviewer": "Omar Hassan",
+        "due_date": "2026-09-11"
+      }
+    },
+    "tags": [
+      "standard_labels"
+    ]
+  },
+  {
+    "id": "P2-DRW-02-class",
+    "task": "classification",
+    "split": "test",
+    "input": {
+      "document_id": "P2-DRW-02",
+      "omit_title": true,
+      "labels": [
+        "drawing",
+        "rfi",
+        "material_submittal",
+        "method_statement",
+        "inspection_request",
+        "meeting_minutes",
+        "invoice",
+        "transmittal"
+      ]
+    },
+    "expected": {
+      "label": "drawing"
+    },
+    "tags": [
+      "body_classification"
+    ]
+  },
+  {
+    "id": "P2-RFI-02-status",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "For Marina Clinic, RFI-104 revision 02, what is the review status?",
+      "fields": [
+        "status"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P2-RFI-02",
+          "field": "status",
+          "value": "Under review"
+        }
+      ],
+      "relevant_ids": [
+        "P2-RFI-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "project_collision",
+      "revision_specific"
+    ]
+  },
+  {
+    "id": "P2-RFI-02-detail",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "What is the response deadline for Marina Clinic RFI-104 revision 02?",
+      "fields": [
+        "due_date"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P2-RFI-02",
+          "field": "due_date",
+          "value": "2026-09-12"
+        }
+      ],
+      "relevant_ids": [
+        "P2-RFI-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "field_alias"
+    ]
+  },
+  {
+    "id": "P2-RFI-02-metadata",
+    "task": "metadata",
+    "split": "test",
+    "input": {
+      "document_id": "P2-RFI-02",
+      "fields": [
+        "project",
+        "document_no",
+        "revision",
+        "issue_date",
+        "status",
+        "reviewer",
+        "due_date"
+      ]
+    },
+    "expected": {
+      "metadata": {
+        "project": "Marina Clinic",
+        "document_no": "RFI-104",
+        "revision": "02",
+        "issue_date": "2026-08-11",
+        "status": "Under review",
+        "reviewer": "Omar Hassan",
+        "due_date": "2026-09-12"
+      }
+    },
+    "tags": [
+      "variant_labels"
+    ]
+  },
+  {
+    "id": "P2-RFI-02-class",
+    "task": "classification",
+    "split": "test",
+    "input": {
+      "document_id": "P2-RFI-02",
+      "omit_title": true,
+      "labels": [
+        "drawing",
+        "rfi",
+        "material_submittal",
+        "method_statement",
+        "inspection_request",
+        "meeting_minutes",
+        "invoice",
+        "transmittal"
+      ]
+    },
+    "expected": {
+      "label": "rfi"
+    },
+    "tags": [
+      "body_classification"
+    ]
+  },
+  {
+    "id": "P2-MAT-02-status",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "For Marina Clinic, MAT-104 revision 02, what is the review status?",
+      "fields": [
+        "status"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P2-MAT-02",
+          "field": "status",
+          "value": "Approved with comments"
+        }
+      ],
+      "relevant_ids": [
+        "P2-MAT-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "project_collision",
+      "revision_specific"
+    ]
+  },
+  {
+    "id": "P2-MAT-02-detail",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "Who checked Marina Clinic MAT-104 revision 02?",
+      "fields": [
+        "reviewer"
+      ]
+    },
+    "expected": {
+      "claims": [],
+      "relevant_ids": [
+        "P2-MAT-02"
+      ],
+      "abstain": true
+    },
+    "tags": [
+      "missing_field"
+    ]
+  },
+  {
+    "id": "P2-MAT-02-metadata",
+    "task": "metadata",
+    "split": "test",
+    "input": {
+      "document_id": "P2-MAT-02",
+      "fields": [
+        "project",
+        "document_no",
+        "revision",
+        "issue_date",
+        "status",
+        "reviewer",
+        "due_date"
+      ]
+    },
+    "expected": {
+      "metadata": {
+        "project": "Marina Clinic",
+        "document_no": "MAT-104",
+        "revision": "02",
+        "issue_date": "2026-08-12",
+        "status": "Approved with comments",
+        "reviewer": null,
+        "due_date": "2026-09-13"
+      }
+    },
+    "tags": [
+      "standard_labels"
+    ]
+  },
+  {
+    "id": "P2-MAT-02-class",
+    "task": "classification",
+    "split": "test",
+    "input": {
+      "document_id": "P2-MAT-02",
+      "omit_title": true,
+      "labels": [
+        "drawing",
+        "rfi",
+        "material_submittal",
+        "method_statement",
+        "inspection_request",
+        "meeting_minutes",
+        "invoice",
+        "transmittal"
+      ]
+    },
+    "expected": {
+      "label": "material_submittal"
+    },
+    "tags": [
+      "body_classification"
+    ]
+  },
+  {
+    "id": "P2-MST-02-status",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "For Marina Clinic, MST-104 revision 02, what is the review status?",
+      "fields": [
+        "status"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P2-MST-02",
+          "field": "status",
+          "value": "Revise and resubmit"
+        }
+      ],
+      "relevant_ids": [
+        "P2-MST-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "project_collision",
+      "revision_specific"
+    ]
+  },
+  {
+    "id": "P2-MST-02-detail",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "What is the response deadline for Marina Clinic MST-104 revision 02?",
+      "fields": [
+        "due_date"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P2-MST-02",
+          "field": "due_date",
+          "value": "2026-09-14"
+        }
+      ],
+      "relevant_ids": [
+        "P2-MST-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "field_alias"
+    ]
+  },
+  {
+    "id": "P2-MST-02-metadata",
+    "task": "metadata",
+    "split": "test",
+    "input": {
+      "document_id": "P2-MST-02",
+      "fields": [
+        "project",
+        "document_no",
+        "revision",
+        "issue_date",
+        "status",
+        "reviewer",
+        "due_date"
+      ]
+    },
+    "expected": {
+      "metadata": {
+        "project": "Marina Clinic",
+        "document_no": "MST-104",
+        "revision": "02",
+        "issue_date": "2026-08-13",
+        "status": "Revise and resubmit",
+        "reviewer": "Omar Hassan",
+        "due_date": "2026-09-14"
+      }
+    },
+    "tags": [
+      "variant_labels"
+    ]
+  },
+  {
+    "id": "P2-MST-02-class",
+    "task": "classification",
+    "split": "test",
+    "input": {
+      "document_id": "P2-MST-02",
+      "omit_title": true,
+      "labels": [
+        "drawing",
+        "rfi",
+        "material_submittal",
+        "method_statement",
+        "inspection_request",
+        "meeting_minutes",
+        "invoice",
+        "transmittal"
+      ]
+    },
+    "expected": {
+      "label": "method_statement"
+    },
+    "tags": [
+      "body_classification"
+    ]
+  },
+  {
+    "id": "P2-IR-02-status",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "For Marina Clinic, IR-104 revision 02, what is the review status?",
+      "fields": [
+        "status"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P2-IR-02",
+          "field": "status",
+          "value": "Under review"
+        }
+      ],
+      "relevant_ids": [
+        "P2-IR-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "project_collision",
+      "revision_specific"
+    ]
+  },
+  {
+    "id": "P2-IR-02-detail",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "Who checked Marina Clinic IR-104 revision 02?",
+      "fields": [
+        "reviewer"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P2-IR-02",
+          "field": "reviewer",
+          "value": "Omar Hassan"
+        }
+      ],
+      "relevant_ids": [
+        "P2-IR-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "field_alias"
+    ]
+  },
+  {
+    "id": "P2-IR-02-metadata",
+    "task": "metadata",
+    "split": "test",
+    "input": {
+      "document_id": "P2-IR-02",
+      "fields": [
+        "project",
+        "document_no",
+        "revision",
+        "issue_date",
+        "status",
+        "reviewer",
+        "due_date"
+      ]
+    },
+    "expected": {
+      "metadata": {
+        "project": "Marina Clinic",
+        "document_no": "IR-104",
+        "revision": "02",
+        "issue_date": "2026-08-14",
+        "status": "Under review",
+        "reviewer": "Omar Hassan",
+        "due_date": "2026-09-15"
+      }
+    },
+    "tags": [
+      "standard_labels"
+    ]
+  },
+  {
+    "id": "P2-IR-02-class",
+    "task": "classification",
+    "split": "test",
+    "input": {
+      "document_id": "P2-IR-02",
+      "omit_title": true,
+      "labels": [
+        "drawing",
+        "rfi",
+        "material_submittal",
+        "method_statement",
+        "inspection_request",
+        "meeting_minutes",
+        "invoice",
+        "transmittal"
+      ]
+    },
+    "expected": {
+      "label": "inspection_request"
+    },
+    "tags": [
+      "body_classification"
+    ]
+  },
+  {
+    "id": "P2-MOM-02-status",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "For Marina Clinic, MOM-104 revision 02, what is the review status?",
+      "fields": [
+        "status"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P2-MOM-02",
+          "field": "status",
+          "value": "Approved with comments"
+        }
+      ],
+      "relevant_ids": [
+        "P2-MOM-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "project_collision",
+      "revision_specific"
+    ]
+  },
+  {
+    "id": "P2-MOM-02-detail",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "What is the response deadline for Marina Clinic MOM-104 revision 02?",
+      "fields": [
+        "due_date"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P2-MOM-02",
+          "field": "due_date",
+          "value": "2026-09-16"
+        }
+      ],
+      "relevant_ids": [
+        "P2-MOM-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "field_alias"
+    ]
+  },
+  {
+    "id": "P2-MOM-02-metadata",
+    "task": "metadata",
+    "split": "test",
+    "input": {
+      "document_id": "P2-MOM-02",
+      "fields": [
+        "project",
+        "document_no",
+        "revision",
+        "issue_date",
+        "status",
+        "reviewer",
+        "due_date"
+      ]
+    },
+    "expected": {
+      "metadata": {
+        "project": "Marina Clinic",
+        "document_no": "MOM-104",
+        "revision": "02",
+        "issue_date": "2026-08-15",
+        "status": "Approved with comments",
+        "reviewer": null,
+        "due_date": "2026-09-16"
+      }
+    },
+    "tags": [
+      "variant_labels"
+    ]
+  },
+  {
+    "id": "P2-MOM-02-class",
+    "task": "classification",
+    "split": "test",
+    "input": {
+      "document_id": "P2-MOM-02",
+      "omit_title": true,
+      "labels": [
+        "drawing",
+        "rfi",
+        "material_submittal",
+        "method_statement",
+        "inspection_request",
+        "meeting_minutes",
+        "invoice",
+        "transmittal"
+      ]
+    },
+    "expected": {
+      "label": "meeting_minutes"
+    },
+    "tags": [
+      "body_classification"
+    ]
+  },
+  {
+    "id": "P2-INV-02-status",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "For Marina Clinic, INV-104 revision 02, what is the review status?",
+      "fields": [
+        "status"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P2-INV-02",
+          "field": "status",
+          "value": "Revise and resubmit"
+        }
+      ],
+      "relevant_ids": [
+        "P2-INV-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "project_collision",
+      "revision_specific"
+    ]
+  },
+  {
+    "id": "P2-INV-02-detail",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "Who checked Marina Clinic INV-104 revision 02?",
+      "fields": [
+        "reviewer"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P2-INV-02",
+          "field": "reviewer",
+          "value": "Omar Hassan"
+        }
+      ],
+      "relevant_ids": [
+        "P2-INV-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "field_alias"
+    ]
+  },
+  {
+    "id": "P2-INV-02-metadata",
+    "task": "metadata",
+    "split": "test",
+    "input": {
+      "document_id": "P2-INV-02",
+      "fields": [
+        "project",
+        "document_no",
+        "revision",
+        "issue_date",
+        "status",
+        "reviewer",
+        "due_date"
+      ]
+    },
+    "expected": {
+      "metadata": {
+        "project": "Marina Clinic",
+        "document_no": "INV-104",
+        "revision": "02",
+        "issue_date": "2026-08-16",
+        "status": "Revise and resubmit",
+        "reviewer": "Omar Hassan",
+        "due_date": null
+      }
+    },
+    "tags": [
+      "standard_labels"
+    ]
+  },
+  {
+    "id": "P2-INV-02-class",
+    "task": "classification",
+    "split": "test",
+    "input": {
+      "document_id": "P2-INV-02",
+      "omit_title": true,
+      "labels": [
+        "drawing",
+        "rfi",
+        "material_submittal",
+        "method_statement",
+        "inspection_request",
+        "meeting_minutes",
+        "invoice",
+        "transmittal"
+      ]
+    },
+    "expected": {
+      "label": "invoice"
+    },
+    "tags": [
+      "body_classification"
+    ]
+  },
+  {
+    "id": "P2-TRN-02-status",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "For Marina Clinic, TRN-104 revision 02, what is the review status?",
+      "fields": [
+        "status"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P2-TRN-02",
+          "field": "status",
+          "value": "Under review"
+        }
+      ],
+      "relevant_ids": [
+        "P2-TRN-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "project_collision",
+      "revision_specific"
+    ]
+  },
+  {
+    "id": "P2-TRN-02-detail",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "What is the response deadline for Marina Clinic TRN-104 revision 02?",
+      "fields": [
+        "due_date"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P2-TRN-02",
+          "field": "due_date",
+          "value": "2026-09-18"
+        }
+      ],
+      "relevant_ids": [
+        "P2-TRN-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "field_alias"
+    ]
+  },
+  {
+    "id": "P2-TRN-02-metadata",
+    "task": "metadata",
+    "split": "test",
+    "input": {
+      "document_id": "P2-TRN-02",
+      "fields": [
+        "project",
+        "document_no",
+        "revision",
+        "issue_date",
+        "status",
+        "reviewer",
+        "due_date"
+      ]
+    },
+    "expected": {
+      "metadata": {
+        "project": "Marina Clinic",
+        "document_no": "TRN-104",
+        "revision": "02",
+        "issue_date": "2026-08-17",
+        "status": "Under review",
+        "reviewer": "Omar Hassan",
+        "due_date": "2026-09-18"
+      }
+    },
+    "tags": [
+      "variant_labels"
+    ]
+  },
+  {
+    "id": "P2-TRN-02-class",
+    "task": "classification",
+    "split": "test",
+    "input": {
+      "document_id": "P2-TRN-02",
+      "omit_title": true,
+      "labels": [
+        "drawing",
+        "rfi",
+        "material_submittal",
+        "method_statement",
+        "inspection_request",
+        "meeting_minutes",
+        "invoice",
+        "transmittal"
+      ]
+    },
+    "expected": {
+      "label": "transmittal"
+    },
+    "tags": [
+      "body_classification"
+    ]
+  },
+  {
+    "id": "P2-unknown-warranty_period",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "What warranty period applies to Marina Clinic MAT-104 revision 02?",
+      "fields": [
+        "warranty_period"
+      ]
+    },
+    "expected": {
+      "claims": [],
+      "relevant_ids": [
+        "P2-MAT-02"
+      ],
+      "abstain": true
+    },
+    "tags": [
+      "unanswerable"
+    ]
+  },
+  {
+    "id": "P2-unknown-status",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "What is the status of Marina Clinic RFI-999 revision 02?",
+      "fields": [
+        "status"
+      ]
+    },
+    "expected": {
+      "claims": [],
+      "relevant_ids": [],
+      "abstain": true
+    },
+    "tags": [
+      "unanswerable"
+    ]
+  },
+  {
+    "id": "P2-multi",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "Compare the status of Marina Clinic DRW-104 revision 01 and revision 02.",
+      "fields": [
+        "status"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P2-DRW-01",
+          "field": "status",
+          "value": "Superseded"
+        },
+        {
+          "doc_id": "P2-DRW-02",
+          "field": "status",
+          "value": "Revise and resubmit"
+        }
+      ],
+      "relevant_ids": [
+        "P2-DRW-01",
+        "P2-DRW-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "multi_document"
+    ]
+  },
+  {
+    "id": "P3-DRW-02-status",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "For Oasis School, DRW-104 revision 02, what is the review status?",
+      "fields": [
+        "status"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P3-DRW-02",
+          "field": "status",
+          "value": "Under review"
+        }
+      ],
+      "relevant_ids": [
+        "P3-DRW-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "project_collision",
+      "revision_specific"
+    ]
+  },
+  {
+    "id": "P3-DRW-02-detail",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "Who checked Oasis School DRW-104 revision 02?",
+      "fields": [
+        "reviewer"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P3-DRW-02",
+          "field": "reviewer",
+          "value": "Leila Mansour"
+        }
+      ],
+      "relevant_ids": [
+        "P3-DRW-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "field_alias"
+    ]
+  },
+  {
+    "id": "P3-DRW-02-metadata",
+    "task": "metadata",
+    "split": "test",
+    "input": {
+      "document_id": "P3-DRW-02",
+      "fields": [
+        "project",
+        "document_no",
+        "revision",
+        "issue_date",
+        "status",
+        "reviewer",
+        "due_date"
+      ]
+    },
+    "expected": {
+      "metadata": {
+        "project": "Oasis School",
+        "document_no": "DRW-104",
+        "revision": "02",
+        "issue_date": "2026-08-10",
+        "status": "Under review",
+        "reviewer": "Leila Mansour",
+        "due_date": "2026-09-11"
+      }
+    },
+    "tags": [
+      "standard_labels"
+    ]
+  },
+  {
+    "id": "P3-DRW-02-class",
+    "task": "classification",
+    "split": "test",
+    "input": {
+      "document_id": "P3-DRW-02",
+      "omit_title": true,
+      "labels": [
+        "drawing",
+        "rfi",
+        "material_submittal",
+        "method_statement",
+        "inspection_request",
+        "meeting_minutes",
+        "invoice",
+        "transmittal"
+      ]
+    },
+    "expected": {
+      "label": "drawing"
+    },
+    "tags": [
+      "body_classification"
+    ]
+  },
+  {
+    "id": "P3-RFI-02-status",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "For Oasis School, RFI-104 revision 02, what is the review status?",
+      "fields": [
+        "status"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P3-RFI-02",
+          "field": "status",
+          "value": "Approved with comments"
+        }
+      ],
+      "relevant_ids": [
+        "P3-RFI-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "project_collision",
+      "revision_specific"
+    ]
+  },
+  {
+    "id": "P3-RFI-02-detail",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "What is the response deadline for Oasis School RFI-104 revision 02?",
+      "fields": [
+        "due_date"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P3-RFI-02",
+          "field": "due_date",
+          "value": "2026-09-12"
+        }
+      ],
+      "relevant_ids": [
+        "P3-RFI-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "field_alias"
+    ]
+  },
+  {
+    "id": "P3-RFI-02-metadata",
+    "task": "metadata",
+    "split": "test",
+    "input": {
+      "document_id": "P3-RFI-02",
+      "fields": [
+        "project",
+        "document_no",
+        "revision",
+        "issue_date",
+        "status",
+        "reviewer",
+        "due_date"
+      ]
+    },
+    "expected": {
+      "metadata": {
+        "project": "Oasis School",
+        "document_no": "RFI-104",
+        "revision": "02",
+        "issue_date": "2026-08-11",
+        "status": "Approved with comments",
+        "reviewer": "Leila Mansour",
+        "due_date": "2026-09-12"
+      }
+    },
+    "tags": [
+      "variant_labels"
+    ]
+  },
+  {
+    "id": "P3-RFI-02-class",
+    "task": "classification",
+    "split": "test",
+    "input": {
+      "document_id": "P3-RFI-02",
+      "omit_title": true,
+      "labels": [
+        "drawing",
+        "rfi",
+        "material_submittal",
+        "method_statement",
+        "inspection_request",
+        "meeting_minutes",
+        "invoice",
+        "transmittal"
+      ]
+    },
+    "expected": {
+      "label": "rfi"
+    },
+    "tags": [
+      "body_classification"
+    ]
+  },
+  {
+    "id": "P3-MAT-02-status",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "For Oasis School, MAT-104 revision 02, what is the review status?",
+      "fields": [
+        "status"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P3-MAT-02",
+          "field": "status",
+          "value": "Revise and resubmit"
+        }
+      ],
+      "relevant_ids": [
+        "P3-MAT-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "project_collision",
+      "revision_specific"
+    ]
+  },
+  {
+    "id": "P3-MAT-02-detail",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "Who checked Oasis School MAT-104 revision 02?",
+      "fields": [
+        "reviewer"
+      ]
+    },
+    "expected": {
+      "claims": [],
+      "relevant_ids": [
+        "P3-MAT-02"
+      ],
+      "abstain": true
+    },
+    "tags": [
+      "missing_field"
+    ]
+  },
+  {
+    "id": "P3-MAT-02-metadata",
+    "task": "metadata",
+    "split": "test",
+    "input": {
+      "document_id": "P3-MAT-02",
+      "fields": [
+        "project",
+        "document_no",
+        "revision",
+        "issue_date",
+        "status",
+        "reviewer",
+        "due_date"
+      ]
+    },
+    "expected": {
+      "metadata": {
+        "project": "Oasis School",
+        "document_no": "MAT-104",
+        "revision": "02",
+        "issue_date": "2026-08-12",
+        "status": "Revise and resubmit",
+        "reviewer": null,
+        "due_date": "2026-09-13"
+      }
+    },
+    "tags": [
+      "standard_labels"
+    ]
+  },
+  {
+    "id": "P3-MAT-02-class",
+    "task": "classification",
+    "split": "test",
+    "input": {
+      "document_id": "P3-MAT-02",
+      "omit_title": true,
+      "labels": [
+        "drawing",
+        "rfi",
+        "material_submittal",
+        "method_statement",
+        "inspection_request",
+        "meeting_minutes",
+        "invoice",
+        "transmittal"
+      ]
+    },
+    "expected": {
+      "label": "material_submittal"
+    },
+    "tags": [
+      "body_classification"
+    ]
+  },
+  {
+    "id": "P3-MST-02-status",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "For Oasis School, MST-104 revision 02, what is the review status?",
+      "fields": [
+        "status"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P3-MST-02",
+          "field": "status",
+          "value": "Under review"
+        }
+      ],
+      "relevant_ids": [
+        "P3-MST-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "project_collision",
+      "revision_specific"
+    ]
+  },
+  {
+    "id": "P3-MST-02-detail",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "What is the response deadline for Oasis School MST-104 revision 02?",
+      "fields": [
+        "due_date"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P3-MST-02",
+          "field": "due_date",
+          "value": "2026-09-14"
+        }
+      ],
+      "relevant_ids": [
+        "P3-MST-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "field_alias"
+    ]
+  },
+  {
+    "id": "P3-MST-02-metadata",
+    "task": "metadata",
+    "split": "test",
+    "input": {
+      "document_id": "P3-MST-02",
+      "fields": [
+        "project",
+        "document_no",
+        "revision",
+        "issue_date",
+        "status",
+        "reviewer",
+        "due_date"
+      ]
+    },
+    "expected": {
+      "metadata": {
+        "project": "Oasis School",
+        "document_no": "MST-104",
+        "revision": "02",
+        "issue_date": "2026-08-13",
+        "status": "Under review",
+        "reviewer": "Leila Mansour",
+        "due_date": "2026-09-14"
+      }
+    },
+    "tags": [
+      "variant_labels"
+    ]
+  },
+  {
+    "id": "P3-MST-02-class",
+    "task": "classification",
+    "split": "test",
+    "input": {
+      "document_id": "P3-MST-02",
+      "omit_title": true,
+      "labels": [
+        "drawing",
+        "rfi",
+        "material_submittal",
+        "method_statement",
+        "inspection_request",
+        "meeting_minutes",
+        "invoice",
+        "transmittal"
+      ]
+    },
+    "expected": {
+      "label": "method_statement"
+    },
+    "tags": [
+      "body_classification"
+    ]
+  },
+  {
+    "id": "P3-IR-02-status",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "For Oasis School, IR-104 revision 02, what is the review status?",
+      "fields": [
+        "status"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P3-IR-02",
+          "field": "status",
+          "value": "Approved with comments"
+        }
+      ],
+      "relevant_ids": [
+        "P3-IR-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "project_collision",
+      "revision_specific"
+    ]
+  },
+  {
+    "id": "P3-IR-02-detail",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "Who checked Oasis School IR-104 revision 02?",
+      "fields": [
+        "reviewer"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P3-IR-02",
+          "field": "reviewer",
+          "value": "Leila Mansour"
+        }
+      ],
+      "relevant_ids": [
+        "P3-IR-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "field_alias"
+    ]
+  },
+  {
+    "id": "P3-IR-02-metadata",
+    "task": "metadata",
+    "split": "test",
+    "input": {
+      "document_id": "P3-IR-02",
+      "fields": [
+        "project",
+        "document_no",
+        "revision",
+        "issue_date",
+        "status",
+        "reviewer",
+        "due_date"
+      ]
+    },
+    "expected": {
+      "metadata": {
+        "project": "Oasis School",
+        "document_no": "IR-104",
+        "revision": "02",
+        "issue_date": "2026-08-14",
+        "status": "Approved with comments",
+        "reviewer": "Leila Mansour",
+        "due_date": "2026-09-15"
+      }
+    },
+    "tags": [
+      "standard_labels"
+    ]
+  },
+  {
+    "id": "P3-IR-02-class",
+    "task": "classification",
+    "split": "test",
+    "input": {
+      "document_id": "P3-IR-02",
+      "omit_title": true,
+      "labels": [
+        "drawing",
+        "rfi",
+        "material_submittal",
+        "method_statement",
+        "inspection_request",
+        "meeting_minutes",
+        "invoice",
+        "transmittal"
+      ]
+    },
+    "expected": {
+      "label": "inspection_request"
+    },
+    "tags": [
+      "body_classification"
+    ]
+  },
+  {
+    "id": "P3-MOM-02-status",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "For Oasis School, MOM-104 revision 02, what is the review status?",
+      "fields": [
+        "status"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P3-MOM-02",
+          "field": "status",
+          "value": "Revise and resubmit"
+        }
+      ],
+      "relevant_ids": [
+        "P3-MOM-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "project_collision",
+      "revision_specific"
+    ]
+  },
+  {
+    "id": "P3-MOM-02-detail",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "What is the response deadline for Oasis School MOM-104 revision 02?",
+      "fields": [
+        "due_date"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P3-MOM-02",
+          "field": "due_date",
+          "value": "2026-09-16"
+        }
+      ],
+      "relevant_ids": [
+        "P3-MOM-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "field_alias"
+    ]
+  },
+  {
+    "id": "P3-MOM-02-metadata",
+    "task": "metadata",
+    "split": "test",
+    "input": {
+      "document_id": "P3-MOM-02",
+      "fields": [
+        "project",
+        "document_no",
+        "revision",
+        "issue_date",
+        "status",
+        "reviewer",
+        "due_date"
+      ]
+    },
+    "expected": {
+      "metadata": {
+        "project": "Oasis School",
+        "document_no": "MOM-104",
+        "revision": "02",
+        "issue_date": "2026-08-15",
+        "status": "Revise and resubmit",
+        "reviewer": null,
+        "due_date": "2026-09-16"
+      }
+    },
+    "tags": [
+      "variant_labels"
+    ]
+  },
+  {
+    "id": "P3-MOM-02-class",
+    "task": "classification",
+    "split": "test",
+    "input": {
+      "document_id": "P3-MOM-02",
+      "omit_title": true,
+      "labels": [
+        "drawing",
+        "rfi",
+        "material_submittal",
+        "method_statement",
+        "inspection_request",
+        "meeting_minutes",
+        "invoice",
+        "transmittal"
+      ]
+    },
+    "expected": {
+      "label": "meeting_minutes"
+    },
+    "tags": [
+      "body_classification"
+    ]
+  },
+  {
+    "id": "P3-INV-02-status",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "For Oasis School, INV-104 revision 02, what is the review status?",
+      "fields": [
+        "status"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P3-INV-02",
+          "field": "status",
+          "value": "Under review"
+        }
+      ],
+      "relevant_ids": [
+        "P3-INV-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "project_collision",
+      "revision_specific"
+    ]
+  },
+  {
+    "id": "P3-INV-02-detail",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "Who checked Oasis School INV-104 revision 02?",
+      "fields": [
+        "reviewer"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P3-INV-02",
+          "field": "reviewer",
+          "value": "Leila Mansour"
+        }
+      ],
+      "relevant_ids": [
+        "P3-INV-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "field_alias"
+    ]
+  },
+  {
+    "id": "P3-INV-02-metadata",
+    "task": "metadata",
+    "split": "test",
+    "input": {
+      "document_id": "P3-INV-02",
+      "fields": [
+        "project",
+        "document_no",
+        "revision",
+        "issue_date",
+        "status",
+        "reviewer",
+        "due_date"
+      ]
+    },
+    "expected": {
+      "metadata": {
+        "project": "Oasis School",
+        "document_no": "INV-104",
+        "revision": "02",
+        "issue_date": "2026-08-16",
+        "status": "Under review",
+        "reviewer": "Leila Mansour",
+        "due_date": null
+      }
+    },
+    "tags": [
+      "standard_labels"
+    ]
+  },
+  {
+    "id": "P3-INV-02-class",
+    "task": "classification",
+    "split": "test",
+    "input": {
+      "document_id": "P3-INV-02",
+      "omit_title": true,
+      "labels": [
+        "drawing",
+        "rfi",
+        "material_submittal",
+        "method_statement",
+        "inspection_request",
+        "meeting_minutes",
+        "invoice",
+        "transmittal"
+      ]
+    },
+    "expected": {
+      "label": "invoice"
+    },
+    "tags": [
+      "body_classification"
+    ]
+  },
+  {
+    "id": "P3-TRN-02-status",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "For Oasis School, TRN-104 revision 02, what is the review status?",
+      "fields": [
+        "status"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P3-TRN-02",
+          "field": "status",
+          "value": "Approved with comments"
+        }
+      ],
+      "relevant_ids": [
+        "P3-TRN-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "project_collision",
+      "revision_specific"
+    ]
+  },
+  {
+    "id": "P3-TRN-02-detail",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "What is the response deadline for Oasis School TRN-104 revision 02?",
+      "fields": [
+        "due_date"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P3-TRN-02",
+          "field": "due_date",
+          "value": "2026-09-18"
+        }
+      ],
+      "relevant_ids": [
+        "P3-TRN-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "field_alias"
+    ]
+  },
+  {
+    "id": "P3-TRN-02-metadata",
+    "task": "metadata",
+    "split": "test",
+    "input": {
+      "document_id": "P3-TRN-02",
+      "fields": [
+        "project",
+        "document_no",
+        "revision",
+        "issue_date",
+        "status",
+        "reviewer",
+        "due_date"
+      ]
+    },
+    "expected": {
+      "metadata": {
+        "project": "Oasis School",
+        "document_no": "TRN-104",
+        "revision": "02",
+        "issue_date": "2026-08-17",
+        "status": "Approved with comments",
+        "reviewer": "Leila Mansour",
+        "due_date": "2026-09-18"
+      }
+    },
+    "tags": [
+      "variant_labels"
+    ]
+  },
+  {
+    "id": "P3-TRN-02-class",
+    "task": "classification",
+    "split": "test",
+    "input": {
+      "document_id": "P3-TRN-02",
+      "omit_title": true,
+      "labels": [
+        "drawing",
+        "rfi",
+        "material_submittal",
+        "method_statement",
+        "inspection_request",
+        "meeting_minutes",
+        "invoice",
+        "transmittal"
+      ]
+    },
+    "expected": {
+      "label": "transmittal"
+    },
+    "tags": [
+      "body_classification"
+    ]
+  },
+  {
+    "id": "P3-unknown-warranty_period",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "What warranty period applies to Oasis School MAT-104 revision 02?",
+      "fields": [
+        "warranty_period"
+      ]
+    },
+    "expected": {
+      "claims": [],
+      "relevant_ids": [
+        "P3-MAT-02"
+      ],
+      "abstain": true
+    },
+    "tags": [
+      "unanswerable"
+    ]
+  },
+  {
+    "id": "P3-unknown-status",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "What is the status of Oasis School RFI-999 revision 02?",
+      "fields": [
+        "status"
+      ]
+    },
+    "expected": {
+      "claims": [],
+      "relevant_ids": [],
+      "abstain": true
+    },
+    "tags": [
+      "unanswerable"
+    ]
+  },
+  {
+    "id": "P3-multi",
+    "task": "qa",
+    "split": "test",
+    "input": {
+      "question": "Compare the status of Oasis School DRW-104 revision 01 and revision 02.",
+      "fields": [
+        "status"
+      ]
+    },
+    "expected": {
+      "claims": [
+        {
+          "doc_id": "P3-DRW-01",
+          "field": "status",
+          "value": "Superseded"
+        },
+        {
+          "doc_id": "P3-DRW-02",
+          "field": "status",
+          "value": "Under review"
+        }
+      ],
+      "relevant_ids": [
+        "P3-DRW-01",
+        "P3-DRW-02"
+      ],
+      "abstain": false
+    },
+    "tags": [
+      "multi_document"
+    ]
+  }
+]

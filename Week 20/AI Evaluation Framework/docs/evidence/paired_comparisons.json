@@ -1,0 +1,32 @@
+{
+  "retrieval_only": {
+    "metric": "task_success",
+    "delta": 0.0,
+    "ci95": [
+      0.0,
+      0.0
+    ],
+    "pairs": 70,
+    "method": "paired case bootstrap; synthetic/template-correlated cases, exploratory only"
+  },
+  "policy_only": {
+    "metric": "task_success",
+    "delta": 0.34285714285714286,
+    "ci95": [
+      0.22857142857142856,
+      0.45714285714285713
+    ],
+    "pairs": 70,
+    "method": "paired case bootstrap; synthetic/template-correlated cases, exploratory only"
+  },
+  "candidate": {
+    "metric": "task_success",
+    "delta": 0.34285714285714286,
+    "ci95": [
+      0.22857142857142856,
+      0.45714285714285713
+    ],
+    "pairs": 70,
+    "method": "paired case bootstrap; synthetic/template-correlated cases, exploratory only"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "http_status": 200,
+  "served_html_matches_report": true,
+  "packaged_code_matches_run_hash": true,
+  "packaged_dataset_matches_run_hash": true,
+  "dashboard_javascript": {
+    "test_double": "minimal DOM; not a browser",
+    "metric_rows": 23,
+    "history_runs": 5,
+    "qa_filter_cases": 38,
+    "source_details": true,
+    "csv_handler": true
+  },
+  "browser_rendering_verified": false,
+  "live_api_verified": false,
+  "archive_integrity": true,
+  "isolated_extraction_validation": true,
+  "isolated_demo_five_cases_per_configuration": true,
+  "archive_file_count": 61
+}

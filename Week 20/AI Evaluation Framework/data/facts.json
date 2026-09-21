@@ -1,0 +1,1112 @@
+{
+  "P1-DRW-02": {
+    "project": {
+      "value": "Cedar Office",
+      "quote": "Project name: Cedar Office",
+      "aliases": []
+    },
+    "document_no": {
+      "value": "DRW-104",
+      "quote": "Document number: DRW-104",
+      "aliases": []
+    },
+    "revision": {
+      "value": "02",
+      "quote": "Revision: 02",
+      "aliases": []
+    },
+    "issue_date": {
+      "value": "2026-08-10",
+      "quote": "Issue date: 2026-08-10",
+      "aliases": []
+    },
+    "status": {
+      "value": "Approved with comments",
+      "quote": "Review status: Approved with comments",
+      "aliases": []
+    },
+    "reviewer": {
+      "value": "Nadia Saleh",
+      "quote": "Reviewer: Nadia Saleh",
+      "aliases": []
+    },
+    "due_date": {
+      "value": "2026-09-11",
+      "quote": "Due date: 2026-09-11",
+      "aliases": []
+    }
+  },
+  "P1-RFI-02": {
+    "project": {
+      "value": "Cedar Office",
+      "quote": "Project: Cedar Office",
+      "aliases": []
+    },
+    "document_no": {
+      "value": "RFI-104",
+      "quote": "Reference: RFI-104",
+      "aliases": []
+    },
+    "revision": {
+      "value": "02",
+      "quote": "Rev: 02",
+      "aliases": []
+    },
+    "issue_date": {
+      "value": "2026-08-11",
+      "quote": "Issued on: 2026-08-11",
+      "aliases": []
+    },
+    "status": {
+      "value": "Revise and resubmit",
+      "quote": "Disposition: Revise and resubmit",
+      "aliases": []
+    },
+    "reviewer": {
+      "value": "Nadia Saleh",
+      "quote": "Checked by: Nadia Saleh",
+      "aliases": []
+    },
+    "due_date": {
+      "value": "2026-09-12",
+      "quote": "Response deadline: 2026-09-12",
+      "aliases": []
+    }
+  },
+  "P1-MAT-02": {
+    "project": {
+      "value": "Cedar Office",
+      "quote": "Project name: Cedar Office",
+      "aliases": []
+    },
+    "document_no": {
+      "value": "MAT-104",
+      "quote": "Document number: MAT-104",
+      "aliases": []
+    },
+    "revision": {
+      "value": "02",
+      "quote": "Revision: 02",
+      "aliases": []
+    },
+    "issue_date": {
+      "value": "2026-08-12",
+      "quote": "Issue date: 2026-08-12",
+      "aliases": []
+    },
+    "status": {
+      "value": "Under review",
+      "quote": "Review status: Under review",
+      "aliases": []
+    },
+    "reviewer": {
+      "value": null,
+      "quote": "",
+      "aliases": []
+    },
+    "due_date": {
+      "value": "2026-09-13",
+      "quote": "Due date: 2026-09-13",
+      "aliases": []
+    }
+  },
+  "P1-MST-02": {
+    "project": {
+      "value": "Cedar Office",
+      "quote": "Project: Cedar Office",
+      "aliases": []
+    },
+    "document_no": {
+      "value": "MST-104",
+      "quote": "Reference: MST-104",
+      "aliases": []
+    },
+    "revision": {
+      "value": "02",
+      "quote": "Rev: 02",
+      "aliases": []
+    },
+    "issue_date": {
+      "value": "2026-08-13",
+      "quote": "Issued on: 2026-08-13",
+      "aliases": []
+    },
+    "status": {
+      "value": "Approved with comments",
+      "quote": "Disposition: Approved with comments",
+      "aliases": []
+    },
+    "reviewer": {
+      "value": "Nadia Saleh",
+      "quote": "Checked by: Nadia Saleh",
+      "aliases": []
+    },
+    "due_date": {
+      "value": "2026-09-14",
+      "quote": "Response deadline: 2026-09-14",
+      "aliases": []
+    }
+  },
+  "P1-IR-02": {
+    "project": {
+      "value": "Cedar Office",
+      "quote": "Project name: Cedar Office",
+      "aliases": []
+    },
+    "document_no": {
+      "value": "IR-104",
+      "quote": "Document number: IR-104",
+      "aliases": []
+    },
+    "revision": {
+      "value": "02",
+      "quote": "Revision: 02",
+      "aliases": []
+    },
+    "issue_date": {
+      "value": "2026-08-14",
+      "quote": "Issue date: 2026-08-14",
+      "aliases": []
+    },
+    "status": {
+      "value": "Revise and resubmit",
+      "quote": "Review status: Revise and resubmit",
+      "aliases": []
+    },
+    "reviewer": {
+      "value": "Nadia Saleh",
+      "quote": "Reviewer: Nadia Saleh",
+      "aliases": []
+    },
+    "due_date": {
+      "value": "2026-09-15",
+      "quote": "Due date: 2026-09-15",
+      "aliases": []
+    }
+  },
+  "P1-MOM-02": {
+    "project": {
+      "value": "Cedar Office",
+      "quote": "Project: Cedar Office",
+      "aliases": []
+    },
+    "document_no": {
+      "value": "MOM-104",
+      "quote": "Reference: MOM-104",
+      "aliases": []
+    },
+    "revision": {
+      "value": "02",
+      "quote": "Rev: 02",
+      "aliases": []
+    },
+    "issue_date": {
+      "value": "2026-08-15",
+      "quote": "Issued on: 2026-08-15",
+      "aliases": []
+    },
+    "status": {
+      "value": "Under review",
+      "quote": "Disposition: Under review",
+      "aliases": []
+    },
+    "reviewer": {
+      "value": null,
+      "quote": "",
+      "aliases": []
+    },
+    "due_date": {
+      "value": "2026-09-16",
+      "quote": "Response deadline: 2026-09-16",
+      "aliases": []
+    }
+  },
+  "P1-INV-02": {
+    "project": {
+      "value": "Cedar Office",
+      "quote": "Project name: Cedar Office",
+      "aliases": []
+    },
+    "document_no": {
+      "value": "INV-104",
+      "quote": "Document number: INV-104",
+      "aliases": []
+    },
+    "revision": {
+      "value": "02",
+      "quote": "Revision: 02",
+      "aliases": []
+    },
+    "issue_date": {
+      "value": "2026-08-16",
+      "quote": "Issue date: 2026-08-16",
+      "aliases": []
+    },
+    "status": {
+      "value": "Approved with comments",
+      "quote": "Review status: Approved with comments",
+      "aliases": []
+    },
+    "reviewer": {
+      "value": "Nadia Saleh",
+      "quote": "Reviewer: Nadia Saleh",
+      "aliases": []
+    },
+    "due_date": {
+      "value": null,
+      "quote": "",
+      "aliases": []
+    }
+  },
+  "P1-TRN-02": {
+    "project": {
+      "value": "Cedar Office",
+      "quote": "Project: Cedar Office",
+      "aliases": []
+    },
+    "document_no": {
+      "value": "TRN-104",
+      "quote": "Reference: TRN-104",
+      "aliases": []
+    },
+    "revision": {
+      "value": "02",
+      "quote": "Rev: 02",
+      "aliases": []
+    },
+    "issue_date": {
+      "value": "2026-08-17",
+      "quote": "Issued on: 2026-08-17",
+      "aliases": []
+    },
+    "status": {
+      "value": "Revise and resubmit",
+      "quote": "Disposition: Revise and resubmit",
+      "aliases": []
+    },
+    "reviewer": {
+      "value": "Nadia Saleh",
+      "quote": "Checked by: Nadia Saleh",
+      "aliases": []
+    },
+    "due_date": {
+      "value": "2026-09-18",
+      "quote": "Response deadline: 2026-09-18",
+      "aliases": []
+    }
+  },
+  "P1-DRW-01": {
+    "project": {
+      "value": "Cedar Office",
+      "quote": "Project name: Cedar Office",
+      "aliases": []
+    },
+    "document_no": {
+      "value": "DRW-104",
+      "quote": "Document number: DRW-104",
+      "aliases": []
+    },
+    "revision": {
+      "value": "01",
+      "quote": "Revision: 01",
+      "aliases": []
+    },
+    "issue_date": {
+      "value": "2026-07-05",
+      "quote": "Issue date: 2026-07-05",
+      "aliases": []
+    },
+    "status": {
+      "value": "Superseded",
+      "quote": "Review status: Superseded",
+      "aliases": []
+    },
+    "reviewer": {
+      "value": "Rami Adel",
+      "quote": "Reviewer: Rami Adel",
+      "aliases": []
+    },
+    "due_date": {
+      "value": "2026-07-15",
+      "quote": "Due date: 2026-07-15",
+      "aliases": []
+    }
+  },
+  "P1-DRW-140": {
+    "project": {
+      "value": "Cedar Office",
+      "quote": "Project name: Cedar Office",
+      "aliases": []
+    },
+    "document_no": {
+      "value": "DRW-140",
+      "quote": "Document number: DRW-140",
+      "aliases": []
+    },
+    "revision": {
+      "value": "02",
+      "quote": "Revision: 02",
+      "aliases": []
+    },
+    "issue_date": {
+      "value": "2026-07-05",
+      "quote": "Issue date: 2026-07-05",
+      "aliases": []
+    },
+    "status": {
+      "value": "Rejected",
+      "quote": "Review status: Rejected",
+      "aliases": []
+    },
+    "reviewer": {
+      "value": "Rami Adel",
+      "quote": "Reviewer: Rami Adel",
+      "aliases": []
+    },
+    "due_date": {
+      "value": "2026-07-15",
+      "quote": "Due date: 2026-07-15",
+      "aliases": []
+    }
+  },
+  "P2-DRW-02": {
+    "project": {
+      "value": "Marina Clinic",
+      "quote": "Project name: Marina Clinic",
+      "aliases": []
+    },
+    "document_no": {
+      "value": "DRW-104",
+      "quote": "Document number: DRW-104",
+      "aliases": []
+    },
+    "revision": {
+      "value": "02",
+      "quote": "Revision: 02",
+      "aliases": []
+    },
+    "issue_date": {
+      "value": "2026-08-10",
+      "quote": "Issue date: 2026-08-10",
+      "aliases": []
+    },
+    "status": {
+      "value": "Revise and resubmit",
+      "quote": "Review status: Revise and resubmit",
+      "aliases": []
+    },
+    "reviewer": {
+      "value": "Omar Hassan",
+      "quote": "Reviewer: Omar Hassan",
+      "aliases": []
+    },
+    "due_date": {
+      "value": "2026-09-11",
+      "quote": "Due date: 2026-09-11",
+      "aliases": []
+    }
+  },
+  "P2-RFI-02": {
+    "project": {
+      "value": "Marina Clinic",
+      "quote": "Project: Marina Clinic",
+      "aliases": []
+    },
+    "document_no": {
+      "value": "RFI-104",
+      "quote": "Reference: RFI-104",
+      "aliases": []
+    },
+    "revision": {
+      "value": "02",
+      "quote": "Rev: 02",
+      "aliases": []
+    },
+    "issue_date": {
+      "value": "2026-08-11",
+      "quote": "Issued on: 2026-08-11",
+      "aliases": []
+    },
+    "status": {
+      "value": "Under review",
+      "quote": "Disposition: Under review",
+      "aliases": []
+    },
+    "reviewer": {
+      "value": "Omar Hassan",
+      "quote": "Checked by: Omar Hassan",
+      "aliases": []
+    },
+    "due_date": {
+      "value": "2026-09-12",
+      "quote": "Response deadline: 2026-09-12",
+      "aliases": []
+    }
+  },
+  "P2-MAT-02": {
+    "project": {
+      "value": "Marina Clinic",
+      "quote": "Project name: Marina Clinic",
+      "aliases": []
+    },
+    "document_no": {
+      "value": "MAT-104",
+      "quote": "Document number: MAT-104",
+      "aliases": []
+    },
+    "revision": {
+      "value": "02",
+      "quote": "Revision: 02",
+      "aliases": []
+    },
+    "issue_date": {
+      "value": "2026-08-12",
+      "quote": "Issue date: 2026-08-12",
+      "aliases": []
+    },
+    "status": {
+      "value": "Approved with comments",
+      "quote": "Review status: Approved with comments",
+      "aliases": []
+    },
+    "reviewer": {
+      "value": null,
+      "quote": "",
+      "aliases": []
+    },
+    "due_date": {
+      "value": "2026-09-13",
+      "quote": "Due date: 2026-09-13",
+      "aliases": []
+    }
+  },
+  "P2-MST-02": {
+    "project": {
+      "value": "Marina Clinic",
+      "quote": "Project: Marina Clinic",
+      "aliases": []
+    },
+    "document_no": {
+      "value": "MST-104",
+      "quote": "Reference: MST-104",
+      "aliases": []
+    },
+    "revision": {
+      "value": "02",
+      "quote": "Rev: 02",
+      "aliases": []
+    },
+    "issue_date": {
+      "value": "2026-08-13",
+      "quote": "Issued on: 2026-08-13",
+      "aliases": []
+    },
+    "status": {
+      "value": "Revise and resubmit",
+      "quote": "Disposition: Revise and resubmit",
+      "aliases": []
+    },
+    "reviewer": {
+      "value": "Omar Hassan",
+      "quote": "Checked by: Omar Hassan",
+      "aliases": []
+    },
+    "due_date": {
+      "value": "2026-09-14",
+      "quote": "Response deadline: 2026-09-14",
+      "aliases": []
+    }
+  },
+  "P2-IR-02": {
+    "project": {
+      "value": "Marina Clinic",
+      "quote": "Project name: Marina Clinic",
+      "aliases": []
+    },
+    "document_no": {
+      "value": "IR-104",
+      "quote": "Document number: IR-104",
+      "aliases": []
+    },
+    "revision": {
+      "value": "02",
+      "quote": "Revision: 02",
+      "aliases": []
+    },
+    "issue_date": {
+      "value": "2026-08-14",
+      "quote": "Issue date: 2026-08-14",
+      "aliases": []
+    },
+    "status": {
+      "value": "Under review",
+      "quote": "Review status: Under review",
+      "aliases": []
+    },
+    "reviewer": {
+      "value": "Omar Hassan",
+      "quote": "Reviewer: Omar Hassan",
+      "aliases": []
+    },
+    "due_date": {
+      "value": "2026-09-15",
+      "quote": "Due date: 2026-09-15",
+      "aliases": []
+    }
+  },
+  "P2-MOM-02": {
+    "project": {
+      "value": "Marina Clinic",
+      "quote": "Project: Marina Clinic",
+      "aliases": []
+    },
+    "document_no": {
+      "value": "MOM-104",
+      "quote": "Reference: MOM-104",
+      "aliases": []
+    },
+    "revision": {
+      "value": "02",
+      "quote": "Rev: 02",
+      "aliases": []
+    },
+    "issue_date": {
+      "value": "2026-08-15",
+      "quote": "Issued on: 2026-08-15",
+      "aliases": []
+    },
+    "status": {
+      "value": "Approved with comments",
+      "quote": "Disposition: Approved with comments",
+      "aliases": []
+    },
+    "reviewer": {
+      "value": null,
+      "quote": "",
+      "aliases": []
+    },
+    "due_date": {
+      "value": "2026-09-16",
+      "quote": "Response deadline: 2026-09-16",
+      "aliases": []
+    }
+  },
+  "P2-INV-02": {
+    "project": {
+      "value": "Marina Clinic",
+      "quote": "Project name: Marina Clinic",
+      "aliases": []
+    },
+    "document_no": {
+      "value": "INV-104",
+      "quote": "Document number: INV-104",
+      "aliases": []
+    },
+    "revision": {
+      "value": "02",
+      "quote": "Revision: 02",
+      "aliases": []
+    },
+    "issue_date": {
+      "value": "2026-08-16",
+      "quote": "Issue date: 2026-08-16",
+      "aliases": []
+    },
+    "status": {
+      "value": "Revise and resubmit",
+      "quote": "Review status: Revise and resubmit",
+      "aliases": []
+    },
+    "reviewer": {
+      "value": "Omar Hassan",
+      "quote": "Reviewer: Omar Hassan",
+      "aliases": []
+    },
+    "due_date": {
+      "value": null,
+      "quote": "",
+      "aliases": []
+    }
+  },
+  "P2-TRN-02": {
+    "project": {
+      "value": "Marina Clinic",
+      "quote": "Project: Marina Clinic",
+      "aliases": []
+    },
+    "document_no": {
+      "value": "TRN-104",
+      "quote": "Reference: TRN-104",
+      "aliases": []
+    },
+    "revision": {
+      "value": "02",
+      "quote": "Rev: 02",
+      "aliases": []
+    },
+    "issue_date": {
+      "value": "2026-08-17",
+      "quote": "Issued on: 2026-08-17",
+      "aliases": []
+    },
+    "status": {
+      "value": "Under review",
+      "quote": "Disposition: Under review",
+      "aliases": []
+    },
+    "reviewer": {
+      "value": "Omar Hassan",
+      "quote": "Checked by: Omar Hassan",
+      "aliases": []
+    },
+    "due_date": {
+      "value": "2026-09-18",
+      "quote": "Response deadline: 2026-09-18",
+      "aliases": []
+    }
+  },
+  "P2-DRW-01": {
+    "project": {
+      "value": "Marina Clinic",
+      "quote": "Project name: Marina Clinic",
+      "aliases": []
+    },
+    "document_no": {
+      "value": "DRW-104",
+      "quote": "Document number: DRW-104",
+      "aliases": []
+    },
+    "revision": {
+      "value": "01",
+      "quote": "Revision: 01",
+      "aliases": []
+    },
+    "issue_date": {
+      "value": "2026-07-05",
+      "quote": "Issue date: 2026-07-05",
+      "aliases": []
+    },
+    "status": {
+      "value": "Superseded",
+      "quote": "Review status: Superseded",
+      "aliases": []
+    },
+    "reviewer": {
+      "value": "Rami Adel",
+      "quote": "Reviewer: Rami Adel",
+      "aliases": []
+    },
+    "due_date": {
+      "value": "2026-07-15",
+      "quote": "Due date: 2026-07-15",
+      "aliases": []
+    }
+  },
+  "P2-DRW-140": {
+    "project": {
+      "value": "Marina Clinic",
+      "quote": "Project name: Marina Clinic",
+      "aliases": []
+    },
+    "document_no": {
+      "value": "DRW-140",
+      "quote": "Document number: DRW-140",
+      "aliases": []
+    },
+    "revision": {
+      "value": "02",
+      "quote": "Revision: 02",
+      "aliases": []
+    },
+    "issue_date": {
+      "value": "2026-07-05",
+      "quote": "Issue date: 2026-07-05",
+      "aliases": []
+    },
+    "status": {
+      "value": "Rejected",
+      "quote": "Review status: Rejected",
+      "aliases": []
+    },
+    "reviewer": {
+      "value": "Rami Adel",
+      "quote": "Reviewer: Rami Adel",
+      "aliases": []
+    },
+    "due_date": {
+      "value": "2026-07-15",
+      "quote": "Due date: 2026-07-15",
+      "aliases": []
+    }
+  },
+  "P3-DRW-02": {
+    "project": {
+      "value": "Oasis School",
+      "quote": "Project name: Oasis School",
+      "aliases": []
+    },
+    "document_no": {
+      "value": "DRW-104",
+      "quote": "Document number: DRW-104",
+      "aliases": []
+    },
+    "revision": {
+      "value": "02",
+      "quote": "Revision: 02",
+      "aliases": []
+    },
+    "issue_date": {
+      "value": "2026-08-10",
+      "quote": "Issue date: 2026-08-10",
+      "aliases": []
+    },
+    "status": {
+      "value": "Under review",
+      "quote": "Review status: Under review",
+      "aliases": []
+    },
+    "reviewer": {
+      "value": "Leila Mansour",
+      "quote": "Reviewer: Leila Mansour",
+      "aliases": []
+    },
+    "due_date": {
+      "value": "2026-09-11",
+      "quote": "Due date: 2026-09-11",
+      "aliases": []
+    }
+  },
+  "P3-RFI-02": {
+    "project": {
+      "value": "Oasis School",
+      "quote": "Project: Oasis School",
+      "aliases": []
+    },
+    "document_no": {
+      "value": "RFI-104",
+      "quote": "Reference: RFI-104",
+      "aliases": []
+    },
+    "revision": {
+      "value": "02",
+      "quote": "Rev: 02",
+      "aliases": []
+    },
+    "issue_date": {
+      "value": "2026-08-11",
+      "quote": "Issued on: 2026-08-11",
+      "aliases": []
+    },
+    "status": {
+      "value": "Approved with comments",
+      "quote": "Disposition: Approved with comments",
+      "aliases": []
+    },
+    "reviewer": {
+      "value": "Leila Mansour",
+      "quote": "Checked by: Leila Mansour",
+      "aliases": []
+    },
+    "due_date": {
+      "value": "2026-09-12",
+      "quote": "Response deadline: 2026-09-12",
+      "aliases": []
+    }
+  },
+  "P3-MAT-02": {
+    "project": {
+      "value": "Oasis School",
+      "quote": "Project name: Oasis School",
+      "aliases": []
+    },
+    "document_no": {
+      "value": "MAT-104",
+      "quote": "Document number: MAT-104",
+      "aliases": []
+    },
+    "revision": {
+      "value": "02",
+      "quote": "Revision: 02",
+      "aliases": []
+    },
+    "issue_date": {
+      "value": "2026-08-12",
+      "quote": "Issue date: 2026-08-12",
+      "aliases": []
+    },
+    "status": {
+      "value": "Revise and resubmit",
+      "quote": "Review status: Revise and resubmit",
+      "aliases": []
+    },
+    "reviewer": {
+      "value": null,
+      "quote": "",
+      "aliases": []
+    },
+    "due_date": {
+      "value": "2026-09-13",
+      "quote": "Due date: 2026-09-13",
+      "aliases": []
+    }
+  },
+  "P3-MST-02": {
+    "project": {
+      "value": "Oasis School",
+      "quote": "Project: Oasis School",
+      "aliases": []
+    },
+    "document_no": {
+      "value": "MST-104",
+      "quote": "Reference: MST-104",
+      "aliases": []
+    },
+    "revision": {
+      "value": "02",
+      "quote": "Rev: 02",
+      "aliases": []
+    },
+    "issue_date": {
+      "value": "2026-08-13",
+      "quote": "Issued on: 2026-08-13",
+      "aliases": []
+    },
+    "status": {
+      "value": "Under review",
+      "quote": "Disposition: Under review",
+      "aliases": []
+    },
+    "reviewer": {
+      "value": "Leila Mansour",
+      "quote": "Checked by: Leila Mansour",
+      "aliases": []
+    },
+    "due_date": {
+      "value": "2026-09-14",
+      "quote": "Response deadline: 2026-09-14",
+      "aliases": []
+    }
+  },
+  "P3-IR-02": {
+    "project": {
+      "value": "Oasis School",
+      "quote": "Project name: Oasis School",
+      "aliases": []
+    },
+    "document_no": {
+      "value": "IR-104",
+      "quote": "Document number: IR-104",
+      "aliases": []
+    },
+    "revision": {
+      "value": "02",
+      "quote": "Revision: 02",
+      "aliases": []
+    },
+    "issue_date": {
+      "value": "2026-08-14",
+      "quote": "Issue date: 2026-08-14",
+      "aliases": []
+    },
+    "status": {
+      "value": "Approved with comments",
+      "quote": "Review status: Approved with comments",
+      "aliases": []
+    },
+    "reviewer": {
+      "value": "Leila Mansour",
+      "quote": "Reviewer: Leila Mansour",
+      "aliases": []
+    },
+    "due_date": {
+      "value": "2026-09-15",
+      "quote": "Due date: 2026-09-15",
+      "aliases": []
+    }
+  },
+  "P3-MOM-02": {
+    "project": {
+      "value": "Oasis School",
+      "quote": "Project: Oasis School",
+      "aliases": []
+    },
+    "document_no": {
+      "value": "MOM-104",
+      "quote": "Reference: MOM-104",
+      "aliases": []
+    },
+    "revision": {
+      "value": "02",
+      "quote": "Rev: 02",
+      "aliases": []
+    },
+    "issue_date": {
+      "value": "2026-08-15",
+      "quote": "Issued on: 2026-08-15",
+      "aliases": []
+    },
+    "status": {
+      "value": "Revise and resubmit",
+      "quote": "Disposition: Revise and resubmit",
+      "aliases": []
+    },
+    "reviewer": {
+      "value": null,
+      "quote": "",
+      "aliases": []
+    },
+    "due_date": {
+      "value": "2026-09-16",
+      "quote": "Response deadline: 2026-09-16",
+      "aliases": []
+    }
+  },
+  "P3-INV-02": {
+    "project": {
+      "value": "Oasis School",
+      "quote": "Project name: Oasis School",
+      "aliases": []
+    },
+    "document_no": {
+      "value": "INV-104",
+      "quote": "Document number: INV-104",
+      "aliases": []
+    },
+    "revision": {
+      "value": "02",
+      "quote": "Revision: 02",
+      "aliases": []
+    },
+    "issue_date": {
+      "value": "2026-08-16",
+      "quote": "Issue date: 2026-08-16",
+      "aliases": []
+    },
+    "status": {
+      "value": "Under review",
+      "quote": "Review status: Under review",
+      "aliases": []
+    },
+    "reviewer": {
+      "value": "Leila Mansour",
+      "quote": "Reviewer: Leila Mansour",
+      "aliases": []
+    },
+    "due_date": {
+      "value": null,
+      "quote": "",
+      "aliases": []
+    }
+  },
+  "P3-TRN-02": {
+    "project": {
+      "value": "Oasis School",
+      "quote": "Project: Oasis School",
+      "aliases": []
+    },
+    "document_no": {
+      "value": "TRN-104",
+      "quote": "Reference: TRN-104",
+      "aliases": []
+    },
+    "revision": {
+      "value": "02",
+      "quote": "Rev: 02",
+      "aliases": []
+    },
+    "issue_date": {
+      "value": "2026-08-17",
+      "quote": "Issued on: 2026-08-17",
+      "aliases": []
+    },
+    "status": {
+      "value": "Approved with comments",
+      "quote": "Disposition: Approved with comments",
+      "aliases": []
+    },
+    "reviewer": {
+      "value": "Leila Mansour",
+      "quote": "Checked by: Leila Mansour",
+      "aliases": []
+    },
+    "due_date": {
+      "value": "2026-09-18",
+      "quote": "Response deadline: 2026-09-18",
+      "aliases": []
+    }
+  },
+  "P3-DRW-01": {
+    "project": {
+      "value": "Oasis School",
+      "quote": "Project name: Oasis School",
+      "aliases": []
+    },
+    "document_no": {
+      "value": "DRW-104",
+      "quote": "Document number: DRW-104",
+      "aliases": []
+    },
+    "revision": {
+      "value": "01",
+      "quote": "Revision: 01",
+      "aliases": []
+    },
+    "issue_date": {
+      "value": "2026-07-05",
+      "quote": "Issue date: 2026-07-05",
+      "aliases": []
+    },
+    "status": {
+      "value": "Superseded",
+      "quote": "Review status: Superseded",
+      "aliases": []
+    },
+    "reviewer": {
+      "value": "Rami Adel",
+      "quote": "Reviewer: Rami Adel",
+      "aliases": []
+    },
+    "due_date": {
+      "value": "2026-07-15",
+      "quote": "Due date: 2026-07-15",
+      "aliases": []
+    }
+  },
+  "P3-DRW-140": {
+    "project": {
+      "value": "Oasis School",
+      "quote": "Project name: Oasis School",
+      "aliases": []
+    },
+    "document_no": {
+      "value": "DRW-140",
+      "quote": "Document number: DRW-140",
+      "aliases": []
+    },
+    "revision": {
+      "value": "02",
+      "quote": "Revision: 02",
+      "aliases": []
+    },
+    "issue_date": {
+      "value": "2026-07-05",
+      "quote": "Issue date: 2026-07-05",
+      "aliases": []
+    },
+    "status": {
+      "value": "Rejected",
+      "quote": "Review status: Rejected",
+      "aliases": []
+    },
+    "reviewer": {
+      "value": "Rami Adel",
+      "quote": "Reviewer: Rami Adel",
+      "aliases": []
+    },
+    "due_date": {
+      "value": "2026-07-15",
+      "quote": "Due date: 2026-07-15",
+      "aliases": []
+    }
+  }
+}

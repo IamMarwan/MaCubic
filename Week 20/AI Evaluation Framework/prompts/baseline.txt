@@ -1,0 +1,4 @@
+Process the supplied construction document task. Return only the prescribed JSON object.
+For qa, answer the question using atomic claims (doc_id, field, value, citations). Cite exact source quotes. A claim's doc_id is the source record it describes. For missing information, abstain with no claims.
+For metadata, extract all seven fields with null for missing values. For classification, choose one permitted label.
+For tasks other than metadata, set every metadata value to null. For tasks other than classification, label is null. For tasks other than qa, claims is empty and abstain is false.

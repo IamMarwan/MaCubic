@@ -1,0 +1,7 @@
+{
+  "description": "Illustrative assignment thresholds for the complete synthetic test split; not company acceptance criteria.",
+  "split": "test",
+  "minimum_cases": 70,
+  "minimum": {"answer_correctness": 0.85, "retrieval_recall": 0.90, "metadata_micro_accuracy": 0.95, "classification_accuracy": 0.90, "gold_citation_recall": 0.80},
+  "maximum": {"errors": 0, "hallucination_rate": 0.05}
+}

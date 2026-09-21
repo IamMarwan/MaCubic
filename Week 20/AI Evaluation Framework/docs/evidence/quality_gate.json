@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "problems": [],
+  "rules": {
+    "description": "Illustrative assignment thresholds for the complete synthetic test split; not company acceptance criteria.",
+    "split": "test",
+    "minimum_cases": 70,
+    "minimum": {
+      "answer_correctness": 0.85,
+      "retrieval_recall": 0.9,
+      "metadata_micro_accuracy": 0.95,
+      "classification_accuracy": 0.9,
+      "gold_citation_recall": 0.8
+    },
+    "maximum": {
+      "errors": 0,
+      "hallucination_rate": 0.05
+    }
+  },
+  "run_id": "20260921T193427-candidate-6ef1c53b"
+}

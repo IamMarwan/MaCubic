@@ -1,0 +1,202 @@
+[
+  {
+    "id": "TRAIN-drawing-0",
+    "label": "drawing",
+    "text": "Plan and section detailing column reinforcement."
+  },
+  {
+    "id": "TRAIN-drawing-1",
+    "label": "drawing",
+    "text": "Architectural elevation and floor plan dimensions."
+  },
+  {
+    "id": "TRAIN-drawing-2",
+    "label": "drawing",
+    "text": "Structural slab design with reinforcement details."
+  },
+  {
+    "id": "TRAIN-drawing-3",
+    "label": "drawing",
+    "text": "Mechanical drawing showing duct routing dimensions."
+  },
+  {
+    "id": "TRAIN-drawing-4",
+    "label": "drawing",
+    "text": "Drawing schedule with foundation section and dimensions."
+  },
+  {
+    "id": "TRAIN-rfi-0",
+    "label": "rfi",
+    "text": "Question to consultant seeking design clarification."
+  },
+  {
+    "id": "TRAIN-rfi-1",
+    "label": "rfi",
+    "text": "Request for information about conflicting specifications."
+  },
+  {
+    "id": "TRAIN-rfi-2",
+    "label": "rfi",
+    "text": "Technical query needs a consultant response."
+  },
+  {
+    "id": "TRAIN-rfi-3",
+    "label": "rfi",
+    "text": "Clarification requested about service clearance."
+  },
+  {
+    "id": "TRAIN-rfi-4",
+    "label": "rfi",
+    "text": "Please clarify the specification discrepancy and respond."
+  },
+  {
+    "id": "TRAIN-material_submittal-0",
+    "label": "material_submittal",
+    "text": "Product datasheet, compliance certificate and material sample."
+  },
+  {
+    "id": "TRAIN-material_submittal-1",
+    "label": "material_submittal",
+    "text": "Manufacturer technical data submitted for product approval."
+  },
+  {
+    "id": "TRAIN-material_submittal-2",
+    "label": "material_submittal",
+    "text": "Material submittal for membrane with certificates."
+  },
+  {
+    "id": "TRAIN-material_submittal-3",
+    "label": "material_submittal",
+    "text": "Technical submittal contains product compliance data."
+  },
+  {
+    "id": "TRAIN-material_submittal-4",
+    "label": "material_submittal",
+    "text": "Supplier submits samples and product datasheets for review."
+  },
+  {
+    "id": "TRAIN-method_statement-0",
+    "label": "method_statement",
+    "text": "Sequence of work with risk assessment and safety controls."
+  },
+  {
+    "id": "TRAIN-method_statement-1",
+    "label": "method_statement",
+    "text": "Method statement for safe installation and equipment checks."
+  },
+  {
+    "id": "TRAIN-method_statement-2",
+    "label": "method_statement",
+    "text": "Procedure for concrete placement and safety requirements."
+  },
+  {
+    "id": "TRAIN-method_statement-3",
+    "label": "method_statement",
+    "text": "Work methodology includes resources and risk mitigation."
+  },
+  {
+    "id": "TRAIN-method_statement-4",
+    "label": "method_statement",
+    "text": "Installation sequence, hazards and site safety controls."
+  },
+  {
+    "id": "TRAIN-inspection_request-0",
+    "label": "inspection_request",
+    "text": "Inspection requested before concrete pour hold point."
+  },
+  {
+    "id": "TRAIN-inspection_request-1",
+    "label": "inspection_request",
+    "text": "Inspect site reinforcement against the checklist."
+  },
+  {
+    "id": "TRAIN-inspection_request-2",
+    "label": "inspection_request",
+    "text": "Quality inspection request for completed installation."
+  },
+  {
+    "id": "TRAIN-inspection_request-3",
+    "label": "inspection_request",
+    "text": "Witness testing and inspect the work at hold point."
+  },
+  {
+    "id": "TRAIN-inspection_request-4",
+    "label": "inspection_request",
+    "text": "Request site inspection with quality checklist."
+  },
+  {
+    "id": "TRAIN-meeting_minutes-0",
+    "label": "meeting_minutes",
+    "text": "Coordination meeting decisions and action owners."
+  },
+  {
+    "id": "TRAIN-meeting_minutes-1",
+    "label": "meeting_minutes",
+    "text": "Minutes recording attendees and agreed actions."
+  },
+  {
+    "id": "TRAIN-meeting_minutes-2",
+    "label": "meeting_minutes",
+    "text": "Meeting notes: contractor to update lookahead schedule."
+  },
+  {
+    "id": "TRAIN-meeting_minutes-3",
+    "label": "meeting_minutes",
+    "text": "Record of discussion, decisions and action due dates."
+  },
+  {
+    "id": "TRAIN-meeting_minutes-4",
+    "label": "meeting_minutes",
+    "text": "Weekly meeting minutes with assigned action items."
+  },
+  {
+    "id": "TRAIN-invoice-0",
+    "label": "invoice",
+    "text": "Invoice with amount due, tax and unit rates."
+  },
+  {
+    "id": "TRAIN-invoice-1",
+    "label": "invoice",
+    "text": "Supplier requests payment for delivered materials."
+  },
+  {
+    "id": "TRAIN-invoice-2",
+    "label": "invoice",
+    "text": "Tax invoice and quantity breakdown for payment."
+  },
+  {
+    "id": "TRAIN-invoice-3",
+    "label": "invoice",
+    "text": "Bill for completed services, total including tax."
+  },
+  {
+    "id": "TRAIN-invoice-4",
+    "label": "invoice",
+    "text": "Commercial invoice for supply with price and tax."
+  },
+  {
+    "id": "TRAIN-transmittal-0",
+    "label": "transmittal",
+    "text": "Document distribution list and receipt acknowledgement."
+  },
+  {
+    "id": "TRAIN-transmittal-1",
+    "label": "transmittal",
+    "text": "Transmittal encloses drawings for information."
+  },
+  {
+    "id": "TRAIN-transmittal-2",
+    "label": "transmittal",
+    "text": "Cover sheet listing documents dispatched to recipients."
+  },
+  {
+    "id": "TRAIN-transmittal-3",
+    "label": "transmittal",
+    "text": "Document transmittal with enclosure list and distribution."
+  },
+  {
+    "id": "TRAIN-transmittal-4",
+    "label": "transmittal",
+    "text": "Submission record and acknowledgement of document receipt."
+  }
+]

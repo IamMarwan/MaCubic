@@ -1,0 +1,8 @@
+{
+  "id": "candidate",
+  "provider": "local",
+  "model": "naive_bayes",
+  "retrieval": "bm25",
+  "top_k": 3,
+  "extraction_policy": "grounded"
+}

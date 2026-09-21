@@ -1,0 +1,2 @@
+# Python 3.11 or newer. Runtime, tests and dashboard use the standard library.
+# No third-party dependencies are required.
