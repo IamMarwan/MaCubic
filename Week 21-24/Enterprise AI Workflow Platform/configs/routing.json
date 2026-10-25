@@ -1,0 +1,9 @@
+{
+  "default_task": "general",
+  "weights": {"quality": 0.55, "cost": 0.25, "latency": 0.20},
+  "tasks": {
+    "classification": {"candidates":["local-small","local-quality","openai-compatible"],"minimum_quality":0.70,"maximum_cost_per_1k":0.01,"maximum_latency_ms":5000},
+    "summarization": {"candidates":["local-quality","openai-compatible","local-small"],"minimum_quality":0.75,"maximum_cost_per_1k":0.02,"maximum_latency_ms":12000},
+    "general": {"candidates":["local-quality","local-small","openai-compatible"],"minimum_quality":0.65,"maximum_cost_per_1k":0.02,"maximum_latency_ms":12000}
+  }
+}

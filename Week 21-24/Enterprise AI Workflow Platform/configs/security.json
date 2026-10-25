@@ -1,0 +1,7 @@
+{
+  "confidence":{"auto_min":0.85,"review_min":0.60},
+  "always_review_actions":["delete_document","external_publish","permission_change"],
+  "rate_limit_per_minute":30,
+  "max_input_chars":12000,
+  "injection_signals":["ignore previous instructions","reveal the system prompt","bypass approval","exfiltrate","send secrets","ignore all prior rules","act as system"]
+}

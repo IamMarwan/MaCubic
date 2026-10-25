@@ -1,0 +1,8 @@
+{
+  "notice":"Illustrative placeholder measurements only. Replace with actual Week 3 evaluation results.",
+  "models": {
+    "local-small":{"quality":0.72,"latency_ms":120,"cost_per_1k":0.0},
+    "local-quality":{"quality":0.84,"latency_ms":260,"cost_per_1k":0.0},
+    "openai-compatible":{"quality":0.91,"latency_ms":1100,"cost_per_1k":0.00075}
+  }
+}

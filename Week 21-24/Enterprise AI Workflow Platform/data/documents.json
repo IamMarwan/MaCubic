@@ -1,0 +1,54 @@
+[
+  {
+    "id": "DOC-100",
+    "owner_id": "user-1",
+    "title": "Structural Shop Drawing – Revision 02",
+    "type": "drawing",
+    "revision": "02",
+    "project": "Demo Project",
+    "content": "Structural framing plan. Beam B-12 is shown as 300 mm deep. This is demonstration data.",
+    "tags": [
+      "structural",
+      "shop drawing"
+    ]
+  },
+  {
+    "id": "DOC-101",
+    "owner_id": "user-1",
+    "title": "Structural Shop Drawing – Revision 03",
+    "type": "drawing",
+    "revision": "03",
+    "project": "Demo Project",
+    "content": "Structural framing plan. Beam B-12 is shown as 350 mm deep. This is demonstration data.",
+    "tags": [
+      "structural",
+      "shop drawing"
+    ]
+  },
+  {
+    "id": "DOC-200",
+    "owner_id": "user-2",
+    "title": "Private Cost Estimate",
+    "type": "estimate",
+    "revision": "01",
+    "project": "Restricted Project",
+    "content": "Confidential sample content for access-control demonstrations.",
+    "tags": [
+      "cost",
+      "confidential"
+    ]
+  },
+  {
+    "id": "DOC-102",
+    "owner_id": "user-1",
+    "title": "Structural Shop Drawing",
+    "type": "drawing",
+    "revision": "04",
+    "project": "Demo Project",
+    "content": "Structural framing plan with a complete title block and review metadata. Demonstration record for the high-confidence automatic path.",
+    "tags": [
+      "structural",
+      "shop drawing"
+    ]
+  }
+]
