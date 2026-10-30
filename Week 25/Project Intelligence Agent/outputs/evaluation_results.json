@@ -1,0 +1,170 @@
+{
+  "dataset": "Project Intelligence Agent synthetic evaluation v1",
+  "method": "synthetic labeled scenario set; deterministic retrieval and rule-based evidence extraction",
+  "cases": 10,
+  "micro_precision": 0.8182,
+  "micro_recall": 1.0,
+  "micro_f1": 0.9,
+  "exact_scenario_accuracy": 0.6,
+  "expected_finding_citation_coverage": 1.0,
+  "counts": {
+    "true_positive": 18,
+    "false_positive": 4,
+    "false_negative": 0
+  },
+  "limitations": [
+    "All cases and labels are synthetic and authored with the dataset.",
+    "Metrics measure only the included rule-based demonstration; they do not estimate performance on real projects.",
+    "The evaluation has no independent human adjudication or statistical confidence interval."
+  ],
+  "case_results": [
+    {
+      "case_id": "EVAL-01",
+      "expected": [
+        "TECH-RFI-017",
+        "TECH-SUB-044"
+      ],
+      "actual": [
+        "ACTION-A14",
+        "TECH-RFI-017",
+        "TECH-SUB-044"
+      ],
+      "true_positives": 2,
+      "false_positives": 1,
+      "false_negatives": 0,
+      "exact_match": false
+    },
+    {
+      "case_id": "EVAL-02",
+      "expected": [
+        "ACTION-A14"
+      ],
+      "actual": [
+        "ACTION-A14"
+      ],
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "exact_match": true
+    },
+    {
+      "case_id": "EVAL-03",
+      "expected": [
+        "RISK-NCR-008"
+      ],
+      "actual": [
+        "RISK-NCR-008"
+      ],
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "exact_match": true
+    },
+    {
+      "case_id": "EVAL-04",
+      "expected": [
+        "DELAY-COMMISSIONING"
+      ],
+      "actual": [
+        "DELAY-COMMISSIONING",
+        "RISK-NCR-008"
+      ],
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0,
+      "exact_match": false
+    },
+    {
+      "case_id": "EVAL-05",
+      "expected": [
+        "COMM-V026"
+      ],
+      "actual": [
+        "COMM-V026"
+      ],
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "exact_match": true
+    },
+    {
+      "case_id": "EVAL-06",
+      "expected": [
+        "CONFLICT-ACCESS"
+      ],
+      "actual": [
+        "CONFLICT-ACCESS"
+      ],
+      "true_positives": 1,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "exact_match": true
+    },
+    {
+      "case_id": "EVAL-07",
+      "expected": [
+        "ACTION-A14",
+        "COMM-V026",
+        "CONFLICT-ACCESS",
+        "DELAY-COMMISSIONING",
+        "RISK-NCR-008",
+        "TECH-RFI-017",
+        "TECH-SUB-044"
+      ],
+      "actual": [
+        "ACTION-A14",
+        "COMM-V026",
+        "CONFLICT-ACCESS",
+        "DELAY-COMMISSIONING",
+        "RISK-NCR-008",
+        "TECH-RFI-017",
+        "TECH-SUB-044"
+      ],
+      "true_positives": 7,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "exact_match": true
+    },
+    {
+      "case_id": "EVAL-08",
+      "expected": [],
+      "actual": [],
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 0,
+      "exact_match": true
+    },
+    {
+      "case_id": "EVAL-09",
+      "expected": [
+        "CONFLICT-ACCESS"
+      ],
+      "actual": [
+        "COMM-V026",
+        "CONFLICT-ACCESS"
+      ],
+      "true_positives": 1,
+      "false_positives": 1,
+      "false_negatives": 0,
+      "exact_match": false
+    },
+    {
+      "case_id": "EVAL-10",
+      "expected": [
+        "DELAY-COMMISSIONING",
+        "RISK-NCR-008",
+        "TECH-SUB-044"
+      ],
+      "actual": [
+        "DELAY-COMMISSIONING",
+        "RISK-NCR-008",
+        "TECH-RFI-017",
+        "TECH-SUB-044"
+      ],
+      "true_positives": 3,
+      "false_positives": 1,
+      "false_negatives": 0,
+      "exact_match": false
+    }
+  ]
+}

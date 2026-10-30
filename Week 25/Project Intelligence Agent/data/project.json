@@ -1,0 +1,78 @@
+{
+  "project_id": "SIM-PJ-042",
+  "project_name": "Harbour View Medical Centre — Simulated Project",
+  "as_of": "2026-10-30",
+  "notice": "All entities, amounts, dates, correspondence, and project records in this dataset are fictional and created for training.",
+  "documents": [
+    {
+      "id": "DOC-001", "type": "Contract extract", "title": "Main Contract — access and change control", "date": "2026-08-01", "status": "executed",
+      "related_documents": ["DOC-009", "DOC-010", "DOC-011"],
+      "text": "Project: Harbour View Medical Centre.\nContract extract, clause 4.2: the employer shall provide the east service yard by 03 October 2026.\nClause 13.1: variations require written instruction by the employer's representative before valuation.\nClause 20.3: a notice of delay is due within 14 calendar days after the event becomes known.\nThis extract is a training summary and is not a complete contract.",
+      "signals": []
+    },
+    {
+      "id": "DOC-002", "type": "Specification", "title": "Fire stopping specification — section 07 84 00", "date": "2026-08-04", "status": "issued_for_construction",
+      "related_documents": ["DOC-007", "DOC-012"],
+      "text": "All service penetrations through rated walls require a tested fire-stop system.\nThe installed system rating must equal or exceed the fire-resistance rating of the wall assembly.\nInstallation records and inspection approval are required before concealment.\nApproved product data must be linked to the relevant inspection record.",
+      "signals": []
+    },
+    {
+      "id": "DOC-003", "type": "RFI", "title": "RFI-017 — chilled-water riser clearance", "date": "2026-10-12", "status": "open_overdue",
+      "related_documents": ["DOC-006", "DOC-008", "DOC-012"],
+      "text": "RFI: RFI-017.\nQuestion: Confirm the required clearance at the level 4 chilled-water riser crossing.\nSubmitted by: MEP contractor on 12 October 2026.\nRequested response date: 21 October 2026.\nStatus on 30 October 2026: no response recorded; the RFI remains open.\nThe meeting record links this clarification to level 4 coordination.",
+      "signals": [{"finding_id":"TECH-RFI-017","category":"technical","title":"RFI-017 remains unanswered after its requested response date","status":"overdue","severity":"high","evidence_line":5,"fact":"RFI-017 is recorded as open with no response as of 30 October 2026; its requested response date was 21 October 2026.","inference":"The unresolved clearance may constrain level 4 coordination; the record does not quantify a schedule impact.","recommendation":"Confirm the responsible reviewer and response date, then assess any affected work sequence."}]
+    },
+    {
+      "id": "DOC-004", "type": "RFI", "title": "RFI-021 — plantroom sleeve detail", "date": "2026-10-29", "status": "answered",
+      "related_documents": ["DOC-006"],
+      "text": "RFI: RFI-021.\nQuestion: Confirm the plantroom sleeve detail.\nResponse issued: 29 October 2026.\nStatus: answered and returned to the site team.\nNo open action is recorded in this RFI.", "signals": []
+    },
+    {
+      "id": "DOC-005", "type": "Submittal", "title": "Submittal-044 — fire-stop product data Rev 1", "date": "2026-10-24", "status": "pending_review",
+      "related_documents": ["DOC-002", "DOC-007"],
+      "text": "Submittal: SUB-044, fire-stop product data.\nRevision 0 was returned revise-and-resubmit on 16 October 2026 because tested system evidence was missing.\nRevision 1 was submitted on 24 October 2026.\nRequested review date: 22 October 2026 (the transmittal date was later than this requested date).\nStatus on 30 October 2026: pending review; no acceptance is recorded.",
+      "signals": [{"finding_id":"TECH-SUB-044","category":"technical","title":"Fire-stop Submittal-044 Rev 1 is awaiting review","status":"pending","severity":"high","evidence_line":5,"fact":"Submittal-044 Rev 1 is recorded as pending with no acceptance; the requested review date was 22 October 2026.","inference":"Inspection closeout and concealment approval may be affected until acceptable product evidence is confirmed.","recommendation":"Prioritize technical review against Specification 07 84 00 and confirm the inspection hold points."}]
+    },
+    {
+      "id": "DOC-006", "type": "Meeting minutes", "title": "MEP coordination meeting — 26 October 2026", "date": "2026-10-26", "status": "issued",
+      "related_documents": ["DOC-003", "DOC-004", "DOC-008"],
+      "text": "Meeting: MEP coordination, 26 October 2026.\nAction A-14: MEP contractor to submit revised level 4 riser coordination sketch by 28 October 2026.\nOwner: MEP contractor. Status on 30 October: no completion evidence is attached to these minutes.\nRFI-017 clearance is listed as a dependency for closing the coordination item.\nRFI-021 is noted as answered on 29 October 2026.",
+      "signals": [{"finding_id":"ACTION-A14","category":"action","title":"Meeting action A-14 is past due without completion evidence","status":"overdue","severity":"medium","evidence_line":3,"fact":"The minutes assign A-14 to the MEP contractor for 28 October 2026 and state that no completion evidence is attached as of 30 October.","inference":"The action may remain incomplete; absence of evidence in these minutes does not prove no work occurred elsewhere.","recommendation":"Request the current action status and attach the revised sketch or a revised target date to the action log."}]
+    },
+    {
+      "id": "DOC-007", "type": "Inspection report", "title": "Inspection IR-208 — level 3 fire stopping", "date": "2026-10-28", "status": "open_nonconformance",
+      "related_documents": ["DOC-002", "DOC-005", "DOC-012"],
+      "text": "Inspection: IR-208, level 3 west riser, completed 28 October 2026.\nObservation: one service penetration has no approved system label visible at inspection.\nStatus: nonconformance NCR-008 opened; corrective evidence and reinspection are not recorded as of 30 October 2026.\nSpecification 07 84 00 requires accepted product evidence and inspection approval before concealment.\nNo statement is made here that the wall assembly has failed; the open item concerns missing verification evidence.",
+      "signals": [{"finding_id":"RISK-NCR-008","category":"risk","title":"NCR-008 is open for missing fire-stop verification evidence","status":"open","severity":"high","evidence_line":3,"fact":"IR-208 records NCR-008 as open; corrective evidence and reinspection are not recorded as of 30 October 2026.","inference":"Concealment before verified closeout could create rework or compliance exposure; the report does not establish an installed system failure.","recommendation":"Keep the affected penetration visible until the responsible inspector confirms corrective evidence and reinspection status."}]
+    },
+    {
+      "id": "DOC-008", "type": "Progress report", "title": "Weekly progress report — week ending 28 October", "date": "2026-10-28", "status": "issued",
+      "related_documents": ["DOC-003", "DOC-005", "DOC-006", "DOC-012"],
+      "text": "Progress report issued 28 October 2026.\nLevel 4 MEP coordination is reported at 80 percent complete.\nThe report lists RFI-017 clearance and accepted Submittal-044 as remaining inputs for closing coordination.\nCommissioning is shown in the baseline for 15 November 2026.\nThe report flags a possible commissioning risk if the listed inputs remain unresolved; it does not issue a revised forecast date.",
+      "signals": [{"finding_id":"DELAY-COMMISSIONING","category":"delay","title":"Commissioning has a recorded dependency risk, but no revised forecast","status":"at_risk","severity":"high","evidence_line":5,"fact":"The progress report lists commissioning on the baseline for 15 November and flags possible risk if RFI-017 and Submittal-044 remain unresolved; no revised forecast is recorded.","inference":"If the inputs remain open, commissioning readiness could be affected; the evidence does not establish that the milestone will slip.","recommendation":"Ask planning and discipline leads to validate the remaining logic, float, and recovery options before updating the forecast."}]
+    },
+    {
+      "id": "DOC-009", "type": "Correspondence", "title": "Contractor notice — east yard access delay", "date": "2026-10-18", "status": "claim_assertion",
+      "related_documents": ["DOC-001", "DOC-010", "DOC-011"],
+      "text": "Contractor letter dated 18 October 2026.\nThe contractor states that east service yard access was not available until 10 October 2026.\nThe letter requests time and cost review and refers to a delay notice.\nThis letter records the contractor's position only; it is not an agreed determination.\nThe contract extract states an access date of 03 October 2026 and a 14-calendar-day notice period.",
+      "signals": [{"finding_id":"CONFLICT-ACCESS","category":"conflict","title":"Access dates differ between the contractor letter and access log","status":"conflict","severity":"high","evidence_line":2,"fact":"The contractor letter says access was unavailable until 10 October; the access log records access granted on 03 October.","inference":"The competing records leave the alleged delay period unresolved; entitlement and causation cannot be determined from this dataset.","recommendation":"Reconcile the dated access records, notices, and contemporaneous site logs before any commercial or schedule determination."}]
+    },
+    {
+      "id": "DOC-010", "type": "Site access log", "title": "East service yard access log", "date": "2026-10-03", "status": "recorded_access",
+      "related_documents": ["DOC-001", "DOC-009"],
+      "text": "Access log entry dated 03 October 2026.\nEast service yard access is recorded as granted to the contractor at 08:00.\nThe entry is signed by the site access coordinator.\nThe log does not describe whether all planned work areas were continuously available after entry.",
+      "signals": [{"finding_id":"CONFLICT-ACCESS","category":"conflict","title":"Access dates differ between the contractor letter and access log","status":"conflict","severity":"high","evidence_line":2,"fact":"The contractor letter says access was unavailable until 10 October; the access log records access granted on 03 October.","inference":"The competing records leave the alleged delay period unresolved; entitlement and causation cannot be determined from this dataset.","recommendation":"Reconcile the dated access records, notices, and contemporaneous site logs before any commercial or schedule determination."}]
+    },
+    {
+      "id": "DOC-011", "type": "Commercial correspondence", "title": "Variation V-026 — pending instruction and valuation", "date": "2026-10-27", "status": "disputed",
+      "related_documents": ["DOC-001", "DOC-009"],
+      "text": "Commercial register extract dated 27 October 2026.\nVariation V-026 is submitted at AED 250,000 for east-yard standby and resequencing.\nStatus: disputed; no written instruction or agreed valuation is attached to this record.\nThe contract extract says variations require written instruction before valuation.\nThis record does not determine contractual entitlement or payment status.",
+      "signals": [{"finding_id":"COMM-V026","category":"commercial","title":"Variation V-026 is disputed and lacks an attached written instruction","status":"disputed","severity":"medium","evidence_line":3,"fact":"V-026 is submitted at AED 250,000 and marked disputed; this record contains no written instruction or agreed valuation.","inference":"The amount and entitlement remain unresolved in the supplied record set.","recommendation":"Reconcile the submission with the contract change-control process and document the review outcome before treating the amount as agreed."}]
+    },
+    {
+      "id": "DOC-012", "type": "Baseline schedule extract", "title": "Level 4 coordination and commissioning logic", "date": "2026-10-01", "status": "baseline",
+      "related_documents": ["DOC-002", "DOC-003", "DOC-005", "DOC-007", "DOC-008"],
+      "text": "Baseline schedule extract issued 01 October 2026.\nLevel 4 MEP coordination precedes testing and commissioning readiness.\nThe extract lists accepted fire-stop product data and resolved riser clearances as coordination inputs.\nCommissioning milestone: 15 November 2026.\nThis baseline extract contains no current critical-path update or approved recovery forecast.", "signals": []
+    }
+  ]
+}

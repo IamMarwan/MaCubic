@@ -1,0 +1,16 @@
+{
+  "dataset_name": "Project Intelligence Agent synthetic evaluation v1",
+  "notice": "Fictional labeled examples; measures deterministic retrieval and citation behavior on this package only.",
+  "cases": [
+    {"id":"EVAL-01","request":"Identify overdue RFIs and open technical items","expected_finding_ids":["TECH-RFI-017","TECH-SUB-044"]},
+    {"id":"EVAL-02","request":"What meeting actions are overdue?","expected_finding_ids":["ACTION-A14"]},
+    {"id":"EVAL-03","request":"Find inspection nonconformances and compliance risks","expected_finding_ids":["RISK-NCR-008"]},
+    {"id":"EVAL-04","request":"Assess potential commissioning delay risks","expected_finding_ids":["DELAY-COMMISSIONING"]},
+    {"id":"EVAL-05","request":"List disputed commercial and variation issues","expected_finding_ids":["COMM-V026"]},
+    {"id":"EVAL-06","request":"Find conflicting access records","expected_finding_ids":["CONFLICT-ACCESS"]},
+    {"id":"EVAL-07","request":"Analyze all major outstanding issues and risks","expected_finding_ids":["TECH-RFI-017","TECH-SUB-044","ACTION-A14","RISK-NCR-008","DELAY-COMMISSIONING","COMM-V026","CONFLICT-ACCESS"]},
+    {"id":"EVAL-08","request":"Check the answered RFI-021 status","expected_finding_ids":[]},
+    {"id":"EVAL-09","request":"What is recorded about yard access and the contractor notice?","expected_finding_ids":["CONFLICT-ACCESS"]},
+    {"id":"EVAL-10","request":"Summarize open inspection, submittal, and schedule concerns","expected_finding_ids":["TECH-SUB-044","RISK-NCR-008","DELAY-COMMISSIONING"]}
+  ]
+}

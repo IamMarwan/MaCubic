@@ -1,0 +1,5 @@
+.venv/
+__pycache__/
+*.py[cod]
+outputs/latest_report.md
+outputs/latest_trace.json
