@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/schemas/register.schema.json",
+  "title": "Tender register export",
+  "type": "object",
+  "required": ["schema_version", "generated_at", "count", "requirements"],
+  "properties": {
+    "schema_version": {"const": "1.0"},
+    "generated_at": {"type": "string", "format": "date-time"},
+    "count": {"type": "integer", "minimum": 0},
+    "requirements": {"type": "array", "items": {"$ref": "requirement.schema.json"}}
+  }
+}

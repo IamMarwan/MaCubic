@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/schemas/requirement.schema.json",
+  "title": "Tender requirement with evidence",
+  "type": "object",
+  "required": ["requirement_id", "category", "description", "status", "source", "revision", "conflict", "imported_at", "fingerprint"],
+  "properties": {
+    "requirement_id": {"type": "string", "pattern": "^REQ-[A-Z0-9-]+$"},
+    "category": {"type": "string"},
+    "description": {"type": "string"},
+    "status": {"enum": ["mandatory", "optional", "unknown"]},
+    "quantity": {"type": ["number", "null"]},
+    "unit": {"type": ["string", "null"]},
+    "threshold": {"type": ["string", "null"]},
+    "deadline": {"type": ["string", "null"]},
+    "value_state": {"type": "object", "additionalProperties": {"enum": ["known", "unknown"]}},
+    "source": {"$ref": "#/$defs/source"},
+    "revision": {"type": "string"},
+    "supersedes": {"type": "array", "items": {"type": "string"}},
+    "revision_history": {"type": "array", "items": {"type": "object", "required": ["source_file", "statement"], "properties": {"source_file": {"type": "string"}, "statement": {"type": "string"}}}},
+    "conflict": {"type": "boolean"},
+    "conflict_note": {"type": ["string", "null"]},
+    "imported_at": {"type": "string", "format": "date-time"},
+    "fingerprint": {"type": "string"}
+  },
+  "$defs": {
+    "source": {
+      "type": "object",
+      "required": ["document", "file", "location_type", "quotation"],
+      "properties": {
+        "document": {"type": "string"},
+        "file": {"type": "string"},
+        "location_type": {"enum": ["pdf_page", "spreadsheet_cell"]},
+        "page": {"type": ["integer", "null"], "minimum": 1},
+        "sheet": {"type": ["string", "null"]},
+        "cell": {"type": ["string", "null"]},
+        "quotation": {"type": "string", "minLength": 1}
+      }
+    }
+  }
+}

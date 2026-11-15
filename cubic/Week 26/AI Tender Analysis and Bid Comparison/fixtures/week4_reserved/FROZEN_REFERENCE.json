@@ -1,0 +1,259 @@
+{
+  "tender_id": "W4",
+  "requirements": [
+    {
+      "id": "REQ-W4-01",
+      "category": "Scope",
+      "description": "Provide the scope evidence package item 01 for tender TND-2026-041.",
+      "status": "mandatory",
+      "quantity": 10,
+      "unit": "m2",
+      "threshold": "unknown",
+      "deadline": "unknown",
+      "rev": "1"
+    },
+    {
+      "id": "REQ-W4-02",
+      "category": "Technical",
+      "description": "Provide the technical evidence package item 02 for tender TND-2026-041.",
+      "status": "mandatory",
+      "quantity": "unknown",
+      "unit": "unknown",
+      "threshold": "minimum 90%",
+      "deadline": "unknown",
+      "rev": "1"
+    },
+    {
+      "id": "REQ-W4-03",
+      "category": "Submission",
+      "description": "Provide the submission evidence package item 03 for tender TND-2026-041.",
+      "status": "mandatory",
+      "quantity": 1,
+      "unit": "package",
+      "threshold": "unknown",
+      "deadline": "unknown",
+      "rev": "1"
+    },
+    {
+      "id": "REQ-W4-04",
+      "category": "Deadline",
+      "description": "Provide the deadline evidence package item 04 for tender TND-2026-041.",
+      "status": "mandatory",
+      "quantity": "unknown",
+      "unit": "unknown",
+      "threshold": "unknown",
+      "deadline": "2026-12-15T17:00+04:00",
+      "rev": "1"
+    },
+    {
+      "id": "REQ-W4-05",
+      "category": "Commercial",
+      "description": "Provide the commercial evidence package item 05 for tender TND-2026-041.",
+      "status": "mandatory",
+      "quantity": "unknown",
+      "unit": "unknown",
+      "threshold": "maximum 60 days",
+      "deadline": "unknown",
+      "rev": "1"
+    },
+    {
+      "id": "REQ-W4-06",
+      "category": "Exclusion",
+      "description": "Provide the exclusion evidence package item 06 for tender TND-2026-041.",
+      "status": "mandatory",
+      "quantity": "unknown",
+      "unit": "unknown",
+      "threshold": "unknown",
+      "deadline": "unknown",
+      "rev": "1"
+    },
+    {
+      "id": "REQ-W4-07",
+      "category": "Evaluation",
+      "description": "Provide the evaluation evidence package item 07 for tender TND-2026-041.",
+      "status": "mandatory",
+      "quantity": "unknown",
+      "unit": "unknown",
+      "threshold": "minimum 70 points",
+      "deadline": "unknown",
+      "rev": "1"
+    },
+    {
+      "id": "REQ-W4-08",
+      "category": "Scope",
+      "description": "Provide the scope evidence package item 08 for tender TND-2026-041.",
+      "status": "mandatory",
+      "quantity": 80,
+      "unit": "m2",
+      "threshold": "unknown",
+      "deadline": "unknown",
+      "rev": "1"
+    },
+    {
+      "id": "REQ-W4-09",
+      "category": "Technical",
+      "description": "Provide the technical evidence package item 09 for tender TND-2026-041.",
+      "status": "mandatory",
+      "quantity": "unknown",
+      "unit": "unknown",
+      "threshold": "minimum 90%",
+      "deadline": "unknown",
+      "rev": "1"
+    },
+    {
+      "id": "REQ-W4-10",
+      "category": "Submission",
+      "description": "Provide the submission evidence package item 10 for tender TND-2026-041.",
+      "status": "mandatory",
+      "quantity": 1,
+      "unit": "package",
+      "threshold": "unknown",
+      "deadline": "unknown",
+      "rev": "1"
+    }
+  ],
+  "boq": [
+    [
+      "W4-BOQ-01",
+      "Synthetic work item 01",
+      5,
+      "m2",
+      27,
+      135
+    ],
+    [
+      "W4-BOQ-02",
+      "Synthetic work item 02",
+      10,
+      "m2",
+      29,
+      290
+    ],
+    [
+      "W4-BOQ-03",
+      "Synthetic work item 03",
+      15,
+      "m2",
+      31,
+      465
+    ],
+    [
+      "W4-BOQ-04",
+      "Synthetic work item 04",
+      20,
+      "m2",
+      33,
+      660
+    ],
+    [
+      "W4-BOQ-05",
+      "Synthetic work item 05",
+      25,
+      "m2",
+      35,
+      875
+    ],
+    [
+      "W4-BOQ-06",
+      "Synthetic work item 06",
+      30,
+      "m2",
+      37,
+      1110
+    ],
+    [
+      "W4-BOQ-07",
+      "Synthetic work item 07",
+      35,
+      "m2",
+      39,
+      1365
+    ],
+    [
+      "W4-BOQ-08",
+      "Synthetic work item 08",
+      40,
+      "m2",
+      41,
+      1640
+    ],
+    [
+      "W4-BOQ-09",
+      "Synthetic work item 09",
+      45,
+      "m2",
+      43,
+      1935
+    ],
+    [
+      "W4-BOQ-10",
+      "Synthetic work item 10",
+      50,
+      "m2",
+      45,
+      2250
+    ]
+  ],
+  "bid_files": [
+    "w4_bidder_a.xlsx",
+    "w4_bidder_b.xlsx"
+  ],
+  "compliance_labels": {
+    "Bidder A": {
+      "REQ-W4-01": "compliant",
+      "REQ-W4-02": "compliant",
+      "REQ-W4-03": "compliant",
+      "REQ-W4-04": "compliant",
+      "REQ-W4-05": "compliant",
+      "REQ-W4-06": "compliant",
+      "REQ-W4-07": "partial",
+      "REQ-W4-08": "compliant",
+      "REQ-W4-09": "compliant",
+      "REQ-W4-10": "compliant"
+    },
+    "Bidder B": {
+      "REQ-W4-01": "compliant",
+      "REQ-W4-02": "compliant",
+      "REQ-W4-03": "compliant",
+      "REQ-W4-04": "partial",
+      "REQ-W4-05": "compliant",
+      "REQ-W4-06": "compliant",
+      "REQ-W4-07": "compliant",
+      "REQ-W4-08": "compliant",
+      "REQ-W4-09": "compliant",
+      "REQ-W4-10": "compliant"
+    }
+  },
+  "boq_mappings": {
+    "REQ-W4-01": "W4-BOQ-01",
+    "REQ-W4-02": "W4-BOQ-02",
+    "REQ-W4-03": "W4-BOQ-03",
+    "REQ-W4-04": "W4-BOQ-04",
+    "REQ-W4-05": "W4-BOQ-05",
+    "REQ-W4-06": "W4-BOQ-06",
+    "REQ-W4-07": "W4-BOQ-07",
+    "REQ-W4-08": "W4-BOQ-08",
+    "REQ-W4-09": "W4-BOQ-09",
+    "REQ-W4-10": "W4-BOQ-10"
+  },
+  "commercial_calculations": {
+    "Bidder A": {
+      "currency": "AED",
+      "line_total_subtotal": 10725,
+      "contingency_rate": 0.05,
+      "contingency_amount": 536.25,
+      "evaluated_total": 11261.25,
+      "payment_terms_days": null,
+      "offer_validity_days": 90
+    },
+    "Bidder B": {
+      "currency": "AED",
+      "line_total_subtotal": 11550,
+      "contingency_rate": 0.05,
+      "contingency_amount": 577.5,
+      "evaluated_total": 12127.5,
+      "payment_terms_days": 33,
+      "offer_validity_days": 90
+    }
+  }
+}
