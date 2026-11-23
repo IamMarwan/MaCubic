@@ -1,0 +1,2698 @@
+[
+  {
+    "pair_id": "northstar_works::REQ-25",
+    "bidder": "Northstar Works",
+    "requirement_id": "REQ-25",
+    "requirement": "Remove and dispose of construction waste using the approved site procedures.",
+    "category": "Scope",
+    "mandatory": true,
+    "status": "not evidenced",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 4,
+      "quotation": "REQ-25 | Scope | Remove and dispose of construction waste using the approved site procedures. | mandatory | quantity=unknown | unit=unknown | threshold=unknown | deadline=2026-12-15T17:00+04:00 | rev=1"
+    },
+    "bid_evidence": [],
+    "rationale": "No sufficiently relevant response passage was found in the searched bid documents.",
+    "unresolved_question": "Northstar Works: provide a clear response and supporting evidence for REQ-25.",
+    "searched_documents": [
+      "bids/northstar_works/technical_proposal.pdf",
+      "bids/northstar_works/commercial_schedule.pdf",
+      "bids/northstar_works/delivery_warranty_and_exclusions.pdf",
+      "bids/northstar_works/general_product_catalog.pdf"
+    ],
+    "finding_flags": [],
+    "mandatory_gap": true,
+    "gold_status": "not evidenced"
+  },
+  {
+    "pair_id": "northstar_works::REQ-19",
+    "bidder": "Northstar Works",
+    "requirement_id": "REQ-19",
+    "requirement": "Include protection, temporary works, and reinstatement for affected existing assets.",
+    "category": "Scope",
+    "mandatory": true,
+    "status": "partially met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 3,
+      "quotation": "REQ-19 | Scope | Include protection, temporary works, and reinstatement for affected existing assets. | mandatory | quantity=unknown | unit=unknown | threshold=maximum 60 days | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/northstar_works/technical_proposal.pdf",
+        "page": 1,
+        "quotation": "We can address include protection, temporary works, and reinstatement for affected existing assets in part; the stated limitation requires a clarification before award.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder offers a limited or conditional response, or states a deviation from the tender requirement.",
+    "unresolved_question": "Northstar Works: confirm the limitation, proposed remedy, and any price or schedule effect for REQ-19.",
+    "searched_documents": [],
+    "finding_flags": [
+      "qualification",
+      "deviation"
+    ],
+    "mandatory_gap": true,
+    "gold_status": "partially met"
+  },
+  {
+    "pair_id": "northstar_works::REQ-13",
+    "bidder": "Northstar Works",
+    "requirement_id": "REQ-13",
+    "requirement": "Meet the specified noise limit at the project boundary during normal operation.",
+    "category": "Technical",
+    "mandatory": true,
+    "status": "met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 2,
+      "quotation": "REQ-13 | Technical | Meet the specified noise limit at the project boundary during normal operation. | mandatory | quantity=unknown | unit=unknown | threshold=unknown | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/northstar_works/technical_proposal.pdf",
+        "page": 1,
+        "quotation": "Our signed offer confirms full compliance with this item: meet the specified noise limit at the project boundary during normal operation; see the attached schedule for supporting particulars.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder makes an explicit affirmative commitment in the cited passage.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "met"
+  },
+  {
+    "pair_id": "northstar_works::REQ-07",
+    "bidder": "Northstar Works",
+    "requirement_id": "REQ-07",
+    "requirement": "Supply materials that meet the specified grade and approved product standards.",
+    "category": "Technical",
+    "mandatory": true,
+    "status": "met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 1,
+      "quotation": "REQ-07 | Technical | Supply materials that meet the specified grade and approved product standards. | mandatory | quantity=unknown | unit=unknown | threshold=minimum 70 points | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/northstar_works/technical_proposal.pdf",
+        "page": 1,
+        "quotation": "Our signed offer confirms full compliance with this item: supply materials that meet the specified grade and approved product standards; see the attached schedule for supporting particulars.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder makes an explicit affirmative commitment in the cited passage.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "met"
+  },
+  {
+    "pair_id": "northstar_works::REQ-01",
+    "bidder": "Northstar Works",
+    "requirement_id": "REQ-01",
+    "requirement": "Complete civil, structural, and architectural works within the marked project boundary.",
+    "category": "Scope",
+    "mandatory": true,
+    "status": "not evidenced",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 1,
+      "quotation": "REQ-01 | Scope | Complete civil, structural, and architectural works within the marked project boundary. | mandatory | quantity=10 | unit=m2 | threshold=unknown | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [],
+    "rationale": "No sufficiently relevant response passage was found in the searched bid documents.",
+    "unresolved_question": "Northstar Works: provide a clear response and supporting evidence for REQ-01.",
+    "searched_documents": [
+      "bids/northstar_works/technical_proposal.pdf",
+      "bids/northstar_works/commercial_schedule.pdf",
+      "bids/northstar_works/delivery_warranty_and_exclusions.pdf",
+      "bids/northstar_works/general_product_catalog.pdf"
+    ],
+    "finding_flags": [],
+    "mandatory_gap": true,
+    "gold_status": "not evidenced"
+  },
+  {
+    "pair_id": "northstar_works::REQ-26",
+    "bidder": "Northstar Works",
+    "requirement_id": "REQ-26",
+    "requirement": "Optional improvement: provide a digital handover model in the requested format.",
+    "category": "Submission",
+    "mandatory": false,
+    "status": "met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 4,
+      "quotation": "REQ-26 | Submission | Optional improvement: provide a digital handover model in the requested format. | optional | quantity=unknown | unit=unknown | threshold=maximum 60 days | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/northstar_works/technical_proposal.pdf",
+        "page": 1,
+        "quotation": "We accept the complete requirement to optional improvement: provide a digital handover model in the requested format and include the supporting details in our bid schedule.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder makes an explicit affirmative commitment in the cited passage.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "met"
+  },
+  {
+    "pair_id": "northstar_works::REQ-20",
+    "bidder": "Northstar Works",
+    "requirement_id": "REQ-20",
+    "requirement": "Declare all technical departures consistently across the offer and supporting schedules.",
+    "category": "Technical",
+    "mandatory": true,
+    "status": "met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 3,
+      "quotation": "REQ-20 | Technical | Declare all technical departures consistently across the offer and supporting schedules. | mandatory | quantity=unknown | unit=unknown | threshold=unknown | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/northstar_works/technical_proposal.pdf",
+        "page": 1,
+        "quotation": "We accept the complete requirement to declare all technical departures consistently across the offer and supporting schedules and include the supporting details in our bid schedule.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder makes an explicit affirmative commitment in the cited passage.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "met"
+  },
+  {
+    "pair_id": "northstar_works::REQ-14",
+    "bidder": "Northstar Works",
+    "requirement_id": "REQ-14",
+    "requirement": "Provide valid manufacturer data sheets for each proposed major equipment item.",
+    "category": "Submission",
+    "mandatory": true,
+    "status": "partially met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 2,
+      "quotation": "REQ-14 | Submission | Provide valid manufacturer data sheets for each proposed major equipment item. | mandatory | quantity=unknown | unit=unknown | threshold=minimum 70 points | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/northstar_works/technical_proposal.pdf",
+        "page": 1,
+        "quotation": "We can address provide valid manufacturer data sheets for each proposed major equipment item in part; the stated limitation requires a clarification before award.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder offers a limited or conditional response, or states a deviation from the tender requirement.",
+    "unresolved_question": "Northstar Works: confirm the limitation, proposed remedy, and any price or schedule effect for REQ-14.",
+    "searched_documents": [],
+    "finding_flags": [
+      "qualification",
+      "deviation"
+    ],
+    "mandatory_gap": true,
+    "gold_status": "partially met"
+  },
+  {
+    "pair_id": "northstar_works::REQ-08",
+    "bidder": "Northstar Works",
+    "requirement_id": "REQ-08",
+    "requirement": "Meet the revised technical evaluation threshold of 75 points under amendment A-01.",
+    "category": "Evaluation",
+    "mandatory": true,
+    "status": "not evidenced",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 1,
+      "quotation": "REQ-08 | Evaluation | Meet the revised technical evaluation threshold of 75 points under amendment A-01. | mandatory | quantity=unknown | unit=unknown | threshold=minimum 75 points | deadline=unknown | rev=2"
+    },
+    "bid_evidence": [],
+    "rationale": "No sufficiently relevant response passage was found in the searched bid documents.",
+    "unresolved_question": "Northstar Works: provide a clear response and supporting evidence for REQ-08.",
+    "searched_documents": [
+      "bids/northstar_works/technical_proposal.pdf",
+      "bids/northstar_works/commercial_schedule.pdf",
+      "bids/northstar_works/delivery_warranty_and_exclusions.pdf",
+      "bids/northstar_works/general_product_catalog.pdf"
+    ],
+    "finding_flags": [],
+    "mandatory_gap": true,
+    "gold_status": "not evidenced"
+  },
+  {
+    "pair_id": "northstar_works::REQ-02",
+    "bidder": "Northstar Works",
+    "requirement_id": "REQ-02",
+    "requirement": "Demonstrate equipment efficiency of at least 90 percent under the stated operating test.",
+    "category": "Technical",
+    "mandatory": true,
+    "status": "partially met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 1,
+      "quotation": "REQ-02 | Technical | Demonstrate equipment efficiency of at least 90 percent under the stated operating test. | mandatory | quantity=unknown | unit=unknown | threshold=minimum 90% | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/northstar_works/technical_proposal.pdf",
+        "page": 1,
+        "quotation": "We can address demonstrate equipment efficiency of at least 90 percent under the stated operating test in part; the stated limitation requires a clarification before award.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder offers a limited or conditional response, or states a deviation from the tender requirement.",
+    "unresolved_question": "Northstar Works: confirm the limitation, proposed remedy, and any price or schedule effect for REQ-02.",
+    "searched_documents": [],
+    "finding_flags": [
+      "qualification",
+      "deviation"
+    ],
+    "mandatory_gap": true,
+    "gold_status": "partially met"
+  },
+  {
+    "pair_id": "northstar_works::REQ-27",
+    "bidder": "Northstar Works",
+    "requirement_id": "REQ-27",
+    "requirement": "Meet the stated fire resistance rating for the identified assemblies.",
+    "category": "Technical",
+    "mandatory": true,
+    "status": "partially met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 4,
+      "quotation": "REQ-27 | Technical | Meet the stated fire resistance rating for the identified assemblies. | mandatory | quantity=unknown | unit=unknown | threshold=unknown | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/northstar_works/technical_proposal.pdf",
+        "page": 1,
+        "quotation": "We can address meet the stated fire resistance rating for the identified assemblies in part; the stated limitation requires a clarification before award.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder offers a limited or conditional response, or states a deviation from the tender requirement.",
+    "unresolved_question": "Northstar Works: confirm the limitation, proposed remedy, and any price or schedule effect for REQ-27.",
+    "searched_documents": [],
+    "finding_flags": [
+      "qualification",
+      "deviation"
+    ],
+    "mandatory_gap": true,
+    "gold_status": "partially met"
+  },
+  {
+    "pair_id": "northstar_works::REQ-21",
+    "bidder": "Northstar Works",
+    "requirement_id": "REQ-21",
+    "requirement": "Accept payment within 60 days as stated in the base tender clause.",
+    "category": "Commercial",
+    "mandatory": true,
+    "status": "not met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 3,
+      "quotation": "REQ-21 | Commercial | Accept payment within 60 days as stated in the base tender clause. | mandatory | quantity=unknown | unit=unknown | threshold=minimum 70 points | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/northstar_works/commercial_schedule.pdf",
+        "page": 1,
+        "quotation": "We cannot meet accept payment within 60 days as stated in the base tender clause within this offer and have excluded the related work.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder explicitly declines or excludes the required item.",
+    "unresolved_question": "Northstar Works: confirm whether the stated exclusion for REQ-21 is final and provide any compliant option.",
+    "searched_documents": [],
+    "finding_flags": [
+      "exclusion",
+      "delivery_deviation",
+      "deviation"
+    ],
+    "mandatory_gap": true,
+    "gold_status": "not met"
+  },
+  {
+    "pair_id": "northstar_works::REQ-15",
+    "bidder": "Northstar Works",
+    "requirement_id": "REQ-15",
+    "requirement": "Confirm the stated payment terms and identify any requested changes.",
+    "category": "Commercial",
+    "mandatory": true,
+    "status": "not evidenced",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 2,
+      "quotation": "REQ-15 | Commercial | Confirm the stated payment terms and identify any requested changes. | mandatory | quantity=150 | unit=m2 | threshold=unknown | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [],
+    "rationale": "No sufficiently relevant response passage was found in the searched bid documents.",
+    "unresolved_question": "Northstar Works: provide a clear response and supporting evidence for REQ-15.",
+    "searched_documents": [
+      "bids/northstar_works/technical_proposal.pdf",
+      "bids/northstar_works/commercial_schedule.pdf",
+      "bids/northstar_works/delivery_warranty_and_exclusions.pdf",
+      "bids/northstar_works/general_product_catalog.pdf"
+    ],
+    "finding_flags": [],
+    "mandatory_gap": true,
+    "gold_status": "not evidenced"
+  },
+  {
+    "pair_id": "northstar_works::REQ-09",
+    "bidder": "Northstar Works",
+    "requirement_id": "REQ-09",
+    "requirement": "Deliver the complete bid package before the stated submission deadline.",
+    "category": "Deadline",
+    "mandatory": true,
+    "status": "met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 2,
+      "quotation": "REQ-09 | Deadline | Deliver the complete bid package before the stated submission deadline. | mandatory | quantity=unknown | unit=unknown | threshold=minimum 90% | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/northstar_works/delivery_warranty_and_exclusions.pdf",
+        "page": 1,
+        "quotation": "We will fully comply: deliver the complete bid package before the stated submission deadline. Supporting particulars are included in our deadline schedule.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder makes an explicit affirmative commitment in the cited passage.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "met"
+  },
+  {
+    "pair_id": "northstar_works::REQ-03",
+    "bidder": "Northstar Works",
+    "requirement_id": "REQ-03",
+    "requirement": "Maintain insurance coverage of at least AED 10 million throughout the contract.",
+    "category": "Technical",
+    "mandatory": true,
+    "status": "met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 1,
+      "quotation": "REQ-03 | Technical | Maintain insurance coverage of at least AED 10 million throughout the contract. | mandatory | quantity=1 | unit=package | threshold=unknown | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/northstar_works/technical_proposal.pdf",
+        "page": 2,
+        "quotation": "We will fully comply: maintain insurance coverage of at least aed 10 million throughout the contract. Supporting particulars are included in our technical schedule.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder makes an explicit affirmative commitment in the cited passage.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "met"
+  },
+  {
+    "pair_id": "northstar_works::REQ-28",
+    "bidder": "Northstar Works",
+    "requirement_id": "REQ-28",
+    "requirement": "Complete commissioning and handover no later than the contractual completion date.",
+    "category": "Deadline",
+    "mandatory": true,
+    "status": "met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 4,
+      "quotation": "REQ-28 | Deadline | Complete commissioning and handover no later than the contractual completion date. | mandatory | quantity=unknown | unit=unknown | threshold=minimum 70 points | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/northstar_works/delivery_warranty_and_exclusions.pdf",
+        "page": 1,
+        "quotation": "Our signed offer confirms full compliance with this item: complete commissioning and handover no later than the contractual completion date; see the attached schedule for supporting particulars.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder makes an explicit affirmative commitment in the cited passage.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "met"
+  },
+  {
+    "pair_id": "northstar_works::REQ-22",
+    "bidder": "Northstar Works",
+    "requirement_id": "REQ-22",
+    "requirement": "Provide a project-specific quality plan and inspection schedule.",
+    "category": "Submission",
+    "mandatory": true,
+    "status": "met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 3,
+      "quotation": "REQ-22 | Submission | Provide a project-specific quality plan and inspection schedule. | mandatory | quantity=220 | unit=m2 | threshold=unknown | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/northstar_works/technical_proposal.pdf",
+        "page": 2,
+        "quotation": "Our signed offer confirms full compliance with this item: provide a project-specific quality plan and inspection schedule; see the attached schedule for supporting particulars.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder makes an explicit affirmative commitment in the cited passage.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "met"
+  },
+  {
+    "pair_id": "northstar_works::REQ-16",
+    "bidder": "Northstar Works",
+    "requirement_id": "REQ-16",
+    "requirement": "Complete delivery within 90 calendar days after the notice to proceed.",
+    "category": "Delivery",
+    "mandatory": true,
+    "status": "partially met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 2,
+      "quotation": "REQ-16 | Delivery | Complete delivery within 90 calendar days after the notice to proceed. | mandatory | quantity=unknown | unit=unknown | threshold=minimum 90% | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/northstar_works/delivery_warranty_and_exclusions.pdf",
+        "page": 1,
+        "quotation": "Our proposed shipment arrives in 120 days from the start notice, subject to the supplier slot.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder offers a limited or conditional response, or states a deviation from the tender requirement.",
+    "unresolved_question": "Northstar Works: confirm the limitation, proposed remedy, and any price or schedule effect for REQ-16.",
+    "searched_documents": [],
+    "finding_flags": [
+      "qualification",
+      "delivery_deviation",
+      "deviation"
+    ],
+    "mandatory_gap": true,
+    "gold_status": "partially met"
+  },
+  {
+    "pair_id": "northstar_works::REQ-10",
+    "bidder": "Northstar Works",
+    "requirement_id": "REQ-10",
+    "requirement": "State the bid currency and confirm that all prices are firm for the offer period.",
+    "category": "Commercial",
+    "mandatory": true,
+    "status": "partially met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 2,
+      "quotation": "REQ-10 | Commercial | State the bid currency and confirm that all prices are firm for the offer period. | mandatory | quantity=1 | unit=package | threshold=unknown | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/northstar_works/commercial_schedule.pdf",
+        "page": 1,
+        "quotation": "We can address state the bid currency and confirm that all prices are firm for the offer period in part; the stated limitation requires a clarification before award.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder offers a limited or conditional response, or states a deviation from the tender requirement.",
+    "unresolved_question": "Northstar Works: confirm the limitation, proposed remedy, and any price or schedule effect for REQ-10.",
+    "searched_documents": [],
+    "finding_flags": [
+      "qualification",
+      "deviation"
+    ],
+    "mandatory_gap": true,
+    "gold_status": "partially met"
+  },
+  {
+    "pair_id": "northstar_works::REQ-04",
+    "bidder": "Northstar Works",
+    "requirement_id": "REQ-04",
+    "requirement": "Disclose every qualification and exclusion that changes the offered scope or price.",
+    "category": "Commercial",
+    "mandatory": true,
+    "status": "not met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 1,
+      "quotation": "REQ-04 | Commercial | Disclose every qualification and exclusion that changes the offered scope or price. | mandatory | quantity=unknown | unit=unknown | threshold=unknown | deadline=2026-12-15T17:00+04:00 | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/northstar_works/commercial_schedule.pdf",
+        "page": 1,
+        "quotation": "We exclude the listed commissioning support from our offer and will not provide it at the quoted price.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder explicitly declines or excludes the required item.",
+    "unresolved_question": "Northstar Works: confirm whether the stated exclusion for REQ-04 is final and provide any compliant option.",
+    "searched_documents": [],
+    "finding_flags": [
+      "exclusion",
+      "deviation"
+    ],
+    "mandatory_gap": true,
+    "gold_status": "not met"
+  },
+  {
+    "pair_id": "northstar_works::REQ-29",
+    "bidder": "Northstar Works",
+    "requirement_id": "REQ-29",
+    "requirement": "Price all bill of quantities lines and identify assumptions affecting the total.",
+    "category": "Commercial",
+    "mandatory": true,
+    "status": "not met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 4,
+      "quotation": "REQ-29 | Commercial | Price all bill of quantities lines and identify assumptions affecting the total. | mandatory | quantity=290 | unit=m2 | threshold=unknown | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/northstar_works/commercial_schedule.pdf",
+        "page": 1,
+        "quotation": "We cannot meet price all bill of quantities lines and identify assumptions affecting the total within this offer and have excluded the related work.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder explicitly declines or excludes the required item.",
+    "unresolved_question": "Northstar Works: confirm whether the stated exclusion for REQ-29 is final and provide any compliant option.",
+    "searched_documents": [],
+    "finding_flags": [
+      "exclusion",
+      "deviation"
+    ],
+    "mandatory_gap": true,
+    "gold_status": "not met"
+  },
+  {
+    "pair_id": "northstar_works::REQ-23",
+    "bidder": "Northstar Works",
+    "requirement_id": "REQ-23",
+    "requirement": "State the warranty duration and every warranty exclusion for the supplied works.",
+    "category": "Warranty",
+    "mandatory": true,
+    "status": "partially met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 3,
+      "quotation": "REQ-23 | Warranty | State the warranty duration and every warranty exclusion for the supplied works. | mandatory | quantity=unknown | unit=unknown | threshold=minimum 90% | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/northstar_works/delivery_warranty_and_exclusions.pdf",
+        "page": 1,
+        "quotation": "We can address state the warranty duration and every warranty exclusion for the supplied works in part; the stated limitation requires a clarification before award.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder offers a limited or conditional response, or states a deviation from the tender requirement.",
+    "unresolved_question": "Northstar Works: confirm the limitation, proposed remedy, and any price or schedule effect for REQ-23.",
+    "searched_documents": [],
+    "finding_flags": [
+      "exclusion",
+      "qualification",
+      "warranty_gap",
+      "deviation"
+    ],
+    "mandatory_gap": true,
+    "gold_status": "partially met"
+  },
+  {
+    "pair_id": "northstar_works::REQ-17",
+    "bidder": "Northstar Works",
+    "requirement_id": "REQ-17",
+    "requirement": "Provide qualified personnel with the stated licenses and project experience.",
+    "category": "Technical",
+    "mandatory": true,
+    "status": "not applicable",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 3,
+      "quotation": "REQ-17 | Technical | Provide qualified personnel with the stated licenses and project experience. | mandatory | quantity=1 | unit=package | threshold=unknown | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/northstar_works/technical_proposal.pdf",
+        "page": 2,
+        "quotation": "Not applicable: this item falls outside our assigned lot, which covers only the north service zone; see our scope split.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder records a scope-based reason for treating this item as not applicable.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "not applicable"
+  },
+  {
+    "pair_id": "northstar_works::REQ-11",
+    "bidder": "Northstar Works",
+    "requirement_id": "REQ-11",
+    "requirement": "Identify any alternative technical solution and explain each departure from the tender design.",
+    "category": "Technical",
+    "mandatory": true,
+    "status": "met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 2,
+      "quotation": "REQ-11 | Technical | Identify any alternative technical solution and explain each departure from the tender design. | mandatory | quantity=unknown | unit=unknown | threshold=unknown | deadline=2026-12-15T17:00+04:00 | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/northstar_works/technical_proposal.pdf",
+        "page": 2,
+        "quotation": "We accept the complete requirement to identify any alternative technical solution and explain each departure from the tender design and include the supporting details in our bid schedule.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder makes an explicit affirmative commitment in the cited passage.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [
+      "alternative_proposal"
+    ],
+    "mandatory_gap": false,
+    "gold_status": "met"
+  },
+  {
+    "pair_id": "northstar_works::REQ-05",
+    "bidder": "Northstar Works",
+    "requirement_id": "REQ-05",
+    "requirement": "Submit an optional sustainability improvement proposal with supporting evidence.",
+    "category": "Submission",
+    "mandatory": false,
+    "status": "met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 1,
+      "quotation": "REQ-05 | Submission | Submit an optional sustainability improvement proposal with supporting evidence. | optional | quantity=unknown | unit=unknown | threshold=maximum 60 days | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/northstar_works/technical_proposal.pdf",
+        "page": 2,
+        "quotation": "We accept the complete requirement to submit an optional sustainability improvement proposal with supporting evidence and include the supporting details in our bid schedule.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder makes an explicit affirmative commitment in the cited passage.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "met"
+  },
+  {
+    "pair_id": "northstar_works::REQ-30",
+    "bidder": "Northstar Works",
+    "requirement_id": "REQ-30",
+    "requirement": "Submit a signed statement confirming the bid remains valid for 90 days.",
+    "category": "Submission",
+    "mandatory": true,
+    "status": "met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 4,
+      "quotation": "REQ-30 | Submission | Submit a signed statement confirming the bid remains valid for 90 days. | mandatory | quantity=unknown | unit=unknown | threshold=minimum 90% | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/northstar_works/technical_proposal.pdf",
+        "page": 2,
+        "quotation": "We will fully comply: submit a signed statement confirming the bid remains valid for 90 days. Supporting particulars are included in our submission schedule.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder makes an explicit affirmative commitment in the cited passage.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "met"
+  },
+  {
+    "pair_id": "northstar_works::REQ-24",
+    "bidder": "Northstar Works",
+    "requirement_id": "REQ-24",
+    "requirement": "Demonstrate that the proposed system integrates with the listed interfaces.",
+    "category": "Technical",
+    "mandatory": true,
+    "status": "met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 3,
+      "quotation": "REQ-24 | Technical | Demonstrate that the proposed system integrates with the listed interfaces. | mandatory | quantity=1 | unit=package | threshold=unknown | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/northstar_works/technical_proposal.pdf",
+        "page": 2,
+        "quotation": "We will fully comply: demonstrate that the proposed system integrates with the listed interfaces. Supporting particulars are included in our technical schedule.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder makes an explicit affirmative commitment in the cited passage.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "met"
+  },
+  {
+    "pair_id": "northstar_works::REQ-18",
+    "bidder": "Northstar Works",
+    "requirement_id": "REQ-18",
+    "requirement": "Optional improvement: provide an extended energy performance guarantee.",
+    "category": "Evaluation",
+    "mandatory": false,
+    "status": "not evidenced",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 3,
+      "quotation": "REQ-18 | Evaluation | Optional improvement: provide an extended energy performance guarantee. | optional | quantity=unknown | unit=unknown | threshold=unknown | deadline=2026-12-15T17:00+04:00 | rev=1"
+    },
+    "bid_evidence": [],
+    "rationale": "No sufficiently relevant response passage was found in the searched bid documents.",
+    "unresolved_question": "Northstar Works: provide a clear response and supporting evidence for REQ-18.",
+    "searched_documents": [
+      "bids/northstar_works/technical_proposal.pdf",
+      "bids/northstar_works/commercial_schedule.pdf",
+      "bids/northstar_works/delivery_warranty_and_exclusions.pdf",
+      "bids/northstar_works/general_product_catalog.pdf"
+    ],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "not evidenced"
+  },
+  {
+    "pair_id": "northstar_works::REQ-12",
+    "bidder": "Northstar Works",
+    "requirement_id": "REQ-12",
+    "requirement": "Include all listed installation, testing, and commissioning activities in the work scope.",
+    "category": "Scope",
+    "mandatory": true,
+    "status": "not met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 2,
+      "quotation": "REQ-12 | Scope | Include all listed installation, testing, and commissioning activities in the work scope. | mandatory | quantity=unknown | unit=unknown | threshold=maximum 60 days | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/northstar_works/technical_proposal.pdf",
+        "page": 2,
+        "quotation": "We cannot meet include all listed installation, testing, and commissioning activities in the work scope within this offer and have excluded the related work.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder explicitly declines or excludes the required item.",
+    "unresolved_question": "Northstar Works: confirm whether the stated exclusion for REQ-12 is final and provide any compliant option.",
+    "searched_documents": [],
+    "finding_flags": [
+      "exclusion",
+      "deviation"
+    ],
+    "mandatory_gap": true,
+    "gold_status": "not met"
+  },
+  {
+    "pair_id": "northstar_works::REQ-06",
+    "bidder": "Northstar Works",
+    "requirement_id": "REQ-06",
+    "requirement": "Provide the completed technical submission schedule in the required format.",
+    "category": "Submission",
+    "mandatory": true,
+    "status": "partially met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 1,
+      "quotation": "REQ-06 | Submission | Provide the completed technical submission schedule in the required format. | mandatory | quantity=unknown | unit=unknown | threshold=unknown | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/northstar_works/technical_proposal.pdf",
+        "page": 3,
+        "quotation": "We can address provide the completed technical submission schedule in the required format in part; the stated limitation requires a clarification before award.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder offers a limited or conditional response, or states a deviation from the tender requirement.",
+    "unresolved_question": "Northstar Works: confirm the limitation, proposed remedy, and any price or schedule effect for REQ-06.",
+    "searched_documents": [],
+    "finding_flags": [
+      "qualification",
+      "deviation"
+    ],
+    "mandatory_gap": true,
+    "gold_status": "partially met"
+  },
+  {
+    "pair_id": "cedar_build::REQ-26",
+    "bidder": "Cedar Build",
+    "requirement_id": "REQ-26",
+    "requirement": "Optional improvement: provide a digital handover model in the requested format.",
+    "category": "Submission",
+    "mandatory": false,
+    "status": "met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 4,
+      "quotation": "REQ-26 | Submission | Optional improvement: provide a digital handover model in the requested format. | optional | quantity=unknown | unit=unknown | threshold=maximum 60 days | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/cedar_build/technical_proposal.pdf",
+        "page": 1,
+        "quotation": "We will fully comply: optional improvement: provide a digital handover model in the requested format. Supporting particulars are included in our submission schedule.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder makes an explicit affirmative commitment in the cited passage.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "met"
+  },
+  {
+    "pair_id": "cedar_build::REQ-21",
+    "bidder": "Cedar Build",
+    "requirement_id": "REQ-21",
+    "requirement": "Accept payment within 60 days as stated in the base tender clause.",
+    "category": "Commercial",
+    "mandatory": true,
+    "status": "partially met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 3,
+      "quotation": "REQ-21 | Commercial | Accept payment within 60 days as stated in the base tender clause. | mandatory | quantity=unknown | unit=unknown | threshold=minimum 70 points | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/cedar_build/commercial_schedule.pdf",
+        "page": 1,
+        "quotation": "We can address accept payment within 60 days as stated in the base tender clause in part; the stated limitation requires a clarification before award.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder offers a limited or conditional response, or states a deviation from the tender requirement.",
+    "unresolved_question": "Cedar Build: confirm the limitation, proposed remedy, and any price or schedule effect for REQ-21.",
+    "searched_documents": [],
+    "finding_flags": [
+      "qualification",
+      "delivery_deviation",
+      "deviation"
+    ],
+    "mandatory_gap": true,
+    "gold_status": "partially met"
+  },
+  {
+    "pair_id": "cedar_build::REQ-16",
+    "bidder": "Cedar Build",
+    "requirement_id": "REQ-16",
+    "requirement": "Complete delivery within 90 calendar days after the notice to proceed.",
+    "category": "Delivery",
+    "mandatory": true,
+    "status": "not evidenced",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 2,
+      "quotation": "REQ-16 | Delivery | Complete delivery within 90 calendar days after the notice to proceed. | mandatory | quantity=unknown | unit=unknown | threshold=minimum 90% | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [],
+    "rationale": "No sufficiently relevant response passage was found in the searched bid documents.",
+    "unresolved_question": "Cedar Build: provide a clear response and supporting evidence for REQ-16.",
+    "searched_documents": [
+      "bids/cedar_build/technical_proposal.pdf",
+      "bids/cedar_build/commercial_schedule.pdf",
+      "bids/cedar_build/delivery_warranty_and_exclusions.pdf",
+      "bids/cedar_build/general_product_catalog.pdf"
+    ],
+    "finding_flags": [],
+    "mandatory_gap": true,
+    "gold_status": "not evidenced"
+  },
+  {
+    "pair_id": "cedar_build::REQ-11",
+    "bidder": "Cedar Build",
+    "requirement_id": "REQ-11",
+    "requirement": "Identify any alternative technical solution and explain each departure from the tender design.",
+    "category": "Technical",
+    "mandatory": true,
+    "status": "partially met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 2,
+      "quotation": "REQ-11 | Technical | Identify any alternative technical solution and explain each departure from the tender design. | mandatory | quantity=unknown | unit=unknown | threshold=unknown | deadline=2026-12-15T17:00+04:00 | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/cedar_build/technical_proposal.pdf",
+        "page": 1,
+        "quotation": "We propose an alternative control platform; compatibility evidence and approval are still required.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder offers a limited or conditional response, or states a deviation from the tender requirement.",
+    "unresolved_question": "Cedar Build: confirm the limitation, proposed remedy, and any price or schedule effect for REQ-11.",
+    "searched_documents": [],
+    "finding_flags": [
+      "alternative_proposal",
+      "deviation"
+    ],
+    "mandatory_gap": true,
+    "gold_status": "partially met"
+  },
+  {
+    "pair_id": "cedar_build::REQ-06",
+    "bidder": "Cedar Build",
+    "requirement_id": "REQ-06",
+    "requirement": "Provide the completed technical submission schedule in the required format.",
+    "category": "Submission",
+    "mandatory": true,
+    "status": "not evidenced",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 1,
+      "quotation": "REQ-06 | Submission | Provide the completed technical submission schedule in the required format. | mandatory | quantity=unknown | unit=unknown | threshold=unknown | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [],
+    "rationale": "No sufficiently relevant response passage was found in the searched bid documents.",
+    "unresolved_question": "Cedar Build: provide a clear response and supporting evidence for REQ-06.",
+    "searched_documents": [
+      "bids/cedar_build/technical_proposal.pdf",
+      "bids/cedar_build/commercial_schedule.pdf",
+      "bids/cedar_build/delivery_warranty_and_exclusions.pdf",
+      "bids/cedar_build/general_product_catalog.pdf"
+    ],
+    "finding_flags": [],
+    "mandatory_gap": true,
+    "gold_status": "not evidenced"
+  },
+  {
+    "pair_id": "cedar_build::REQ-01",
+    "bidder": "Cedar Build",
+    "requirement_id": "REQ-01",
+    "requirement": "Complete civil, structural, and architectural works within the marked project boundary.",
+    "category": "Scope",
+    "mandatory": true,
+    "status": "met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 1,
+      "quotation": "REQ-01 | Scope | Complete civil, structural, and architectural works within the marked project boundary. | mandatory | quantity=10 | unit=m2 | threshold=unknown | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/cedar_build/technical_proposal.pdf",
+        "page": 1,
+        "quotation": "We accept the complete requirement to complete civil, structural, and architectural works within the marked project boundary and include the supporting details in our bid schedule.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder makes an explicit affirmative commitment in the cited passage.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "met"
+  },
+  {
+    "pair_id": "cedar_build::REQ-27",
+    "bidder": "Cedar Build",
+    "requirement_id": "REQ-27",
+    "requirement": "Meet the stated fire resistance rating for the identified assemblies.",
+    "category": "Technical",
+    "mandatory": true,
+    "status": "not met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 4,
+      "quotation": "REQ-27 | Technical | Meet the stated fire resistance rating for the identified assemblies. | mandatory | quantity=unknown | unit=unknown | threshold=unknown | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/cedar_build/technical_proposal.pdf",
+        "page": 1,
+        "quotation": "We cannot meet meet the stated fire resistance rating for the identified assemblies within this offer and have excluded the related work.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder explicitly declines or excludes the required item.",
+    "unresolved_question": "Cedar Build: confirm whether the stated exclusion for REQ-27 is final and provide any compliant option.",
+    "searched_documents": [],
+    "finding_flags": [
+      "exclusion",
+      "deviation"
+    ],
+    "mandatory_gap": true,
+    "gold_status": "not met"
+  },
+  {
+    "pair_id": "cedar_build::REQ-22",
+    "bidder": "Cedar Build",
+    "requirement_id": "REQ-22",
+    "requirement": "Provide a project-specific quality plan and inspection schedule.",
+    "category": "Submission",
+    "mandatory": true,
+    "status": "met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 3,
+      "quotation": "REQ-22 | Submission | Provide a project-specific quality plan and inspection schedule. | mandatory | quantity=220 | unit=m2 | threshold=unknown | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/cedar_build/technical_proposal.pdf",
+        "page": 1,
+        "quotation": "We accept the complete requirement to provide a project-specific quality plan and inspection schedule and include the supporting details in our bid schedule.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder makes an explicit affirmative commitment in the cited passage.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "met"
+  },
+  {
+    "pair_id": "cedar_build::REQ-17",
+    "bidder": "Cedar Build",
+    "requirement_id": "REQ-17",
+    "requirement": "Provide qualified personnel with the stated licenses and project experience.",
+    "category": "Technical",
+    "mandatory": true,
+    "status": "partially met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 3,
+      "quotation": "REQ-17 | Technical | Provide qualified personnel with the stated licenses and project experience. | mandatory | quantity=1 | unit=package | threshold=unknown | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/cedar_build/technical_proposal.pdf",
+        "page": 1,
+        "quotation": "We can address provide qualified personnel with the stated licenses and project experience in part; the stated limitation requires a clarification before award.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder offers a limited or conditional response, or states a deviation from the tender requirement.",
+    "unresolved_question": "Cedar Build: confirm the limitation, proposed remedy, and any price or schedule effect for REQ-17.",
+    "searched_documents": [],
+    "finding_flags": [
+      "qualification",
+      "deviation"
+    ],
+    "mandatory_gap": true,
+    "gold_status": "partially met"
+  },
+  {
+    "pair_id": "cedar_build::REQ-12",
+    "bidder": "Cedar Build",
+    "requirement_id": "REQ-12",
+    "requirement": "Include all listed installation, testing, and commissioning activities in the work scope.",
+    "category": "Scope",
+    "mandatory": true,
+    "status": "partially met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 2,
+      "quotation": "REQ-12 | Scope | Include all listed installation, testing, and commissioning activities in the work scope. | mandatory | quantity=unknown | unit=unknown | threshold=maximum 60 days | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/cedar_build/technical_proposal.pdf",
+        "page": 1,
+        "quotation": "We can address include all listed installation, testing, and commissioning activities in the work scope in part; the stated limitation requires a clarification before award.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder offers a limited or conditional response, or states a deviation from the tender requirement.",
+    "unresolved_question": "Cedar Build: confirm the limitation, proposed remedy, and any price or schedule effect for REQ-12.",
+    "searched_documents": [],
+    "finding_flags": [
+      "qualification",
+      "deviation"
+    ],
+    "mandatory_gap": true,
+    "gold_status": "partially met"
+  },
+  {
+    "pair_id": "cedar_build::REQ-07",
+    "bidder": "Cedar Build",
+    "requirement_id": "REQ-07",
+    "requirement": "Supply materials that meet the specified grade and approved product standards.",
+    "category": "Technical",
+    "mandatory": true,
+    "status": "met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 1,
+      "quotation": "REQ-07 | Technical | Supply materials that meet the specified grade and approved product standards. | mandatory | quantity=unknown | unit=unknown | threshold=minimum 70 points | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/cedar_build/technical_proposal.pdf",
+        "page": 1,
+        "quotation": "We accept the complete requirement to supply materials that meet the specified grade and approved product standards and include the supporting details in our bid schedule.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder makes an explicit affirmative commitment in the cited passage.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "met"
+  },
+  {
+    "pair_id": "cedar_build::REQ-02",
+    "bidder": "Cedar Build",
+    "requirement_id": "REQ-02",
+    "requirement": "Demonstrate equipment efficiency of at least 90 percent under the stated operating test.",
+    "category": "Technical",
+    "mandatory": true,
+    "status": "not met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 1,
+      "quotation": "REQ-02 | Technical | Demonstrate equipment efficiency of at least 90 percent under the stated operating test. | mandatory | quantity=unknown | unit=unknown | threshold=minimum 90% | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/cedar_build/technical_proposal.pdf",
+        "page": 2,
+        "quotation": "We cannot meet demonstrate equipment efficiency of at least 90 percent under the stated operating test within this offer and have excluded the related work.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder explicitly declines or excludes the required item.",
+    "unresolved_question": "Cedar Build: confirm whether the stated exclusion for REQ-02 is final and provide any compliant option.",
+    "searched_documents": [],
+    "finding_flags": [
+      "exclusion",
+      "deviation"
+    ],
+    "mandatory_gap": true,
+    "gold_status": "not met"
+  },
+  {
+    "pair_id": "cedar_build::REQ-28",
+    "bidder": "Cedar Build",
+    "requirement_id": "REQ-28",
+    "requirement": "Complete commissioning and handover no later than the contractual completion date.",
+    "category": "Deadline",
+    "mandatory": true,
+    "status": "met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 4,
+      "quotation": "REQ-28 | Deadline | Complete commissioning and handover no later than the contractual completion date. | mandatory | quantity=unknown | unit=unknown | threshold=minimum 70 points | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/cedar_build/delivery_warranty_and_exclusions.pdf",
+        "page": 1,
+        "quotation": "We accept the complete requirement to complete commissioning and handover no later than the contractual completion date and include the supporting details in our bid schedule.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder makes an explicit affirmative commitment in the cited passage.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "met"
+  },
+  {
+    "pair_id": "cedar_build::REQ-23",
+    "bidder": "Cedar Build",
+    "requirement_id": "REQ-23",
+    "requirement": "State the warranty duration and every warranty exclusion for the supplied works.",
+    "category": "Warranty",
+    "mandatory": true,
+    "status": "not evidenced",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 3,
+      "quotation": "REQ-23 | Warranty | State the warranty duration and every warranty exclusion for the supplied works. | mandatory | quantity=unknown | unit=unknown | threshold=minimum 90% | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [],
+    "rationale": "No sufficiently relevant response passage was found in the searched bid documents.",
+    "unresolved_question": "Cedar Build: provide a clear response and supporting evidence for REQ-23.",
+    "searched_documents": [
+      "bids/cedar_build/technical_proposal.pdf",
+      "bids/cedar_build/commercial_schedule.pdf",
+      "bids/cedar_build/delivery_warranty_and_exclusions.pdf",
+      "bids/cedar_build/general_product_catalog.pdf"
+    ],
+    "finding_flags": [
+      "warranty_gap"
+    ],
+    "mandatory_gap": true,
+    "gold_status": "not evidenced"
+  },
+  {
+    "pair_id": "cedar_build::REQ-18",
+    "bidder": "Cedar Build",
+    "requirement_id": "REQ-18",
+    "requirement": "Optional improvement: provide an extended energy performance guarantee.",
+    "category": "Evaluation",
+    "mandatory": false,
+    "status": "met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 3,
+      "quotation": "REQ-18 | Evaluation | Optional improvement: provide an extended energy performance guarantee. | optional | quantity=unknown | unit=unknown | threshold=unknown | deadline=2026-12-15T17:00+04:00 | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/cedar_build/technical_proposal.pdf",
+        "page": 2,
+        "quotation": "Our signed offer confirms full compliance with this item: optional improvement: provide an extended energy performance guarantee; see the attached schedule for supporting particulars.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder makes an explicit affirmative commitment in the cited passage.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "met"
+  },
+  {
+    "pair_id": "cedar_build::REQ-13",
+    "bidder": "Cedar Build",
+    "requirement_id": "REQ-13",
+    "requirement": "Meet the specified noise limit at the project boundary during normal operation.",
+    "category": "Technical",
+    "mandatory": true,
+    "status": "not evidenced",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 2,
+      "quotation": "REQ-13 | Technical | Meet the specified noise limit at the project boundary during normal operation. | mandatory | quantity=unknown | unit=unknown | threshold=unknown | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [],
+    "rationale": "No sufficiently relevant response passage was found in the searched bid documents.",
+    "unresolved_question": "Cedar Build: provide a clear response and supporting evidence for REQ-13.",
+    "searched_documents": [
+      "bids/cedar_build/technical_proposal.pdf",
+      "bids/cedar_build/commercial_schedule.pdf",
+      "bids/cedar_build/delivery_warranty_and_exclusions.pdf",
+      "bids/cedar_build/general_product_catalog.pdf"
+    ],
+    "finding_flags": [],
+    "mandatory_gap": true,
+    "gold_status": "not evidenced"
+  },
+  {
+    "pair_id": "cedar_build::REQ-08",
+    "bidder": "Cedar Build",
+    "requirement_id": "REQ-08",
+    "requirement": "Meet the revised technical evaluation threshold of 75 points under amendment A-01.",
+    "category": "Evaluation",
+    "mandatory": true,
+    "status": "partially met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 1,
+      "quotation": "REQ-08 | Evaluation | Meet the revised technical evaluation threshold of 75 points under amendment A-01. | mandatory | quantity=unknown | unit=unknown | threshold=minimum 75 points | deadline=unknown | rev=2"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/cedar_build/technical_proposal.pdf",
+        "page": 2,
+        "quotation": "We can address meet the revised technical evaluation threshold of 75 points under amendment a-01 in part; the stated limitation requires a clarification before award.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder offers a limited or conditional response, or states a deviation from the tender requirement.",
+    "unresolved_question": "Cedar Build: confirm the limitation, proposed remedy, and any price or schedule effect for REQ-08.",
+    "searched_documents": [],
+    "finding_flags": [
+      "qualification",
+      "deviation"
+    ],
+    "mandatory_gap": true,
+    "gold_status": "partially met"
+  },
+  {
+    "pair_id": "cedar_build::REQ-03",
+    "bidder": "Cedar Build",
+    "requirement_id": "REQ-03",
+    "requirement": "Maintain insurance coverage of at least AED 10 million throughout the contract.",
+    "category": "Technical",
+    "mandatory": true,
+    "status": "met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 1,
+      "quotation": "REQ-03 | Technical | Maintain insurance coverage of at least AED 10 million throughout the contract. | mandatory | quantity=1 | unit=package | threshold=unknown | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/cedar_build/technical_proposal.pdf",
+        "page": 2,
+        "quotation": "Our signed offer confirms full compliance with this item: maintain insurance coverage of at least aed 10 million throughout the contract; see the attached schedule for supporting particulars.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder makes an explicit affirmative commitment in the cited passage.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "met"
+  },
+  {
+    "pair_id": "cedar_build::REQ-29",
+    "bidder": "Cedar Build",
+    "requirement_id": "REQ-29",
+    "requirement": "Price all bill of quantities lines and identify assumptions affecting the total.",
+    "category": "Commercial",
+    "mandatory": true,
+    "status": "partially met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 4,
+      "quotation": "REQ-29 | Commercial | Price all bill of quantities lines and identify assumptions affecting the total. | mandatory | quantity=290 | unit=m2 | threshold=unknown | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/cedar_build/commercial_schedule.pdf",
+        "page": 1,
+        "quotation": "We can address price all bill of quantities lines and identify assumptions affecting the total in part; the stated limitation requires a clarification before award.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder offers a limited or conditional response, or states a deviation from the tender requirement.",
+    "unresolved_question": "Cedar Build: confirm the limitation, proposed remedy, and any price or schedule effect for REQ-29.",
+    "searched_documents": [],
+    "finding_flags": [
+      "qualification",
+      "deviation"
+    ],
+    "mandatory_gap": true,
+    "gold_status": "partially met"
+  },
+  {
+    "pair_id": "cedar_build::REQ-24",
+    "bidder": "Cedar Build",
+    "requirement_id": "REQ-24",
+    "requirement": "Demonstrate that the proposed system integrates with the listed interfaces.",
+    "category": "Technical",
+    "mandatory": true,
+    "status": "met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 3,
+      "quotation": "REQ-24 | Technical | Demonstrate that the proposed system integrates with the listed interfaces. | mandatory | quantity=1 | unit=package | threshold=unknown | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/cedar_build/technical_proposal.pdf",
+        "page": 2,
+        "quotation": "Our signed offer confirms full compliance with this item: demonstrate that the proposed system integrates with the listed interfaces; see the attached schedule for supporting particulars.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder makes an explicit affirmative commitment in the cited passage.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "met"
+  },
+  {
+    "pair_id": "cedar_build::REQ-19",
+    "bidder": "Cedar Build",
+    "requirement_id": "REQ-19",
+    "requirement": "Include protection, temporary works, and reinstatement for affected existing assets.",
+    "category": "Scope",
+    "mandatory": true,
+    "status": "not met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 3,
+      "quotation": "REQ-19 | Scope | Include protection, temporary works, and reinstatement for affected existing assets. | mandatory | quantity=unknown | unit=unknown | threshold=maximum 60 days | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/cedar_build/technical_proposal.pdf",
+        "page": 2,
+        "quotation": "We cannot meet include protection, temporary works, and reinstatement for affected existing assets within this offer and have excluded the related work.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder explicitly declines or excludes the required item.",
+    "unresolved_question": "Cedar Build: confirm whether the stated exclusion for REQ-19 is final and provide any compliant option.",
+    "searched_documents": [],
+    "finding_flags": [
+      "exclusion",
+      "deviation"
+    ],
+    "mandatory_gap": true,
+    "gold_status": "not met"
+  },
+  {
+    "pair_id": "cedar_build::REQ-14",
+    "bidder": "Cedar Build",
+    "requirement_id": "REQ-14",
+    "requirement": "Provide valid manufacturer data sheets for each proposed major equipment item.",
+    "category": "Submission",
+    "mandatory": true,
+    "status": "met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 2,
+      "quotation": "REQ-14 | Submission | Provide valid manufacturer data sheets for each proposed major equipment item. | mandatory | quantity=unknown | unit=unknown | threshold=minimum 70 points | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/cedar_build/technical_proposal.pdf",
+        "page": 2,
+        "quotation": "We will fully comply: provide valid manufacturer data sheets for each proposed major equipment item. Supporting particulars are included in our submission schedule.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder makes an explicit affirmative commitment in the cited passage.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "met"
+  },
+  {
+    "pair_id": "cedar_build::REQ-09",
+    "bidder": "Cedar Build",
+    "requirement_id": "REQ-09",
+    "requirement": "Deliver the complete bid package before the stated submission deadline.",
+    "category": "Deadline",
+    "mandatory": true,
+    "status": "met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 2,
+      "quotation": "REQ-09 | Deadline | Deliver the complete bid package before the stated submission deadline. | mandatory | quantity=unknown | unit=unknown | threshold=minimum 90% | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/cedar_build/delivery_warranty_and_exclusions.pdf",
+        "page": 1,
+        "quotation": "Our signed offer confirms full compliance with this item: deliver the complete bid package before the stated submission deadline; see the attached schedule for supporting particulars.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder makes an explicit affirmative commitment in the cited passage.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "met"
+  },
+  {
+    "pair_id": "cedar_build::REQ-04",
+    "bidder": "Cedar Build",
+    "requirement_id": "REQ-04",
+    "requirement": "Disclose every qualification and exclusion that changes the offered scope or price.",
+    "category": "Commercial",
+    "mandatory": true,
+    "status": "not met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 1,
+      "quotation": "REQ-04 | Commercial | Disclose every qualification and exclusion that changes the offered scope or price. | mandatory | quantity=unknown | unit=unknown | threshold=unknown | deadline=2026-12-15T17:00+04:00 | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/cedar_build/commercial_schedule.pdf",
+        "page": 1,
+        "quotation": "We exclude the listed commissioning support from our offer and will not provide it at the quoted price.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder explicitly declines or excludes the required item.",
+    "unresolved_question": "Cedar Build: confirm whether the stated exclusion for REQ-04 is final and provide any compliant option.",
+    "searched_documents": [],
+    "finding_flags": [
+      "exclusion",
+      "deviation"
+    ],
+    "mandatory_gap": true,
+    "gold_status": "not met"
+  },
+  {
+    "pair_id": "cedar_build::REQ-30",
+    "bidder": "Cedar Build",
+    "requirement_id": "REQ-30",
+    "requirement": "Submit a signed statement confirming the bid remains valid for 90 days.",
+    "category": "Submission",
+    "mandatory": true,
+    "status": "not evidenced",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 4,
+      "quotation": "REQ-30 | Submission | Submit a signed statement confirming the bid remains valid for 90 days. | mandatory | quantity=unknown | unit=unknown | threshold=minimum 90% | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [],
+    "rationale": "No sufficiently relevant response passage was found in the searched bid documents.",
+    "unresolved_question": "Cedar Build: provide a clear response and supporting evidence for REQ-30.",
+    "searched_documents": [
+      "bids/cedar_build/technical_proposal.pdf",
+      "bids/cedar_build/commercial_schedule.pdf",
+      "bids/cedar_build/delivery_warranty_and_exclusions.pdf",
+      "bids/cedar_build/general_product_catalog.pdf"
+    ],
+    "finding_flags": [],
+    "mandatory_gap": true,
+    "gold_status": "not evidenced"
+  },
+  {
+    "pair_id": "cedar_build::REQ-25",
+    "bidder": "Cedar Build",
+    "requirement_id": "REQ-25",
+    "requirement": "Remove and dispose of construction waste using the approved site procedures.",
+    "category": "Scope",
+    "mandatory": true,
+    "status": "partially met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 4,
+      "quotation": "REQ-25 | Scope | Remove and dispose of construction waste using the approved site procedures. | mandatory | quantity=unknown | unit=unknown | threshold=unknown | deadline=2026-12-15T17:00+04:00 | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/cedar_build/technical_proposal.pdf",
+        "page": 2,
+        "quotation": "We can address remove and dispose of construction waste using the approved site procedures in part; the stated limitation requires a clarification before award.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder offers a limited or conditional response, or states a deviation from the tender requirement.",
+    "unresolved_question": "Cedar Build: confirm the limitation, proposed remedy, and any price or schedule effect for REQ-25.",
+    "searched_documents": [],
+    "finding_flags": [
+      "qualification",
+      "deviation"
+    ],
+    "mandatory_gap": true,
+    "gold_status": "partially met"
+  },
+  {
+    "pair_id": "cedar_build::REQ-20",
+    "bidder": "Cedar Build",
+    "requirement_id": "REQ-20",
+    "requirement": "Declare all technical departures consistently across the offer and supporting schedules.",
+    "category": "Technical",
+    "mandatory": true,
+    "status": "met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 3,
+      "quotation": "REQ-20 | Technical | Declare all technical departures consistently across the offer and supporting schedules. | mandatory | quantity=unknown | unit=unknown | threshold=unknown | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/cedar_build/technical_proposal.pdf",
+        "page": 3,
+        "quotation": "We will fully comply: declare all technical departures consistently across the offer and supporting schedules. Supporting particulars are included in our technical schedule.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder makes an explicit affirmative commitment in the cited passage.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "met"
+  },
+  {
+    "pair_id": "cedar_build::REQ-15",
+    "bidder": "Cedar Build",
+    "requirement_id": "REQ-15",
+    "requirement": "Confirm the stated payment terms and identify any requested changes.",
+    "category": "Commercial",
+    "mandatory": true,
+    "status": "not applicable",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 2,
+      "quotation": "REQ-15 | Commercial | Confirm the stated payment terms and identify any requested changes. | mandatory | quantity=150 | unit=m2 | threshold=unknown | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/cedar_build/commercial_schedule.pdf",
+        "page": 1,
+        "quotation": "Not applicable: this item falls outside our assigned lot, which covers only the north service zone; see our scope split.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder records a scope-based reason for treating this item as not applicable.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "not applicable"
+  },
+  {
+    "pair_id": "cedar_build::REQ-10",
+    "bidder": "Cedar Build",
+    "requirement_id": "REQ-10",
+    "requirement": "State the bid currency and confirm that all prices are firm for the offer period.",
+    "category": "Commercial",
+    "mandatory": true,
+    "status": "not met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 2,
+      "quotation": "REQ-10 | Commercial | State the bid currency and confirm that all prices are firm for the offer period. | mandatory | quantity=1 | unit=package | threshold=unknown | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/cedar_build/commercial_schedule.pdf",
+        "page": 1,
+        "quotation": "We cannot meet state the bid currency and confirm that all prices are firm for the offer period within this offer and have excluded the related work.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder explicitly declines or excludes the required item.",
+    "unresolved_question": "Cedar Build: confirm whether the stated exclusion for REQ-10 is final and provide any compliant option.",
+    "searched_documents": [],
+    "finding_flags": [
+      "exclusion",
+      "deviation"
+    ],
+    "mandatory_gap": true,
+    "gold_status": "not met"
+  },
+  {
+    "pair_id": "cedar_build::REQ-05",
+    "bidder": "Cedar Build",
+    "requirement_id": "REQ-05",
+    "requirement": "Submit an optional sustainability improvement proposal with supporting evidence.",
+    "category": "Submission",
+    "mandatory": false,
+    "status": "met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 1,
+      "quotation": "REQ-05 | Submission | Submit an optional sustainability improvement proposal with supporting evidence. | optional | quantity=unknown | unit=unknown | threshold=maximum 60 days | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/cedar_build/technical_proposal.pdf",
+        "page": 3,
+        "quotation": "We will fully comply: submit an optional sustainability improvement proposal with supporting evidence. Supporting particulars are included in our submission schedule.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder makes an explicit affirmative commitment in the cited passage.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "met"
+  },
+  {
+    "pair_id": "summit_contracting::REQ-09",
+    "bidder": "Summit Contracting",
+    "requirement_id": "REQ-09",
+    "requirement": "Deliver the complete bid package before the stated submission deadline.",
+    "category": "Deadline",
+    "mandatory": true,
+    "status": "met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 2,
+      "quotation": "REQ-09 | Deadline | Deliver the complete bid package before the stated submission deadline. | mandatory | quantity=unknown | unit=unknown | threshold=minimum 90% | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/summit_contracting/delivery_warranty_and_exclusions.pdf",
+        "page": 1,
+        "quotation": "We accept the complete requirement to deliver the complete bid package before the stated submission deadline and include the supporting details in our bid schedule.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder makes an explicit affirmative commitment in the cited passage.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "met"
+  },
+  {
+    "pair_id": "summit_contracting::REQ-18",
+    "bidder": "Summit Contracting",
+    "requirement_id": "REQ-18",
+    "requirement": "Optional improvement: provide an extended energy performance guarantee.",
+    "category": "Evaluation",
+    "mandatory": false,
+    "status": "met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 3,
+      "quotation": "REQ-18 | Evaluation | Optional improvement: provide an extended energy performance guarantee. | optional | quantity=unknown | unit=unknown | threshold=unknown | deadline=2026-12-15T17:00+04:00 | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/summit_contracting/technical_proposal.pdf",
+        "page": 1,
+        "quotation": "We accept the complete requirement to optional improvement: provide an extended energy performance guarantee and include the supporting details in our bid schedule.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder makes an explicit affirmative commitment in the cited passage.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "met"
+  },
+  {
+    "pair_id": "summit_contracting::REQ-27",
+    "bidder": "Summit Contracting",
+    "requirement_id": "REQ-27",
+    "requirement": "Meet the stated fire resistance rating for the identified assemblies.",
+    "category": "Technical",
+    "mandatory": true,
+    "status": "partially met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 4,
+      "quotation": "REQ-27 | Technical | Meet the stated fire resistance rating for the identified assemblies. | mandatory | quantity=unknown | unit=unknown | threshold=unknown | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/summit_contracting/technical_proposal.pdf",
+        "page": 1,
+        "quotation": "We can address meet the stated fire resistance rating for the identified assemblies in part; the stated limitation requires a clarification before award.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder offers a limited or conditional response, or states a deviation from the tender requirement.",
+    "unresolved_question": "Summit Contracting: confirm the limitation, proposed remedy, and any price or schedule effect for REQ-27.",
+    "searched_documents": [],
+    "finding_flags": [
+      "qualification",
+      "deviation"
+    ],
+    "mandatory_gap": true,
+    "gold_status": "partially met"
+  },
+  {
+    "pair_id": "summit_contracting::REQ-05",
+    "bidder": "Summit Contracting",
+    "requirement_id": "REQ-05",
+    "requirement": "Submit an optional sustainability improvement proposal with supporting evidence.",
+    "category": "Submission",
+    "mandatory": false,
+    "status": "met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 1,
+      "quotation": "REQ-05 | Submission | Submit an optional sustainability improvement proposal with supporting evidence. | optional | quantity=unknown | unit=unknown | threshold=maximum 60 days | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/summit_contracting/technical_proposal.pdf",
+        "page": 1,
+        "quotation": "Our signed offer confirms full compliance with this item: submit an optional sustainability improvement proposal with supporting evidence; see the attached schedule for supporting particulars.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder makes an explicit affirmative commitment in the cited passage.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "met"
+  },
+  {
+    "pair_id": "summit_contracting::REQ-14",
+    "bidder": "Summit Contracting",
+    "requirement_id": "REQ-14",
+    "requirement": "Provide valid manufacturer data sheets for each proposed major equipment item.",
+    "category": "Submission",
+    "mandatory": true,
+    "status": "not evidenced",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 2,
+      "quotation": "REQ-14 | Submission | Provide valid manufacturer data sheets for each proposed major equipment item. | mandatory | quantity=unknown | unit=unknown | threshold=minimum 70 points | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [],
+    "rationale": "No sufficiently relevant response passage was found in the searched bid documents.",
+    "unresolved_question": "Summit Contracting: provide a clear response and supporting evidence for REQ-14.",
+    "searched_documents": [
+      "bids/summit_contracting/technical_proposal.pdf",
+      "bids/summit_contracting/commercial_schedule.pdf",
+      "bids/summit_contracting/delivery_warranty_and_exclusions.pdf",
+      "bids/summit_contracting/general_product_catalog.pdf"
+    ],
+    "finding_flags": [],
+    "mandatory_gap": true,
+    "gold_status": "not evidenced"
+  },
+  {
+    "pair_id": "summit_contracting::REQ-23",
+    "bidder": "Summit Contracting",
+    "requirement_id": "REQ-23",
+    "requirement": "State the warranty duration and every warranty exclusion for the supplied works.",
+    "category": "Warranty",
+    "mandatory": true,
+    "status": "not evidenced",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 3,
+      "quotation": "REQ-23 | Warranty | State the warranty duration and every warranty exclusion for the supplied works. | mandatory | quantity=unknown | unit=unknown | threshold=minimum 90% | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/summit_contracting/delivery_warranty_and_exclusions.pdf",
+        "page": 1,
+        "quotation": "Warranty duration and exclusions are not stated in the submitted bid package.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder states the requested detail is absent, or no supporting detail was supplied.",
+    "unresolved_question": "Summit Contracting: provide a clear response and supporting evidence for REQ-23.",
+    "searched_documents": [
+      "bids/summit_contracting/technical_proposal.pdf",
+      "bids/summit_contracting/commercial_schedule.pdf",
+      "bids/summit_contracting/delivery_warranty_and_exclusions.pdf",
+      "bids/summit_contracting/general_product_catalog.pdf"
+    ],
+    "finding_flags": [
+      "warranty_gap"
+    ],
+    "mandatory_gap": true,
+    "gold_status": "not evidenced"
+  },
+  {
+    "pair_id": "summit_contracting::REQ-01",
+    "bidder": "Summit Contracting",
+    "requirement_id": "REQ-01",
+    "requirement": "Complete civil, structural, and architectural works within the marked project boundary.",
+    "category": "Scope",
+    "mandatory": true,
+    "status": "met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 1,
+      "quotation": "REQ-01 | Scope | Complete civil, structural, and architectural works within the marked project boundary. | mandatory | quantity=10 | unit=m2 | threshold=unknown | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/summit_contracting/technical_proposal.pdf",
+        "page": 1,
+        "quotation": "We will fully comply: complete civil, structural, and architectural works within the marked project boundary. Supporting particulars are included in our scope schedule.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder makes an explicit affirmative commitment in the cited passage.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "met"
+  },
+  {
+    "pair_id": "summit_contracting::REQ-10",
+    "bidder": "Summit Contracting",
+    "requirement_id": "REQ-10",
+    "requirement": "State the bid currency and confirm that all prices are firm for the offer period.",
+    "category": "Commercial",
+    "mandatory": true,
+    "status": "partially met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 2,
+      "quotation": "REQ-10 | Commercial | State the bid currency and confirm that all prices are firm for the offer period. | mandatory | quantity=1 | unit=package | threshold=unknown | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/summit_contracting/commercial_schedule.pdf",
+        "page": 1,
+        "quotation": "We can address state the bid currency and confirm that all prices are firm for the offer period in part; the stated limitation requires a clarification before award.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder offers a limited or conditional response, or states a deviation from the tender requirement.",
+    "unresolved_question": "Summit Contracting: confirm the limitation, proposed remedy, and any price or schedule effect for REQ-10.",
+    "searched_documents": [],
+    "finding_flags": [
+      "qualification",
+      "deviation"
+    ],
+    "mandatory_gap": true,
+    "gold_status": "partially met"
+  },
+  {
+    "pair_id": "summit_contracting::REQ-19",
+    "bidder": "Summit Contracting",
+    "requirement_id": "REQ-19",
+    "requirement": "Include protection, temporary works, and reinstatement for affected existing assets.",
+    "category": "Scope",
+    "mandatory": true,
+    "status": "partially met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 3,
+      "quotation": "REQ-19 | Scope | Include protection, temporary works, and reinstatement for affected existing assets. | mandatory | quantity=unknown | unit=unknown | threshold=maximum 60 days | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/summit_contracting/technical_proposal.pdf",
+        "page": 1,
+        "quotation": "We can address include protection, temporary works, and reinstatement for affected existing assets in part; the stated limitation requires a clarification before award.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder offers a limited or conditional response, or states a deviation from the tender requirement.",
+    "unresolved_question": "Summit Contracting: confirm the limitation, proposed remedy, and any price or schedule effect for REQ-19.",
+    "searched_documents": [],
+    "finding_flags": [
+      "qualification",
+      "deviation"
+    ],
+    "mandatory_gap": true,
+    "gold_status": "partially met"
+  },
+  {
+    "pair_id": "summit_contracting::REQ-28",
+    "bidder": "Summit Contracting",
+    "requirement_id": "REQ-28",
+    "requirement": "Complete commissioning and handover no later than the contractual completion date.",
+    "category": "Deadline",
+    "mandatory": true,
+    "status": "not evidenced",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 4,
+      "quotation": "REQ-28 | Deadline | Complete commissioning and handover no later than the contractual completion date. | mandatory | quantity=unknown | unit=unknown | threshold=minimum 70 points | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [],
+    "rationale": "No sufficiently relevant response passage was found in the searched bid documents.",
+    "unresolved_question": "Summit Contracting: provide a clear response and supporting evidence for REQ-28.",
+    "searched_documents": [
+      "bids/summit_contracting/technical_proposal.pdf",
+      "bids/summit_contracting/commercial_schedule.pdf",
+      "bids/summit_contracting/delivery_warranty_and_exclusions.pdf",
+      "bids/summit_contracting/general_product_catalog.pdf"
+    ],
+    "finding_flags": [],
+    "mandatory_gap": true,
+    "gold_status": "not evidenced"
+  },
+  {
+    "pair_id": "summit_contracting::REQ-06",
+    "bidder": "Summit Contracting",
+    "requirement_id": "REQ-06",
+    "requirement": "Provide the completed technical submission schedule in the required format.",
+    "category": "Submission",
+    "mandatory": true,
+    "status": "partially met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 1,
+      "quotation": "REQ-06 | Submission | Provide the completed technical submission schedule in the required format. | mandatory | quantity=unknown | unit=unknown | threshold=unknown | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/summit_contracting/technical_proposal.pdf",
+        "page": 1,
+        "quotation": "We can address provide the completed technical submission schedule in the required format in part; the stated limitation requires a clarification before award.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder offers a limited or conditional response, or states a deviation from the tender requirement.",
+    "unresolved_question": "Summit Contracting: confirm the limitation, proposed remedy, and any price or schedule effect for REQ-06.",
+    "searched_documents": [],
+    "finding_flags": [
+      "qualification",
+      "deviation"
+    ],
+    "mandatory_gap": true,
+    "gold_status": "partially met"
+  },
+  {
+    "pair_id": "summit_contracting::REQ-15",
+    "bidder": "Summit Contracting",
+    "requirement_id": "REQ-15",
+    "requirement": "Confirm the stated payment terms and identify any requested changes.",
+    "category": "Commercial",
+    "mandatory": true,
+    "status": "partially met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 2,
+      "quotation": "REQ-15 | Commercial | Confirm the stated payment terms and identify any requested changes. | mandatory | quantity=150 | unit=m2 | threshold=unknown | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/summit_contracting/commercial_schedule.pdf",
+        "page": 1,
+        "quotation": "We can address confirm the stated payment terms and identify any requested changes in part; the stated limitation requires a clarification before award.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder offers a limited or conditional response, or states a deviation from the tender requirement.",
+    "unresolved_question": "Summit Contracting: confirm the limitation, proposed remedy, and any price or schedule effect for REQ-15.",
+    "searched_documents": [],
+    "finding_flags": [
+      "qualification",
+      "deviation"
+    ],
+    "mandatory_gap": true,
+    "gold_status": "partially met"
+  },
+  {
+    "pair_id": "summit_contracting::REQ-24",
+    "bidder": "Summit Contracting",
+    "requirement_id": "REQ-24",
+    "requirement": "Demonstrate that the proposed system integrates with the listed interfaces.",
+    "category": "Technical",
+    "mandatory": true,
+    "status": "met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 3,
+      "quotation": "REQ-24 | Technical | Demonstrate that the proposed system integrates with the listed interfaces. | mandatory | quantity=1 | unit=package | threshold=unknown | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/summit_contracting/technical_proposal.pdf",
+        "page": 1,
+        "quotation": "We accept the complete requirement to demonstrate that the proposed system integrates with the listed interfaces and include the supporting details in our bid schedule.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder makes an explicit affirmative commitment in the cited passage.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "met"
+  },
+  {
+    "pair_id": "summit_contracting::REQ-02",
+    "bidder": "Summit Contracting",
+    "requirement_id": "REQ-02",
+    "requirement": "Demonstrate equipment efficiency of at least 90 percent under the stated operating test.",
+    "category": "Technical",
+    "mandatory": true,
+    "status": "partially met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 1,
+      "quotation": "REQ-02 | Technical | Demonstrate equipment efficiency of at least 90 percent under the stated operating test. | mandatory | quantity=unknown | unit=unknown | threshold=minimum 90% | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/summit_contracting/technical_proposal.pdf",
+        "page": 1,
+        "quotation": "We can address demonstrate equipment efficiency of at least 90 percent under the stated operating test in part; the stated limitation requires a clarification before award.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder offers a limited or conditional response, or states a deviation from the tender requirement.",
+    "unresolved_question": "Summit Contracting: confirm the limitation, proposed remedy, and any price or schedule effect for REQ-02.",
+    "searched_documents": [],
+    "finding_flags": [
+      "qualification",
+      "deviation"
+    ],
+    "mandatory_gap": true,
+    "gold_status": "partially met"
+  },
+  {
+    "pair_id": "summit_contracting::REQ-11",
+    "bidder": "Summit Contracting",
+    "requirement_id": "REQ-11",
+    "requirement": "Identify any alternative technical solution and explain each departure from the tender design.",
+    "category": "Technical",
+    "mandatory": true,
+    "status": "not evidenced",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 2,
+      "quotation": "REQ-11 | Technical | Identify any alternative technical solution and explain each departure from the tender design. | mandatory | quantity=unknown | unit=unknown | threshold=unknown | deadline=2026-12-15T17:00+04:00 | rev=1"
+    },
+    "bid_evidence": [],
+    "rationale": "No sufficiently relevant response passage was found in the searched bid documents.",
+    "unresolved_question": "Summit Contracting: provide a clear response and supporting evidence for REQ-11.",
+    "searched_documents": [
+      "bids/summit_contracting/technical_proposal.pdf",
+      "bids/summit_contracting/commercial_schedule.pdf",
+      "bids/summit_contracting/delivery_warranty_and_exclusions.pdf",
+      "bids/summit_contracting/general_product_catalog.pdf"
+    ],
+    "finding_flags": [],
+    "mandatory_gap": true,
+    "gold_status": "not evidenced"
+  },
+  {
+    "pair_id": "summit_contracting::REQ-20",
+    "bidder": "Summit Contracting",
+    "requirement_id": "REQ-20",
+    "requirement": "Declare all technical departures consistently across the offer and supporting schedules.",
+    "category": "Technical",
+    "mandatory": true,
+    "status": "not evidenced",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 3,
+      "quotation": "REQ-20 | Technical | Declare all technical departures consistently across the offer and supporting schedules. | mandatory | quantity=unknown | unit=unknown | threshold=unknown | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/summit_contracting/technical_proposal.pdf",
+        "page": 2,
+        "quotation": "The technical schedule confirms full compliance with every listed departure requirement.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      },
+      {
+        "file": "bids/summit_contracting/technical_proposal.pdf",
+        "page": 3,
+        "quotation": "Our commercial qualifications exclude every technical departure and we will not supply omitted changes.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "Bid passages conflict; the commitment and qualification cannot both be relied on without clarification.",
+    "unresolved_question": "Summit Contracting: provide a clear response and supporting evidence for REQ-20.",
+    "searched_documents": [
+      "bids/summit_contracting/technical_proposal.pdf",
+      "bids/summit_contracting/commercial_schedule.pdf",
+      "bids/summit_contracting/delivery_warranty_and_exclusions.pdf",
+      "bids/summit_contracting/general_product_catalog.pdf"
+    ],
+    "finding_flags": [
+      "exclusion",
+      "contradiction"
+    ],
+    "mandatory_gap": true,
+    "gold_status": "not evidenced"
+  },
+  {
+    "pair_id": "summit_contracting::REQ-29",
+    "bidder": "Summit Contracting",
+    "requirement_id": "REQ-29",
+    "requirement": "Price all bill of quantities lines and identify assumptions affecting the total.",
+    "category": "Commercial",
+    "mandatory": true,
+    "status": "met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 4,
+      "quotation": "REQ-29 | Commercial | Price all bill of quantities lines and identify assumptions affecting the total. | mandatory | quantity=290 | unit=m2 | threshold=unknown | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/summit_contracting/commercial_schedule.pdf",
+        "page": 1,
+        "quotation": "Our signed offer confirms full compliance with this item: price all bill of quantities lines and identify assumptions affecting the total; see the attached schedule for supporting particulars.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder makes an explicit affirmative commitment in the cited passage.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "met"
+  },
+  {
+    "pair_id": "summit_contracting::REQ-07",
+    "bidder": "Summit Contracting",
+    "requirement_id": "REQ-07",
+    "requirement": "Supply materials that meet the specified grade and approved product standards.",
+    "category": "Technical",
+    "mandatory": true,
+    "status": "met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 1,
+      "quotation": "REQ-07 | Technical | Supply materials that meet the specified grade and approved product standards. | mandatory | quantity=unknown | unit=unknown | threshold=minimum 70 points | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/summit_contracting/technical_proposal.pdf",
+        "page": 2,
+        "quotation": "We will fully comply: supply materials that meet the specified grade and approved product standards. Supporting particulars are included in our technical schedule.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder makes an explicit affirmative commitment in the cited passage.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "met"
+  },
+  {
+    "pair_id": "summit_contracting::REQ-16",
+    "bidder": "Summit Contracting",
+    "requirement_id": "REQ-16",
+    "requirement": "Complete delivery within 90 calendar days after the notice to proceed.",
+    "category": "Delivery",
+    "mandatory": true,
+    "status": "met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 2,
+      "quotation": "REQ-16 | Delivery | Complete delivery within 90 calendar days after the notice to proceed. | mandatory | quantity=unknown | unit=unknown | threshold=minimum 90% | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/summit_contracting/delivery_warranty_and_exclusions.pdf",
+        "page": 1,
+        "quotation": "We will fully comply: complete delivery within 90 calendar days after the notice to proceed. Supporting particulars are included in our delivery schedule.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder makes an explicit affirmative commitment in the cited passage.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "met"
+  },
+  {
+    "pair_id": "summit_contracting::REQ-25",
+    "bidder": "Summit Contracting",
+    "requirement_id": "REQ-25",
+    "requirement": "Remove and dispose of construction waste using the approved site procedures.",
+    "category": "Scope",
+    "mandatory": true,
+    "status": "not met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 4,
+      "quotation": "REQ-25 | Scope | Remove and dispose of construction waste using the approved site procedures. | mandatory | quantity=unknown | unit=unknown | threshold=unknown | deadline=2026-12-15T17:00+04:00 | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/summit_contracting/technical_proposal.pdf",
+        "page": 2,
+        "quotation": "We cannot meet remove and dispose of construction waste using the approved site procedures within this offer and have excluded the related work.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder explicitly declines or excludes the required item.",
+    "unresolved_question": "Summit Contracting: confirm whether the stated exclusion for REQ-25 is final and provide any compliant option.",
+    "searched_documents": [],
+    "finding_flags": [
+      "exclusion",
+      "deviation"
+    ],
+    "mandatory_gap": true,
+    "gold_status": "not met"
+  },
+  {
+    "pair_id": "summit_contracting::REQ-03",
+    "bidder": "Summit Contracting",
+    "requirement_id": "REQ-03",
+    "requirement": "Maintain insurance coverage of at least AED 10 million throughout the contract.",
+    "category": "Technical",
+    "mandatory": true,
+    "status": "met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 1,
+      "quotation": "REQ-03 | Technical | Maintain insurance coverage of at least AED 10 million throughout the contract. | mandatory | quantity=1 | unit=package | threshold=unknown | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/summit_contracting/technical_proposal.pdf",
+        "page": 2,
+        "quotation": "We accept the complete requirement to maintain insurance coverage of at least aed 10 million throughout the contract and include the supporting details in our bid schedule.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder makes an explicit affirmative commitment in the cited passage.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "met"
+  },
+  {
+    "pair_id": "summit_contracting::REQ-12",
+    "bidder": "Summit Contracting",
+    "requirement_id": "REQ-12",
+    "requirement": "Include all listed installation, testing, and commissioning activities in the work scope.",
+    "category": "Scope",
+    "mandatory": true,
+    "status": "met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 2,
+      "quotation": "REQ-12 | Scope | Include all listed installation, testing, and commissioning activities in the work scope. | mandatory | quantity=unknown | unit=unknown | threshold=maximum 60 days | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/summit_contracting/technical_proposal.pdf",
+        "page": 2,
+        "quotation": "We accept the complete requirement to include all listed installation, testing, and commissioning activities in the work scope and include the supporting details in our bid schedule.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder makes an explicit affirmative commitment in the cited passage.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "met"
+  },
+  {
+    "pair_id": "summit_contracting::REQ-21",
+    "bidder": "Summit Contracting",
+    "requirement_id": "REQ-21",
+    "requirement": "Accept payment within 60 days as stated in the base tender clause.",
+    "category": "Commercial",
+    "mandatory": true,
+    "status": "not evidenced",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 3,
+      "quotation": "REQ-21 | Commercial | Accept payment within 60 days as stated in the base tender clause. | mandatory | quantity=unknown | unit=unknown | threshold=minimum 70 points | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [],
+    "rationale": "No sufficiently relevant response passage was found in the searched bid documents.",
+    "unresolved_question": "Summit Contracting: provide a clear response and supporting evidence for REQ-21.",
+    "searched_documents": [
+      "bids/summit_contracting/technical_proposal.pdf",
+      "bids/summit_contracting/commercial_schedule.pdf",
+      "bids/summit_contracting/delivery_warranty_and_exclusions.pdf",
+      "bids/summit_contracting/general_product_catalog.pdf"
+    ],
+    "finding_flags": [],
+    "mandatory_gap": true,
+    "gold_status": "not evidenced"
+  },
+  {
+    "pair_id": "summit_contracting::REQ-30",
+    "bidder": "Summit Contracting",
+    "requirement_id": "REQ-30",
+    "requirement": "Submit a signed statement confirming the bid remains valid for 90 days.",
+    "category": "Submission",
+    "mandatory": true,
+    "status": "not applicable",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 4,
+      "quotation": "REQ-30 | Submission | Submit a signed statement confirming the bid remains valid for 90 days. | mandatory | quantity=unknown | unit=unknown | threshold=minimum 90% | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/summit_contracting/technical_proposal.pdf",
+        "page": 2,
+        "quotation": "Not applicable: this item falls outside our assigned lot, which covers only the north service zone; see our scope split.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder records a scope-based reason for treating this item as not applicable.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "not applicable"
+  },
+  {
+    "pair_id": "summit_contracting::REQ-08",
+    "bidder": "Summit Contracting",
+    "requirement_id": "REQ-08",
+    "requirement": "Meet the revised technical evaluation threshold of 75 points under amendment A-01.",
+    "category": "Evaluation",
+    "mandatory": true,
+    "status": "not met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 1,
+      "quotation": "REQ-08 | Evaluation | Meet the revised technical evaluation threshold of 75 points under amendment A-01. | mandatory | quantity=unknown | unit=unknown | threshold=minimum 75 points | deadline=unknown | rev=2"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/summit_contracting/technical_proposal.pdf",
+        "page": 2,
+        "quotation": "We cannot meet meet the revised technical evaluation threshold of 75 points under amendment a-01 within this offer and have excluded the related work.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder explicitly declines or excludes the required item.",
+    "unresolved_question": "Summit Contracting: confirm whether the stated exclusion for REQ-08 is final and provide any compliant option.",
+    "searched_documents": [],
+    "finding_flags": [
+      "exclusion",
+      "deviation"
+    ],
+    "mandatory_gap": true,
+    "gold_status": "not met"
+  },
+  {
+    "pair_id": "summit_contracting::REQ-17",
+    "bidder": "Summit Contracting",
+    "requirement_id": "REQ-17",
+    "requirement": "Provide qualified personnel with the stated licenses and project experience.",
+    "category": "Technical",
+    "mandatory": true,
+    "status": "not met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 3,
+      "quotation": "REQ-17 | Technical | Provide qualified personnel with the stated licenses and project experience. | mandatory | quantity=1 | unit=package | threshold=unknown | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/summit_contracting/technical_proposal.pdf",
+        "page": 2,
+        "quotation": "We cannot meet provide qualified personnel with the stated licenses and project experience within this offer and have excluded the related work.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder explicitly declines or excludes the required item.",
+    "unresolved_question": "Summit Contracting: confirm whether the stated exclusion for REQ-17 is final and provide any compliant option.",
+    "searched_documents": [],
+    "finding_flags": [
+      "exclusion",
+      "qualification",
+      "deviation"
+    ],
+    "mandatory_gap": true,
+    "gold_status": "not met"
+  },
+  {
+    "pair_id": "summit_contracting::REQ-26",
+    "bidder": "Summit Contracting",
+    "requirement_id": "REQ-26",
+    "requirement": "Optional improvement: provide a digital handover model in the requested format.",
+    "category": "Submission",
+    "mandatory": false,
+    "status": "met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 4,
+      "quotation": "REQ-26 | Submission | Optional improvement: provide a digital handover model in the requested format. | optional | quantity=unknown | unit=unknown | threshold=maximum 60 days | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/summit_contracting/technical_proposal.pdf",
+        "page": 3,
+        "quotation": "Our signed offer confirms full compliance with this item: optional improvement: provide a digital handover model in the requested format; see the attached schedule for supporting particulars.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder makes an explicit affirmative commitment in the cited passage.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "met"
+  },
+  {
+    "pair_id": "summit_contracting::REQ-04",
+    "bidder": "Summit Contracting",
+    "requirement_id": "REQ-04",
+    "requirement": "Disclose every qualification and exclusion that changes the offered scope or price.",
+    "category": "Commercial",
+    "mandatory": true,
+    "status": "not evidenced",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 1,
+      "quotation": "REQ-04 | Commercial | Disclose every qualification and exclusion that changes the offered scope or price. | mandatory | quantity=unknown | unit=unknown | threshold=unknown | deadline=2026-12-15T17:00+04:00 | rev=1"
+    },
+    "bid_evidence": [],
+    "rationale": "No sufficiently relevant response passage was found in the searched bid documents.",
+    "unresolved_question": "Summit Contracting: provide a clear response and supporting evidence for REQ-04.",
+    "searched_documents": [
+      "bids/summit_contracting/technical_proposal.pdf",
+      "bids/summit_contracting/commercial_schedule.pdf",
+      "bids/summit_contracting/delivery_warranty_and_exclusions.pdf",
+      "bids/summit_contracting/general_product_catalog.pdf"
+    ],
+    "finding_flags": [],
+    "mandatory_gap": true,
+    "gold_status": "not evidenced"
+  },
+  {
+    "pair_id": "summit_contracting::REQ-13",
+    "bidder": "Summit Contracting",
+    "requirement_id": "REQ-13",
+    "requirement": "Meet the specified noise limit at the project boundary during normal operation.",
+    "category": "Technical",
+    "mandatory": true,
+    "status": "not applicable",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 2,
+      "quotation": "REQ-13 | Technical | Meet the specified noise limit at the project boundary during normal operation. | mandatory | quantity=unknown | unit=unknown | threshold=unknown | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/summit_contracting/technical_proposal.pdf",
+        "page": 3,
+        "quotation": "Not applicable: this item falls outside our assigned lot, which covers only the north service zone; see our scope split.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder records a scope-based reason for treating this item as not applicable.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "not applicable"
+  },
+  {
+    "pair_id": "summit_contracting::REQ-22",
+    "bidder": "Summit Contracting",
+    "requirement_id": "REQ-22",
+    "requirement": "Provide a project-specific quality plan and inspection schedule.",
+    "category": "Submission",
+    "mandatory": true,
+    "status": "met",
+    "tender_reference": {
+      "file": "tender_requirements.pdf",
+      "page": 3,
+      "quotation": "REQ-22 | Submission | Provide a project-specific quality plan and inspection schedule. | mandatory | quantity=220 | unit=m2 | threshold=unknown | deadline=unknown | rev=1"
+    },
+    "bid_evidence": [
+      {
+        "file": "bids/summit_contracting/technical_proposal.pdf",
+        "page": 3,
+        "quotation": "We will fully comply: provide a project-specific quality plan and inspection schedule. Supporting particulars are included in our submission schedule.",
+        "mapping_method": "stable_requirement_id",
+        "mapping_score": 1.0
+      }
+    ],
+    "rationale": "The bidder makes an explicit affirmative commitment in the cited passage.",
+    "unresolved_question": "",
+    "searched_documents": [],
+    "finding_flags": [],
+    "mandatory_gap": false,
+    "gold_status": "met"
+  }
+]

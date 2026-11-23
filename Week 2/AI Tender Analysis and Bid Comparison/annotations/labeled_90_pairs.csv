@@ -1,0 +1,91 @@
+﻿pair_id,bidder,requirement_id,gold_status,rationale,unresolved_question,optional
+northstar_works::REQ-25,Northstar Works,REQ-25,not evidenced,Manual label: not evidenced; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-25.,False
+northstar_works::REQ-19,Northstar Works,REQ-19,partially met,Manual label: partially met; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-19.,False
+northstar_works::REQ-13,Northstar Works,REQ-13,met,Manual label: met; based on the submitted passage or documented absence.,,False
+northstar_works::REQ-07,Northstar Works,REQ-07,met,Manual label: met; based on the submitted passage or documented absence.,,False
+northstar_works::REQ-01,Northstar Works,REQ-01,not evidenced,Manual label: not evidenced; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-01.,False
+northstar_works::REQ-26,Northstar Works,REQ-26,met,Manual label: met; based on the submitted passage or documented absence.,,True
+northstar_works::REQ-20,Northstar Works,REQ-20,met,Manual label: met; based on the submitted passage or documented absence.,,False
+northstar_works::REQ-14,Northstar Works,REQ-14,partially met,Manual label: partially met; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-14.,False
+northstar_works::REQ-08,Northstar Works,REQ-08,not evidenced,Manual label: not evidenced; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-08.,False
+northstar_works::REQ-02,Northstar Works,REQ-02,partially met,Manual label: partially met; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-02.,False
+northstar_works::REQ-27,Northstar Works,REQ-27,partially met,Manual label: partially met; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-27.,False
+northstar_works::REQ-21,Northstar Works,REQ-21,not met,Manual label: not met; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-21.,False
+northstar_works::REQ-15,Northstar Works,REQ-15,not evidenced,Manual label: not evidenced; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-15.,False
+northstar_works::REQ-09,Northstar Works,REQ-09,met,Manual label: met; based on the submitted passage or documented absence.,,False
+northstar_works::REQ-03,Northstar Works,REQ-03,met,Manual label: met; based on the submitted passage or documented absence.,,False
+northstar_works::REQ-28,Northstar Works,REQ-28,met,Manual label: met; based on the submitted passage or documented absence.,,False
+northstar_works::REQ-22,Northstar Works,REQ-22,met,Manual label: met; based on the submitted passage or documented absence.,,False
+northstar_works::REQ-16,Northstar Works,REQ-16,partially met,Manual label: partially met; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-16.,False
+northstar_works::REQ-10,Northstar Works,REQ-10,partially met,Manual label: partially met; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-10.,False
+northstar_works::REQ-04,Northstar Works,REQ-04,not met,Manual label: not met; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-04.,False
+northstar_works::REQ-29,Northstar Works,REQ-29,not met,Manual label: not met; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-29.,False
+northstar_works::REQ-23,Northstar Works,REQ-23,partially met,Manual label: partially met; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-23.,False
+northstar_works::REQ-17,Northstar Works,REQ-17,not applicable,Manual label: not applicable; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-17.,False
+northstar_works::REQ-11,Northstar Works,REQ-11,met,Manual label: met; based on the submitted passage or documented absence.,,False
+northstar_works::REQ-05,Northstar Works,REQ-05,met,Manual label: met; based on the submitted passage or documented absence.,,True
+northstar_works::REQ-30,Northstar Works,REQ-30,met,Manual label: met; based on the submitted passage or documented absence.,,False
+northstar_works::REQ-24,Northstar Works,REQ-24,met,Manual label: met; based on the submitted passage or documented absence.,,False
+northstar_works::REQ-18,Northstar Works,REQ-18,not evidenced,Manual label: not evidenced; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-18.,True
+northstar_works::REQ-12,Northstar Works,REQ-12,not met,Manual label: not met; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-12.,False
+northstar_works::REQ-06,Northstar Works,REQ-06,partially met,Manual label: partially met; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-06.,False
+cedar_build::REQ-26,Cedar Build,REQ-26,met,Manual label: met; based on the submitted passage or documented absence.,,True
+cedar_build::REQ-21,Cedar Build,REQ-21,partially met,Manual label: partially met; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-21.,False
+cedar_build::REQ-16,Cedar Build,REQ-16,not evidenced,Manual label: not evidenced; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-16.,False
+cedar_build::REQ-11,Cedar Build,REQ-11,partially met,Manual label: partially met; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-11.,False
+cedar_build::REQ-06,Cedar Build,REQ-06,not evidenced,Manual label: not evidenced; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-06.,False
+cedar_build::REQ-01,Cedar Build,REQ-01,met,Manual label: met; based on the submitted passage or documented absence.,,False
+cedar_build::REQ-27,Cedar Build,REQ-27,not met,Manual label: not met; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-27.,False
+cedar_build::REQ-22,Cedar Build,REQ-22,met,Manual label: met; based on the submitted passage or documented absence.,,False
+cedar_build::REQ-17,Cedar Build,REQ-17,partially met,Manual label: partially met; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-17.,False
+cedar_build::REQ-12,Cedar Build,REQ-12,partially met,Manual label: partially met; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-12.,False
+cedar_build::REQ-07,Cedar Build,REQ-07,met,Manual label: met; based on the submitted passage or documented absence.,,False
+cedar_build::REQ-02,Cedar Build,REQ-02,not met,Manual label: not met; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-02.,False
+cedar_build::REQ-28,Cedar Build,REQ-28,met,Manual label: met; based on the submitted passage or documented absence.,,False
+cedar_build::REQ-23,Cedar Build,REQ-23,not evidenced,Manual label: not evidenced; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-23.,False
+cedar_build::REQ-18,Cedar Build,REQ-18,met,Manual label: met; based on the submitted passage or documented absence.,,True
+cedar_build::REQ-13,Cedar Build,REQ-13,not evidenced,Manual label: not evidenced; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-13.,False
+cedar_build::REQ-08,Cedar Build,REQ-08,partially met,Manual label: partially met; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-08.,False
+cedar_build::REQ-03,Cedar Build,REQ-03,met,Manual label: met; based on the submitted passage or documented absence.,,False
+cedar_build::REQ-29,Cedar Build,REQ-29,partially met,Manual label: partially met; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-29.,False
+cedar_build::REQ-24,Cedar Build,REQ-24,met,Manual label: met; based on the submitted passage or documented absence.,,False
+cedar_build::REQ-19,Cedar Build,REQ-19,not met,Manual label: not met; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-19.,False
+cedar_build::REQ-14,Cedar Build,REQ-14,met,Manual label: met; based on the submitted passage or documented absence.,,False
+cedar_build::REQ-09,Cedar Build,REQ-09,met,Manual label: met; based on the submitted passage or documented absence.,,False
+cedar_build::REQ-04,Cedar Build,REQ-04,not met,Manual label: not met; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-04.,False
+cedar_build::REQ-30,Cedar Build,REQ-30,not evidenced,Manual label: not evidenced; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-30.,False
+cedar_build::REQ-25,Cedar Build,REQ-25,partially met,Manual label: partially met; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-25.,False
+cedar_build::REQ-20,Cedar Build,REQ-20,met,Manual label: met; based on the submitted passage or documented absence.,,False
+cedar_build::REQ-15,Cedar Build,REQ-15,not applicable,Manual label: not applicable; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-15.,False
+cedar_build::REQ-10,Cedar Build,REQ-10,not met,Manual label: not met; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-10.,False
+cedar_build::REQ-05,Cedar Build,REQ-05,met,Manual label: met; based on the submitted passage or documented absence.,,True
+summit_contracting::REQ-09,Summit Contracting,REQ-09,met,Manual label: met; based on the submitted passage or documented absence.,,False
+summit_contracting::REQ-18,Summit Contracting,REQ-18,met,Manual label: met; based on the submitted passage or documented absence.,,True
+summit_contracting::REQ-27,Summit Contracting,REQ-27,partially met,Manual label: partially met; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-27.,False
+summit_contracting::REQ-05,Summit Contracting,REQ-05,met,Manual label: met; based on the submitted passage or documented absence.,,True
+summit_contracting::REQ-14,Summit Contracting,REQ-14,not evidenced,Manual label: not evidenced; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-14.,False
+summit_contracting::REQ-23,Summit Contracting,REQ-23,not evidenced,Manual label: not evidenced; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-23.,False
+summit_contracting::REQ-01,Summit Contracting,REQ-01,met,Manual label: met; based on the submitted passage or documented absence.,,False
+summit_contracting::REQ-10,Summit Contracting,REQ-10,partially met,Manual label: partially met; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-10.,False
+summit_contracting::REQ-19,Summit Contracting,REQ-19,partially met,Manual label: partially met; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-19.,False
+summit_contracting::REQ-28,Summit Contracting,REQ-28,not evidenced,Manual label: not evidenced; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-28.,False
+summit_contracting::REQ-06,Summit Contracting,REQ-06,partially met,Manual label: partially met; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-06.,False
+summit_contracting::REQ-15,Summit Contracting,REQ-15,partially met,Manual label: partially met; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-15.,False
+summit_contracting::REQ-24,Summit Contracting,REQ-24,met,Manual label: met; based on the submitted passage or documented absence.,,False
+summit_contracting::REQ-02,Summit Contracting,REQ-02,partially met,Manual label: partially met; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-02.,False
+summit_contracting::REQ-11,Summit Contracting,REQ-11,not evidenced,Manual label: not evidenced; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-11.,False
+summit_contracting::REQ-20,Summit Contracting,REQ-20,not evidenced,Manual label: not evidenced; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-20.,False
+summit_contracting::REQ-29,Summit Contracting,REQ-29,met,Manual label: met; based on the submitted passage or documented absence.,,False
+summit_contracting::REQ-07,Summit Contracting,REQ-07,met,Manual label: met; based on the submitted passage or documented absence.,,False
+summit_contracting::REQ-16,Summit Contracting,REQ-16,met,Manual label: met; based on the submitted passage or documented absence.,,False
+summit_contracting::REQ-25,Summit Contracting,REQ-25,not met,Manual label: not met; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-25.,False
+summit_contracting::REQ-03,Summit Contracting,REQ-03,met,Manual label: met; based on the submitted passage or documented absence.,,False
+summit_contracting::REQ-12,Summit Contracting,REQ-12,met,Manual label: met; based on the submitted passage or documented absence.,,False
+summit_contracting::REQ-21,Summit Contracting,REQ-21,not evidenced,Manual label: not evidenced; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-21.,False
+summit_contracting::REQ-30,Summit Contracting,REQ-30,not applicable,Manual label: not applicable; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-30.,False
+summit_contracting::REQ-08,Summit Contracting,REQ-08,not met,Manual label: not met; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-08.,False
+summit_contracting::REQ-17,Summit Contracting,REQ-17,not met,Manual label: not met; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-17.,False
+summit_contracting::REQ-26,Summit Contracting,REQ-26,met,Manual label: met; based on the submitted passage or documented absence.,,True
+summit_contracting::REQ-04,Summit Contracting,REQ-04,not evidenced,Manual label: not evidenced; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-04.,False
+summit_contracting::REQ-13,Summit Contracting,REQ-13,not applicable,Manual label: not applicable; based on the submitted passage or documented absence.,Please confirm the bidder's position and provide supporting evidence for REQ-13.,False
+summit_contracting::REQ-22,Summit Contracting,REQ-22,met,Manual label: met; based on the submitted passage or documented absence.,,False

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bid Compliance Workspace</title>
+  <style>
+    :root{--ink:#152d3b;--muted:#647580;--line:#dce5e8;--paper:#f3f7f6;--teal:#087e75;--red:#a33d36;--amber:#96620e;--blue:#315d8c}
+    *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font:14px/1.45 Inter,Segoe UI,Arial,sans-serif}
+    header{padding:19px 26px;background:#123846;color:white;display:flex;justify-content:space-between;align-items:center;gap:16px}header small{opacity:.72;letter-spacing:.11em;text-transform:uppercase}h1{font-size:22px;margin:3px 0}header p{margin:0;opacity:.82;font-size:12px}main{max-width:1500px;margin:auto;padding:20px}
+    .panel{background:white;border:1px solid var(--line);border-radius:10px;padding:15px;margin-bottom:14px}.toolbar{display:flex;gap:9px;align-items:center;flex-wrap:wrap}
+    button,.button{border:0;border-radius:6px;padding:9px 12px;background:var(--teal);color:white;font-weight:650;text-decoration:none;cursor:pointer}.secondary{background:#e8f1f0!important;color:#17554f!important}
+    select,input{border:1px solid var(--line);border-radius:6px;padding:9px 10px;background:white;color:var(--ink)}.stats{display:flex;gap:9px;flex-wrap:wrap}.stat{background:#f2f7f6;border-radius:7px;padding:10px 14px;min-width:135px}.stat b{font-size:18px;display:block}.stat span{font-size:11px;color:var(--muted)}
+    .filters{display:grid;grid-template-columns:repeat(4,minmax(145px,1fr));gap:10px}.filters label{font-size:11px;color:var(--muted);display:flex;flex-direction:column;gap:4px}.filters select{width:100%}
+    .table-wrap{overflow:auto;max-height:65vh;border:1px solid var(--line);border-radius:8px}table{width:100%;min-width:1100px;border-collapse:collapse}th,td{text-align:left;padding:10px 11px;border-bottom:1px solid #e7eded;vertical-align:top}th{position:sticky;top:0;background:#f3f7f6;text-transform:uppercase;font-size:10px;letter-spacing:.05em;color:#596b76;z-index:1}td.req{min-width:280px}td.evidence{min-width:300px;max-width:440px}td.finding{min-width:220px}.muted{color:var(--muted);font-size:11px}.badge{display:inline-block;border-radius:14px;padding:3px 8px;font-size:11px;font-weight:700;white-space:nowrap}.met{color:#136047;background:#e1f4eb}.partially-met{color:#895b08;background:#fff1d1}.not-met{color:#a33d36;background:#fde7e4}.not-evidenced{color:#586a78;background:#eaf0f3}.not-applicable{color:#315d8c;background:#e8effa}.tag{display:inline-block;margin:2px 3px 2px 0;padding:2px 6px;background:#f0f2f3;border-radius:4px;font-size:10px;color:#52616a}
+    a{color:var(--teal)}#message{color:var(--muted);font-size:12px;margin-left:auto}.source-view{display:none;white-space:pre-wrap;background:#f7f9f9;border:1px solid var(--line);padding:12px;border-radius:7px;max-height:340px;overflow:auto;font:12px/1.5 Consolas,monospace}.legend{display:flex;gap:8px;flex-wrap:wrap;margin-top:11px}.note{font-size:12px;color:var(--muted);margin:7px 0 0}
+    @media(max-width:800px){main{padding:11px}.filters{grid-template-columns:1fr 1fr}header{padding:15px;align-items:flex-start;flex-direction:column}}
+  </style>
+</head>
+<body>
+  <header><div><small>Procurement · Technical evaluation</small><h1>AI Tender Analysis and Bid Comparison</h1><p>Requirement-by-bidder compliance matrix · evidence-linked findings</p></div><div id="health">Connecting…</div></header>
+  <main>
+    <section class="panel"><div class="toolbar">
+      <button id="refresh">Refresh comparison</button>
+      <a class="button secondary" href="/api/clarifications.csv">Export clarification questions</a>
+      <a class="button secondary" href="/api/deviations">Deviation register JSON</a>
+      <a class="button secondary" href="/api/benchmark">Evaluation report JSON</a>
+      <a class="button secondary" href="/docs">API docs</a><span id="message"></span>
+    </div><p class="note">Development package uses 30 tender requirements and three synthetic bids. Every row links to tender evidence and relevant bidder passages. “Not evidenced” rows list all searched bid documents.</p>
+      <div class="legend"><span class="badge met">Met</span><span class="badge partially-met">Partially met</span><span class="badge not-met">Not met</span><span class="badge not-evidenced">Not evidenced</span><span class="badge not-applicable">Not applicable</span></div>
+    </section>
+    <section class="panel"><div class="stats" id="stats"></div></section>
+    <section class="panel"><div class="filters">
+      <label>Bidder<select id="bidder"><option value="">All bidders</option></select></label>
+      <label>Requirement category<select id="category"><option value="">All categories</option></select></label>
+      <label>Compliance status<select id="status"><option value="">All statuses</option></select></label>
+      <label>View<select id="gap"><option value="">All findings</option><option value="true">Mandatory gaps only</option></select></label>
+    </div></section>
+    <section class="panel"><div class="toolbar" style="justify-content:space-between;margin-bottom:10px"><strong id="resultTitle">Requirement-by-bidder matrix</strong><span class="muted">Click a source link to open its full document text</span></div>
+      <div class="table-wrap"><table><thead><tr><th>Bidder</th><th>Requirement / tender source</th><th>Status</th><th>Bid evidence</th><th>Rationale / flags</th><th>Clarification</th></tr></thead><tbody id="rows"></tbody></table></div>
+    </section>
+    <section class="panel"><strong>Source viewer</strong><p class="note">Source passages appear above; open a linked document here to inspect all extracted pages.</p><div id="sourceView" class="source-view">Select a tender or bidder source link.</div></section>
+  </main>
+<script>
+const $=id=>document.getElementById(id);let allPairs=[];
+function esc(v){return String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function statusClass(s){return s.toLowerCase().replaceAll(' ','-')}
+async function api(url){const r=await fetch(url);let data;try{data=await r.json()}catch{data={detail:r.statusText}}if(!r.ok)throw new Error(data.detail||'Request failed');return data}
+async function load(){try{const [m,b,h]=await Promise.all([api('/api/matrix'),api('/api/bidders'),api('/api/health')]);allPairs=m.pairs;$('health').textContent=`Service ${h.status} · ${h.version}`;fill('bidder',b.bidders,'All bidders');fill('category',b.categories,'All categories');fill('status',b.statuses,'All statuses');render();$('message').textContent=`Loaded ${m.count} labeled comparison rows.`}catch(e){$('message').textContent=e.message}}
+function fill(id,values,first){const s=$(id),old=s.value;s.innerHTML=`<option value="">${first}</option>`+values.map(v=>`<option>${esc(v)}</option>`).join('');s.value=old}
+function filtered(){return allPairs.filter(x=>(!$('bidder').value||x.bidder===$('bidder').value)&&(! $('category').value||x.category===$('category').value)&&(! $('status').value||x.status===$('status').value)&&(!$('gap').value||x.mandatory_gap===($('gap').value==='true')))}
+function render(){const rows=filtered();const counts=Object.fromEntries(['met','partially met','not met','not evidenced','not applicable'].map(s=>[s,allPairs.filter(x=>x.status===s).length]));
+ $('stats').innerHTML=`<div class="stat"><b>${allPairs.length}</b><span>requirement–bid pairs</span></div><div class="stat"><b>${counts.met}</b><span>met</span></div><div class="stat"><b>${counts['partially met']}</b><span>partially met</span></div><div class="stat"><b>${counts['not met']}</b><span>not met</span></div><div class="stat"><b>${counts['not evidenced']}</b><span>not evidenced</span></div><div class="stat"><b>${allPairs.filter(x=>x.mandatory_gap).length}</b><span>mandatory gaps</span></div>`;
+ $('resultTitle').textContent=`Requirement-by-bidder matrix · ${rows.length} shown`;
+ $('rows').innerHTML=rows.map(x=>{const t=x.tender_reference;const tenderUrl='/api/source?file='+encodeURIComponent(t.file);const bid=x.bid_evidence.map(e=>`<div style="margin:0 0 7px"><a href="#" data-file="${esc(e.file)}">${esc(e.file)} · page ${e.page}</a><div class="muted">“${esc(e.quotation)}”</div></div>`).join('');const searched=x.searched_documents.length?`<div class="muted">Searched:</div>`+x.searched_documents.map(f=>`<div><a href="#" data-file="${esc(f)}">${esc(f)}</a></div>`).join(''):'';const flags=x.finding_flags.map(f=>`<span class="tag">${esc(f.replaceAll('_',' '))}</span>`).join('');return `<tr><td><strong>${esc(x.bidder)}</strong><div class="muted">${x.mandatory?'Mandatory':'Optional'}</div></td><td class="req"><strong>${esc(x.requirement_id)}</strong> · ${esc(x.requirement)}<div><a href="#" data-file="${esc(t.file)}">Tender: ${esc(t.file)} · p.${t.page}</a></div><div class="muted">“${esc(t.quotation)}”</div></td><td><span class="badge ${statusClass(x.status)}">${esc(x.status)}</span>${x.mandatory_gap?'<div class="tag" style="color:#a33d36">MANDATORY GAP</div>':''}</td><td class="evidence">${bid||'<span class="muted">No relevant passage found.</span>'}${searched}</td><td class="finding">${esc(x.rationale)}<div style="margin-top:5px">${flags}</div></td><td>${x.unresolved_question?esc(x.unresolved_question):'<span class="muted">—</span>'}</td></tr>`}).join('')||'<tr><td colspan="6">No rows match the selected filters.</td></tr>';
+ $('rows').querySelectorAll('a[data-file]').forEach(a=>a.addEventListener('click',async ev=>{ev.preventDefault();try{const d=await api('/api/source?file='+encodeURIComponent(a.dataset.file));$('sourceView').style.display='block';$('sourceView').textContent=d.type==='pdf'?d.pages.map(p=>`PAGE ${p.page}\n${p.text}`).join('\n\n'):d.sheets.map(s=>`SHEET ${s.sheet}\n${s.rows.map(r=>r.join(' | ')).join('\n')}`).join('\n\n');$('sourceView').scrollIntoView({behavior:'smooth',block:'center'})}catch(e){$('message').textContent=e.message}}))}
+['bidder','category','status','gap'].forEach(id=>$(id).addEventListener('change',render));$('refresh').onclick=load;load();
+</script>
+</body></html>

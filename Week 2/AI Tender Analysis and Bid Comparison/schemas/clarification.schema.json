@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Bidder clarification question",
+  "type": "object",
+  "required": ["bidder", "requirement_id", "category", "status", "mandatory", "question", "tender_source", "bid_source"],
+  "properties": {
+    "bidder": {"type": "string", "minLength": 1},
+    "requirement_id": {"type": "string", "pattern": "^REQ-[A-Z0-9-]+$"},
+    "category": {"type": "string"},
+    "status": {"enum": ["partially met", "not met", "not evidenced"]},
+    "mandatory": {"type": "boolean"},
+    "question": {"type": "string", "minLength": 1},
+    "tender_source": {"type": "string"},
+    "bid_source": {"type": "string"}
+  }
+}

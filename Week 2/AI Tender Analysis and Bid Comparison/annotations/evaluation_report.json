@@ -1,0 +1,154 @@
+{
+  "benchmark": "week2-development-90-pairs-v1",
+  "matching_policy": "Stable requirement IDs are preferred when present. ID-free passages are mapped by normalized token overlap, curated terminology synonyms, and fuzzy phrase similarity. Status decisions use explicit commitments, limitations, refusals, justified scope exclusions, and contradictory passages; ambiguous or absent evidence is not evidenced.",
+  "counts": {
+    "labeled_pairs": 90,
+    "analyzed_pairs": 90,
+    "exact_matches": 90,
+    "exact_status_agreement": 1.0,
+    "deviation_findings": 37,
+    "clarification_questions": 50,
+    "mandatory_met_without_bid_evidence": 0,
+    "missing_tender_source_references": 0,
+    "unsupported_substantive_bid_findings": 0
+  },
+  "per_status": {
+    "met": {
+      "support": 36,
+      "correct": 36,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "partially met": {
+      "support": 21,
+      "correct": 21,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "not met": {
+      "support": 12,
+      "correct": 12,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "not evidenced": {
+      "support": 17,
+      "correct": 17,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "not applicable": {
+      "support": 4,
+      "correct": 4,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "confusion_matrix": {
+    "met": {
+      "met": 36,
+      "partially met": 0,
+      "not met": 0,
+      "not evidenced": 0,
+      "not applicable": 0
+    },
+    "partially met": {
+      "met": 0,
+      "partially met": 21,
+      "not met": 0,
+      "not evidenced": 0,
+      "not applicable": 0
+    },
+    "not met": {
+      "met": 0,
+      "partially met": 0,
+      "not met": 12,
+      "not evidenced": 0,
+      "not applicable": 0
+    },
+    "not evidenced": {
+      "met": 0,
+      "partially met": 0,
+      "not met": 0,
+      "not evidenced": 17,
+      "not applicable": 0
+    },
+    "not applicable": {
+      "met": 0,
+      "partially met": 0,
+      "not met": 0,
+      "not evidenced": 0,
+      "not applicable": 4
+    }
+  },
+  "seeded_findings": {
+    "exclusion": {
+      "pair_id": "cedar_build::REQ-04",
+      "surfaced": true
+    },
+    "alternative_proposal": {
+      "pair_id": "cedar_build::REQ-11",
+      "surfaced": true
+    },
+    "delivery_deviation": {
+      "pair_id": "northstar_works::REQ-16",
+      "surfaced": true
+    },
+    "warranty_gap": {
+      "pair_id": "summit_contracting::REQ-23",
+      "surfaced": true
+    },
+    "contradiction": {
+      "pair_id": "summit_contracting::REQ-20",
+      "surfaced": true
+    }
+  },
+  "semantic_and_adversarial_cases": [
+    {
+      "case": "paraphrase_delivery",
+      "expected": "REQ-16",
+      "actual": "REQ-16",
+      "score": 0.542,
+      "passed": true
+    },
+    {
+      "case": "paraphrase_warranty",
+      "expected": "REQ-23",
+      "actual": "REQ-23",
+      "score": 0.354,
+      "passed": true
+    },
+    {
+      "case": "contradiction",
+      "expected": "not evidenced",
+      "actual": "not evidenced",
+      "contradiction_flagged": true,
+      "passed": true
+    },
+    {
+      "case": "omitted_answer",
+      "expected": "not evidenced",
+      "actual": "not evidenced",
+      "passed": true
+    },
+    {
+      "case": "irrelevant_attachment",
+      "expected": "not evidenced",
+      "actual": "not evidenced",
+      "passed": true
+    }
+  ],
+  "failures": {
+    "mandatory_met_without_evidence": [],
+    "missing_tender_sources": [],
+    "unsupported_bid_findings": [],
+    "unsurfaced_seeded_findings": [],
+    "failed_adversarial_cases": []
+  },
+  "limitation": "Results are for a synthetic, manually labeled package and a transparent rule-based baseline; they do not establish accuracy on arbitrary or real-world tender submissions."
+}

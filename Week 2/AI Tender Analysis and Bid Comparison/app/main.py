@@ -15,6 +15,7 @@ from fastapi import FastAPI, File, HTTPException, UploadFile
 from fastapi.responses import HTMLResponse, StreamingResponse
 from openpyxl import load_workbook
 
+from .analysis import build_matrix, read_reference
 from .schemas import RegisterExport, Requirement, SourceReference
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -22,7 +23,8 @@ DATA = ROOT / "data"
 UPLOADS = DATA / "uploads"
 DB_PATH = DATA / "register.db"
 SUPPORTED = {".pdf", ".xlsx"}
-app = FastAPI(title="AI Tender Analysis and Bid Comparison", version="1.0.0")
+app = FastAPI(title="AI Tender Analysis and Bid Comparison", version="2.0.0",
+              description="Week 2 technical bid compliance and source-linked scope comparison workspace.")
 
 
 def now_iso() -> str:
@@ -306,3 +308,71 @@ def clear_register() -> dict:
     with connect() as db:
         db.execute("DELETE FROM requirements")
     return {"deleted": True, "count": 0}
+
+
+@app.get("/api/bidders")
+def bidders() -> dict:
+    matrix, _, _ = build_matrix()
+    return {"bidders": sorted({row["bidder"] for row in matrix}),
+            "categories": sorted({row["category"] for row in matrix}),
+            "statuses": ["met", "partially met", "not met", "not evidenced", "not applicable"]}
+
+
+@app.get("/api/matrix")
+def compliance_matrix(bidder: str | None = None, category: str | None = None,
+                      status: str | None = None, mandatory_gap: bool | None = None) -> dict:
+    matrix, _, _ = build_matrix()
+    if bidder:
+        matrix = [row for row in matrix if row["bidder"] == bidder]
+    if category:
+        matrix = [row for row in matrix if row["category"] == category]
+    if status:
+        matrix = [row for row in matrix if row["status"] == status]
+    if mandatory_gap is not None:
+        matrix = [row for row in matrix if row["mandatory_gap"] is mandatory_gap]
+    public_rows = [{key: value for key, value in row.items() if key != "gold_status"} for row in matrix]
+    return {"count": len(public_rows), "pairs": public_rows}
+
+
+@app.get("/api/deviations")
+def deviations() -> dict:
+    _, items, _ = build_matrix()
+    public_rows = [{key: value for key, value in row.items() if key != "gold_status"} for row in items]
+    return {"count": len(public_rows), "findings": public_rows}
+
+
+@app.get("/api/clarifications.csv")
+def clarification_export() -> StreamingResponse:
+    _, _, questions = build_matrix()
+    output = io.StringIO(newline="")
+    fields = ["bidder", "requirement_id", "category", "status", "mandatory", "question", "tender_source", "bid_source"]
+    writer = csv.DictWriter(output, fieldnames=fields)
+    writer.writeheader()
+    writer.writerows(questions)
+    output.seek(0)
+    return StreamingResponse(iter([output.getvalue()]), media_type="text/csv",
+                             headers={"Content-Disposition": "attachment; filename=bidder-clarification-questions.csv"})
+
+
+@app.get("/api/source")
+def source_by_path(file: str) -> dict:
+    base = (ROOT / "fixtures" / "development").resolve()
+    path = (base / file).resolve()
+    if base not in path.parents or not path.exists():
+        raise HTTPException(404, "Source file not found in the local development fixtures.")
+    if path.suffix.lower() == ".pdf":
+        doc = fitz.open(path)
+        return {"file": file, "type": "pdf", "pages": [{"page": n + 1, "text": page.get_text("text")} for n, page in enumerate(doc)]}
+    if path.suffix.lower() == ".xlsx":
+        book = load_workbook(path, data_only=True, read_only=True)
+        return {"file": file, "type": "xlsx", "sheets": [{"sheet": sheet.title,
+                "rows": [[cell.value for cell in row] for row in sheet.iter_rows()]} for sheet in book.worksheets]}
+    raise HTTPException(400, "Only PDF and XLSX source files are supported.")
+
+
+@app.get("/api/benchmark")
+def benchmark_report() -> dict:
+    path = ROOT / "annotations" / "evaluation_report.json"
+    if not path.exists():
+        raise HTTPException(404, "Run scripts/evaluate.py to generate the benchmark report.")
+    return json.loads(path.read_text(encoding="utf-8"))

@@ -1,0 +1,20 @@
+{
+  "Northstar Works": [
+    "bids/northstar_works/technical_proposal.pdf",
+    "bids/northstar_works/commercial_schedule.pdf",
+    "bids/northstar_works/delivery_warranty_and_exclusions.pdf",
+    "bids/northstar_works/general_product_catalog.pdf"
+  ],
+  "Cedar Build": [
+    "bids/cedar_build/technical_proposal.pdf",
+    "bids/cedar_build/commercial_schedule.pdf",
+    "bids/cedar_build/delivery_warranty_and_exclusions.pdf",
+    "bids/cedar_build/general_product_catalog.pdf"
+  ],
+  "Summit Contracting": [
+    "bids/summit_contracting/technical_proposal.pdf",
+    "bids/summit_contracting/commercial_schedule.pdf",
+    "bids/summit_contracting/delivery_warranty_and_exclusions.pdf",
+    "bids/summit_contracting/general_product_catalog.pdf"
+  ]
+}

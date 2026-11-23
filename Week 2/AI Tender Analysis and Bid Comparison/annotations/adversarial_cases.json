@@ -1,0 +1,27 @@
+[
+  {
+    "case": "paraphrase_delivery",
+    "text": "Shipment and arrival will occur within ninety calendar days of the start authorization.",
+    "expected_requirement_id": "REQ-16"
+  },
+  {
+    "case": "paraphrase_warranty",
+    "text": "The guarantee period and its carve-outs for supplied work are provided in our schedule.",
+    "expected_requirement_id": "REQ-23"
+  },
+  {
+    "case": "contradiction",
+    "text": "REQ-20 has one affirmative compliance statement and a second statement excluding the same technical departures.",
+    "expected_status": "not evidenced"
+  },
+  {
+    "case": "omitted_answer",
+    "text": "No passage mapped to REQ-23 across all searched bid files.",
+    "expected_status": "not evidenced"
+  },
+  {
+    "case": "irrelevant_attachment",
+    "text": "A general catalog with no tender ID or project commitment is not supporting evidence.",
+    "expected_status": "not evidenced"
+  }
+]
